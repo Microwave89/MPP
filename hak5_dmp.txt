@@ -1,0 +1,560 @@
+DISCLAIMER: NOT MY WORK! Just saved for convenience. See license too.
+
+Dumped from "https://forums.hak5.org/topic/39735-reversing-mavic-pro-firmware/" for eternity:
+
+I've had a few requests so I'll post this, it's not formatted, just txt but gives you an idea of the discussion...
+
+ 
+
+"Anybody interested in reversing the Mavic firmware?
+Discussion in 'Mavic Pro Discussions' started by P0V, Nov 19, 2016 at 8:57 AM.
+P0V
+We extracted the Mavic firmware ExpireBox | Mavic_Latest_Firmware_01.02.7z
+We're doing some reverse-engineering on it right now. So far, we're getting some very good progress.
+If anybody is interested, hit me up so we can exchange ideas.
+
+Updates on what we've found and done so far:
+The firwmare was acquired by intercepting the traffic between DJI Assitant and DJI servers during firmware update process. More info here
+We acquired root access to the Mavic. Through that we can manipulate the Mavic however we like. This includes . More info here
+We can manipulate FCC/EC switching, override no-fly areas, and disable the 500 meter altitude limit. More info here
+We discovered that there's a conventional IP network between the Mavic and the remote controller when in RC mode. More info here
+ 
+#1 P0V, Nov 19, 2016 at 8:57 AM
+bieh
+This is very interesting -- so it's running Linux internally.
+EDIT: Android, more like.
+How did you get the firmware?
+ 
+#2 bieh, Nov 19, 2016 at 9:14 AM
+ bieh
+Anyway, let me know where you're discussing this :)
+ 
+#3 bieh, Nov 19, 2016 at 9:27 AM
+ P0V
+bieh said: ↑
+This is very interesting -- so it's running Linux internally.
+Click to expand...
+Specifically, it's running Android KitKat.
+More interesting stuff:
+FTPD on port 21 in WiFi mode is provided by BusyBox, which has path traversal vulnerability. You can escape the "/ftp" jail and modify init scripts. Check "start_dji_system.sh" and "adb_en.sh" for the flags you need to enable ADB on the regular Mavic USB port. As you can see, the kernel has secure flag set to 0, which means "service.adb.root 1" will allow ADB to spawn root shell. After you get the root shell there, you can enable SSHD with your own root password, which will give you SSH access to your Mavic over WiFi for convenience. It's absolutely important to set a very strong password, you don't want somebody SSHing to your Mavic mid-air.
+We've discovered 3 other ways to enable debug mode (ADB on USB with root): One is a backdoor by DJI, which makes sense for maintenance purposes, the 2nd is yet another vulnerability in another software essential to the Mavic, and the 3rd one is not directly software-based. For now, we won't be discussing those publicly.
+Well, with the root access, now you can pretty much do anything you want. Interesting things include SDR interface modification (freely switching between FCC and EC modes), patching the 500m ceiling, no-fly areas override, etc.
+Luckily, all of that requires a lot of technical knowledge and skills, so this greatly reduces the number of people who will be able to do this. People who will be able to do this are probably not morons who will do things like fly over airports for example.
+Also, anything done with this should be done with caution as you'll very likely brick your Mavic a few times. So make sure you understand how to recover it first.
+As always, you're fully responsible for your actions.
+ #4 P0V, Nov 19, 2016 at 9:47 AM
+ bieh
+P0V said: ↑
+Specifically, it's running Android KitKat.
+More interesting stuff:
+...
+Click to expand...
+Neat. Unfortunately I don't have a Mavic to test on, so I was just poking around the firmware dump -- nice to see my suspicions about ftpd being vulnerable were correct. 
+Did you notice it used to be called the "Maverick"? :)
+busybox sed -i -e 's|ssid=Maverick|ssid=Mavic|' /data/misc/wifi/hostapd.conf.back
+Click to expand...
+ #5 bieh, Nov 19, 2016 at 10:14 AM
+ Guitarzan
+This is very interesting. I've written HTML, BASIC, and some C+, but it was still hard to keep up...me thinks P0V knows something about code!  Thumbswayup
+ #6 Guitarzan, Nov 19, 2016 at 10:57 AM
+ P0V
+bieh said: ↑
+How did you get the firmware?
+Click to expand...
+Sorry, forgot to answer that.
+We got it by intercepting the traffic between DJI Assistant 2.0 and DJI servers during the firmware downgrade process.
+Guitarzan said: ↑
+This is very interesting.
+Click to expand...
+Indeed it is. We were never really motivated to mess around with the Phantom 4, but now the Mavic got us interested. It would appear that most results achieved by reversing the firmware of the Mavic are directly applicable to the Phantom 4. Specifically, FCC/EC switching, 500m ceiling, and no-flight areas unlocking.
+At the moment, we're mostly interested in the IP stack over the SDR. We're very close to get SSH access directly over the RC link rather than the WiFi link, and even download the still pictures and flight logs directly mid-air. We'd consider this to be a milestone step.
+ #7 P0V, Nov 19, 2016 at 11:08 AM
+ bieh
+Right, cool -- I saw the SDR brings up an IP link, so I guess you could SSH directly from a phone connected to the RC. 
+Are you doing this in person, or is there a IRC channel or something you're working in? I don't have a Mavic yet, so I can't be of much help -- but I'd be interested to lurk and watch :)
+ #8 bieh, Nov 19, 2016 at 11:26 AM
+ P0V
+bieh said: ↑
+Right, cool -- I saw the SDR brings up an IP link, so I guess you could SSH directly from a phone connected to the RC.
+Are you doing this in person, or is there a IRC channel or something you're working in? I don't have a Mavic yet, so I can't be of much help -- but I'd be interested to lurk and watch :)
+Click to expand...
+You can't SSH directly from the phone because the phone isn't in the RC-link network. You need to somehow get port forwarding through USB from the phone to the remote controller, and from there to the Mavic. This is quite complicated. For some reason, the same debugging backdoor that worked for the Mavic isn't working for the controller. Without ADB server running on the controller, it's going to be difficult to reach the Mavic from the phone.
+Next step is to intercept the USB traffic between DJI Assistance 2.0 and the controller during upgrade/downgrade to see if it's sending some special command to enable to enable ADB. Let's see how that goes.
+We're doing this in person.
+ #9 P0V, Nov 19, 2016 at 11:39 AM
+ bieh
+No worries. Good luck -- and keep the thread updated :)
+ #10 bieh, Nov 19, 2016 at 11:46 AM
+ Mavic
+Mavic Member
+Maybe you should not discuss to many things about how to access it. DJI might read here and know what to fix.
+__ 
+www.mavic-pro.help
+ #11 Mavic, Nov 19, 2016 at 1:07 PM
+ P0V
+Mavic said: ↑
+Maybe you should not discuss to many things about how to access it. DJI might read here and know what to fix.
+Click to expand...
+We believe that knowledge should be free and accessible. If that means DJI will fix the access routes we currently have, we have no problem with that. In fact, that's part of the fun  :). We discover something, DJI fixes it, and then we discover something else after that.
+DJI is a cool company that generally believes in openness, especially with their work on the SDK. We'd like DJI even more if they give some registration process that gives power users full access to the products they buy, but that's what we have now (partly due to regulations imposed on DJI, and partly due to DJI wanting to preserve certain intellectual property). Also, with the level of access the previous information gives you, one can easily disregard DJI automatic updates and backport specific bug fixes by DJI without needing to update the full firmware and lose any of the access
+ #12 P0V, Nov 19, 2016 at 1:19 PM
+ ferraript
+P0V said: ↑
+(freely switching between FCC and EC modes), patching the 500m ceiling
+Click to expand...
+I agree this is veeery interesting :)
+good job so far guys
+and how about Phantom 3 series, would it be possible to do something similar too?
+edit: this thread may be interesting for you too, BudWalker, msinger
+ #13 ferraript, Nov 19, 2016 at 2:58 PM
+Last edited: Nov 19, 2016 at 3:14 PM
+ P0V
+ferraript said: ↑
+and how about Phantom 3 series, would it be possible to do something similar too?
+Click to expand...
+For Phantom 3 Standard and Phantom 3 4K, this is already easily done. You can find those online. Make sure you understand the risks first.
+As for Phantom 3 Advanced and Phantom 3 Pro, there are currently no publicly available methods to override FCC/EC selection or go beyond the 500m ceiling. However, it appears that the same method we're using for the Mavic Pro is also applicable to the Phantom 3 Advanced and Pro as well.
+We're planning to regularly release information on what we're doing, what we find, and even give out technical details, etc. However, we won't be releasing any tools, scripts, or step-by-step guides.
+ #14 P0V, Nov 19, 2016 at 3:19 PM
+ ferraript
+P0V said: ↑
+we won't be releasing any tools, scripts, or step-by-step guides
+Click to expand...
+oh, that's not very good news for users
+ #15 ferraript, Nov 19, 2016 at 4:23 PM
+ The Editor
+P0V said: ↑
+For Phantom 3 Standard and Phantom 3 4K, this is already easily done. You can find those online. Make sure you understand the risks first.
+As for Phantom 3 Advanced and Phantom 3 Pro, there are currently no publicly available methods to override FCC/EC selection or go beyond the 500m ceiling. However, it appears that the same method we're using for the Mavic Pro is also applicable to the Phantom 3 Advanced and Pro as well.
+We're planning to regularly release information on what we're doing, what we find, and even give out technical details, etc. However, we won't be releasing any tools, scripts, or step-by-step guides.
+Click to expand...
+The problem is by advertising this you will attract the "Oh I want to mod my machine so I can fly illegally, higher and further" brigade
+It has already started.
+Fortunately, most will lack the cognitive process or intelligence to make these modifications or at best will corrupt their firmware sufficiently to render their machine grounded.
+I applaud your reverse engineering but fear you are opening yourself up to requests for machine modification to circumvent sensible restrictions.
+ #16 The Editor, Nov 19, 2016 at 4:32 PM
+Last edited: Nov 19, 2016 at 4:45 PM
+ Slat
+The Editor said: ↑
+The problem is by advertising this you will attract the "Oh I want to mod my machine so I can fly illegally, higher and further" brigade
+It has already started.
+Fortunately, most will lack the cognitive process or intelligence to make these modifications or at best will corrupt their firmware sufficiently to render their machine grounded.
+I applaud your reverse engineering but fear you are opening yourself up to requests for machine modification to circumvent sensible restrictions.
+Click to expand...
+If you want to fly illegally, don't need to buy a DJI and get complicated programing hacks, there other easy ways...
+#17 Slat, Nov 19, 2016 at 10:29 PM
+ Ed209
+Nice work @P0V ! I work in the field of computer forensic analysis and malware analysis. I follow what you've done and you are right, this is monumental. I appreciate the determination and skill that you've put forth to accomplish what you have already. If I had more time, I would be jumping head first into this.
+ #18 Ed209, Nov 20, 2016 at 12:19 AM
+ P0V
+Ed209 said: ↑
+Nice work @P0V ! I work in the field of computer forensic analysis and malware analysis.
+Click to expand...
+It's funny you should say that, because this is exactly what this entails :) We're essentially doing forensic analysis on the Mavic.
+More updates:
+We finally managed to gain root access to the remote controller. This was significantly more challenging than doing the same on the Mavic. We had to do it by physically writing directly to the device's internal memory to modify the booting scripts and add lines to run ADB as root (essentially, the same code from adb_en.sh). We're having some issues understanding the SDR-based IP stack. If somebody has experience with that particular area, please contact me.
+There's no doubt that the in RC mode the remote controller and the Mavic are joined in a conventional network. We can see regular traffic flowing between them with tcpdump. This is absolutely fantastic! There's nothing anywhere online about this. We're very pleased with what we have so far.
+This explains how easy it is for the mobile app to update the Mavic remotely through the controller.
+Next steps:
+Trying to somehow piggyback on this connection to do more fun stuff.
+ #19 P0V, Nov 20, 2016 at 4:08 AM
+ bieh
+I'd be interested in
+P0V said: ↑
+It's funny you should say that, because this is exactly what this entails :) We're essentially doing forensic analysis on the Mavic.
+More updates:
+We finally managed to gain root access to the remote controller. This was significantly more challenging than doing the same on the Mavic. We had to do it by physically writing directly to the device's internal memory to modify the booting scripts and add lines to run ADB as root (essentially, the same code from adb_en.sh). We're having some issues understanding the SDR-based IP stack. If somebody has experience with that particular area, please contact me.
+There's no doubt that the in RC mode the remote controller and the Mavic are joined in a conventional network. We can see regular traffic flowing between them with tcpdump. This is absolutely fantastic! There's nothing anywhere online about this. We're very pleased with what we have so far.
+This explains how easy it is for the mobile app to update the Mavic remotely through the controller.
+Next steps:
+Trying to somehow piggyback on this connection to do more fun stuff.
+Click to expand...
+Fantastic!
+What does the protocol look like? ie: when you send, say, a "go up" on the controller, what kind of traffic is generated?
+(For context, I do some consulting for a little drone startup, building a prototype of software that controls Pixhawk-based drones from a base station -- it'd be neat to add a DJI backend to that, if only for my own amusement. Likely the IP protocol is the same between remote<-->drone as it is over wifi between phone<-->drone, so if I wrote something that generated that, I could connect the drone to wifi and send movement commands directly without faffing around with the mobile SDK or RC/phone hardware)
+ #20 bieh, Nov 20, 2016 at 4:33 AM
+Kilrah Well-Known Member
+This is awesome! Will be following, even if unfortunately helping is likely out of my capabilities...
+The power of the platform could allow for insane creative stuff with more access. Got a few ideas already...
+ #21 Kilrah, Nov 21, 2016 at 3:22 AM
+ Ender
+Hi !
+First of all: THANK YOU !
+P0V said: ↑
+Sorry, forgot to answer that.
+We got it by intercepting the traffic between DJI Assistant 2.0 and DJI servers during the firmware downgrade process.
+Click to expand...
+Just to clarify things, you used WireShark or the likes ?
+P0V said: ↑
+Specifically, FCC/EC switching, 500m ceiling, and no-flight areas unlocking.
+Click to expand...
+Are we talking of patching binaries (IDA) or changing scripts ?
+P0V said: ↑
+At the moment, we're mostly interested in the IP stack over the SDR. We're very close to get SSH access directly over the RC link rather than the WiFi link, and even download the still pictures and flight logs directly mid-air. We'd consider this to be a milestone step.
+Click to expand...
+Is it totally out of the loop to add a USB2Ethernet Adapter and then maybe share the Video Stream from the Tx directly, maybe to a RPI on your HDMI Glasses to have low latency FPV ?
+Sorry if thats BS, just the first thing that came to my mind.
+ALSO do you have a toolchain to produce Mavic compatible binaries, i have an idea that i am currently following on the Bebop where the circumstances are (IMHO) comparable... Not to be disclosed yet, but needs a working toolchain...
+Greetings,
+Ender
+P.S: Hi Kilrah ;-)
+#22 Ender, Nov 21, 2016 at 8:58 AM
+ P0V
+Ender said: ↑
+Just to clarify things, you used WireShark or the likes ?
+Click to expand...
+We used sslsplit and tcpdump to get the packet dump. Then we used a tool called tcpflow to split the dump into TCP streams, then a tool called foremost to dump the files out of the TCP streams.
+Ender said: ↑
+Are we talking of patching binaries (IDA) or changing scripts ?
+Click to expand...
+None of the changes we made required patching any binaries so far. All of these are configurable functionalities in the Mavic. Once you enter this debug mode, it all opens up for you.
+Ender said: ↑
+Is it totally out of the loop to add a USB2Ethernet Adapter and then maybe share the Video Stream from the Tx directly, maybe to a RPI on your HDMI Glasses to have low latency FPV ?
+Click to expand...
+We've been looking into that heavily in the past couple of days. The idea is to attach an OTG WiFi adapter to the Mavic's big USB port, and route the SDR interface traffic to this WiFi interface. So far, we can't get it to work with the Edimax adapter we have. The idea is to have remote debugging capabilities while the Mavic is in the air.
+Ender said: ↑
+ALSO do you have a toolchain to produce Mavic compatible binaries
+Click to expand...
+Nothing fancy. Regular ARM compilation. At the moment, we're using DockCross for convenience, which is working very nicely. So far, we found no need to patch any binaries.
+ #23 P0V, Nov 21, 2016 at 9:31 AM
+ Ender
+Thanks for the info.
+I mentioned USB2Ethernet to get the data with lowest latency to the hypothetical RPI on my goggles.
+And if using an OTG WiFi Adapter it should be 5G not to interfere with Ocusync, right ?
+Right now my HDMI setup involves a MiraScreen 5GHz dongle on the goggles via Airplay :)
+Not the best for latency but idiot proof i guess...
+I dont have my Maviy yet (as the other poor 1.3 million guys) but that doesnt stop me from playing around...
+If at all i can probably only of use when i really HAVE that Mavic...
+Keep us updated, take care...
+:)
+Ender
+ #24 Ender, Nov 21, 2016 at 9:56 AM
+ infinity
+P0V said: ↑
+Specifically, it's running Android KitKat.
+More interesting stuff:
+FTPD on port 21 in WiFi mode is provided by BusyBox, which has path traversal vulnerability. You can escape the "/ftp" jail and modify init scripts. Check "start_dji_system.sh" and "adb_en.sh" for the flags you need to enable ADB on the regular Mavic USB port. As you can see, the kernel has secure flag set to 0, which means "service.adb.root 1" will allow ADB to spawn root shell. After you get the root shell there, you can enable SSHD with your own root password, which will give you SSH access to your Mavic over WiFi for convenience. It's absolutely important to set a very strong password, you don't want somebody SSHing to your Mavic mid-air.
+We've discovered 3 other ways to enable debug mode (ADB on USB with root): One is a backdoor by DJI, which makes sense for maintenance purposes, the 2nd is yet another vulnerability in another software essential to the Mavic, and the 3rd one is not directly software-based. For now, we won't be discussing those publicly.
+Well, with the root access, now you can pretty much do anything you want. Interesting things include SDR interface modification (freely switching between FCC and EC modes), patching the 500m ceiling, no-fly areas override, etc.
+Luckily, all of that requires a lot of technical knowledge and skills, so this greatly reduces the number of people who will be able to do this. People who will be able to do this are probably not morons who will do things like fly over airports for example.
+Also, anything done with this should be done with caution as you'll very likely brick your Mavic a few times. So make sure you understand how to recover it first.
+As always, you're fully responsible for your actions.
+Click to expand...
+Interesting, 
+"FTPD on port 21 in WiFi mode is provided by BusyBox, which has path traversal vulnerability. You can escape the "/ftp" jail and modify init scripts. Check "start_dji_system.sh" and "adb_en.sh" for the flags you need to enable ADB on the regular Mavic USB port.", 
+--- How did you make it. Seems the path traversal is a very old bug and shall be fix in this android version(not sure).
+ #25 infinity, Nov 21, 2016 at 10:26 AM
+ Ender
+@POV, could you give a hint about the configuration files (FCC / CE) ?
+I found cool stuff already but not that...
+But of course you have to draw the line about what to publish somewhere, maybe right here :)
+Ender
+ #26 Ender, Nov 21, 2016 at 10:43 AM
+ Ender
+It seems they have a huge unification between the build for the Mavic, COntroller and Goggles ?
+Or are those switches between "uav", "gnd" and "glass" not referring to those Hardwares ?
+Ender
+ #27 Ender, Nov 21, 2016 at 10:51 AM
+ Ender
+Sorry for flooding, hope you dont mind...
+I found the USB WiFi Card check, they are talking of the "secret" micro USB next to the LED, right ?
+Ender
+ #28 Ender, Nov 21, 2016 at 11:39 AM
+ mavkiller
+Really exciting!
+I would like to have try on my Mavic.
+But I don't have much idea on "FTPD on port 21 in WiFi mode is provided by BusyBox, which has path traversal vulnerability."
+Could you share more details?
+P0V said: ↑
+Specifically, it's running Android KitKat.
+More interesting stuff:
+FTPD on port 21 in WiFi mode is provided by BusyBox, which has path traversal vulnerability. You can escape the "/ftp" jail and modify init scripts. Check "start_dji_system.sh" and "adb_en.sh" for the flags you need to enable ADB on the regular Mavic USB port. As you can see, the kernel has secure flag set to 0, which means "service.adb.root 1" will allow ADB to spawn root shell. After you get the root shell there, you can enable SSHD with your own root password, which will give you SSH access to your Mavic over WiFi for convenience. It's absolutely important to set a very strong password, you don't want somebody SSHing to your Mavic mid-air.
+We've discovered 3 other ways to enable debug mode (ADB on USB with root): One is a backdoor by DJI, which makes sense for maintenance purposes, the 2nd is yet another vulnerability in another software essential to the Mavic, and the 3rd one is not directly software-based. For now, we won't be discussing those publicly.
+Well, with the root access, now you can pretty much do anything you want. Interesting things include SDR interface modification (freely switching between FCC and EC modes), patching the 500m ceiling, no-fly areas override, etc.
+Luckily, all of that requires a lot of technical knowledge and skills, so this greatly reduces the number of people who will be able to do this. People who will be able to do this are probably not morons who will do things like fly over airports for example.
+Also, anything done with this should be done with caution as you'll very likely brick your Mavic a few times. So make sure you understand how to recover it first.
+As always, you're fully responsible for your actions.
+Click to expand...
+P0V said: ↑
+We extracted the Mavic firmware ExpireBox | Mavic_Latest_Firmware_01.02.7z
+We're doing some reverse-engineering on it right now. So far, we're getting some very good progress.
+If anybody is interested, hit me up so we can exchange ideas.
+Updates on what we've found and done so far:
+The firwmare was acquired by intercepting the traffic between DJI Assitant and DJI servers during firmware update process. More info here
+We acquired root access to the Mavic. Through that we can manipulate the Mavic however we like. This includes . More info here
+We can manipulate FCC/EC switching, override no-fly areas, and disable the 500 meter altitude limit. More info here
+We discovered that there's a conventional IP network between the Mavic and the remote controller when in RC mode. More info here
+Click to expand...
+ #29 mavkiller, Nov 21, 2016 at 11:48 AM
+ PropPilot
+Slat said: ↑
+If you want to fly illegally, don't need to buy a DJI and get complicated programing hacks, there other easy ways...
+Sent from my Nexus 6 using Tapatalk
+Click to expand...
+Yes, get a pilots license. The fidelity is much better when you are in the left seat with your hands on the controls Thumbswayup
+ #30 PropPilot, Nov 21, 2016 at 11:49 AM
+ P0V
+infinity said: ↑
+How did you make it. Seems the path traversal is a very old bug and shall be fix in this android version(not sure).
+Click to expand...
+The vulnerability isn't in Android, as Android doesn't come with FTPD.
+Ender said: ↑
+@POV, could you give a hint about the configuration files (FCC / CE) ?
+Click to expand...
+You won't find it in any configuration file.
+mavkiller said: ↑
+Could you share more details?
+Click to expand...
+Unfortunately, no.
+ #31 P0V, Nov 21, 2016 at 12:00 PM
+ Ender
+@POV, okay, i was referring to your message "All of these are configurable functionalities in the Mavic".
+So we might need to look at setprop or the likes.
+But i guess your sparse answer shows the red line ;-)
+What is your future expactation from this thread if you reached the limits of what you like to share ?
+Will you publish further progress and or do you request help / testing ?
+@mavkiller 
+About the FTPD thingy: i guess if you switch the Mavic to WiFI mode you can access the media files via ftp and the demon running ftpd seems to have a known vulnerability to access the whole filesystem. Usually it is limited to the ftp directory and subdirs. A simple google will show you more info "busybox ftpd vulnerability"...
+Greetings,
+Ender
+#32 Ender, Nov 21, 2016 at 12:29 PM
+ P0V
+
+Ender said: ↑
+What is your future expactation from this thread if you reached the limits of what you like to share ?
+Will you publish further progress and or do you request help / testing ?
+Click to expand...
+No specific expectations, really. We're just a couple of guys interested in learning how things work. Our goal isn't to achieve a specific thing like unlock a certain feature. The main idea was to see if people are interested in tinkering with their new toy, and giving them the tip of the thread that they can follow on their own, and for us learn from the people already doing this.
+Ender said: ↑
+A simple google will show you more info "busybox ftpd vulnerability"
+Click to expand...
+I'd be very surprised if you find details on this vulnerability on Google.
+ #33 P0V, Nov 21, 2016 at 12:40 PM
+ Ender
+P0V said: ↑
+No specific expectations, really. We're just a couple of guys interested in learning how things work. Our goal isn't to achieve a specific thing like unlock a certain feature. The main idea was to see if people are interested in tinkering with their new toy, and giving them the tip of the thread that they can follow on their own, and for us learn from the people already doing this.
+I'd be very surprised if you find details on this vulnerability on Google.
+Click to expand...
+Okay, you surely spawned a lot of interest, MISSION ACCOMPLISHED.
+About the vulnerability: sorry then for my misinformation, i crossread the first few hits and it looked like there were references to the specific vulnerability you mentioned.
+Well, all very academic before i get my Mavic, lets see if i can get it started then by myself or if the info "howto" leacked until then.
+So i guess theres also no support from you concerning my secret agenda i follow on the Bebop, so it stays secret ;-)
+Well, a tad frustrating but "hope is all we need" :)
+Greetings,
+Ender
+ #34 Ender, Nov 21, 2016 at 12:53 PM
+Last edited: Nov 21, 2016 at 12:58 PM
+ Kilrah
+P0V said: ↑
+The main idea was to see if people are interested in tinkering with their new toy, and giving them the tip of the thread that they can follow on their own, and for us learn from the people already doing this.
+Click to expand...
+Yes I certainly am, would enjoy following along, have no interest in escaping limitations, but unfortinately your leads are already way beyond my capabilities (I can do a lot of poking at low level e.g. microcontroller firmware level and participate in firmware coding for standard RC radio encoders and RF links, but high level OS and security hacking is a huge dark cloud for me).
+So yes I'm sure you'll find many who are interested in tinkering, but I'm afraid very few if any of them will have the skills to follow with the disclosed info.
+ #35 Kilrah, Nov 21, 2016 at 2:45 PM
+ Danny-B-
+This is very interesting indeed, i wish i had the skillset to do half of what you guys have achieved so far. Personally, i'm very interested in hacking the FCC/CE restriction, I dont see the harm in creating a tool that (once developed enough) will simply unlock this restriction alone. In my eyes, the height restriction and safe zone restrictions should remain in tact but transmission power is fair game :)
+ #36 Danny-B-, Nov 21, 2016 at 4:09 PM
+ The Editor
+Danny-B- said: ↑
+This is very interesting indeed, i wish i had the skillset to do half of what you guys have achieved so far. Personally, i'm very interested in hacking the FCC/CE restriction, I dont see the harm in creating a tool that (once developed enough) will simply unlock this restriction alone. In my eyes, the height restriction and safe zone restrictions should remain in tact but transmission power is fair game :)
+Click to expand...
+But.....obviously against OFCOM 2.4ghz spectrum fixed antenna EIRP laws which are 100mW/20dbm - just saying. :)
+ #37 The Editor, Nov 21, 2016 at 4:12 PM
+ Danny-B-
+The Editor said: ↑
+But.....obviously against OFCOM 2.4ghz spectrum fixed antenna EIRP laws which are 100mW/20dbm - just saying. :)
+Click to expand...
+Yup, stupid law, I think i could live with myself for breaking it too ...
+ #38 Danny-B-, Nov 21, 2016 at 4:20 PM
+Mattman likes this.
+ Ender
+Its the same for aftermarket Antennae & Reflektors, of course they violate the same EIRP rule. The Sofware way would be less ugly :)
+Butit seems we have to work out that by ourselves or hope for a leak.
+I guess the stuff is in the properties and without a Mavic its hard to try that :)
+So i have to wait for good news or the Mavic.
+Ender
+P.S. i agree for the Altitude limit and NFZ. Serious trouble waiting there.
+The speed limint / max angle would be a better target, the Mavic can di much better then Sports mode, calling it that is close to hilarious. After hacking the angle limit i was able to go > 80 km/h on a smallish Bebop 1 ;.)
+ #39 Ender, Nov 21, 2016 at 4:30 PM
+ Chase R
+Ender said: ↑
+Its the same for aftermarket Antennae & Reflektors, of course they violate the same EIRP rule. The Sofware way would be less ugly :)
+Butit seems we have to work out that by ourselves or hope for a leak.
+I guess the stuff is in the properties and without a Mavic its hard to try that :)
+So i have to wait for good news or the Mavic.
+Ender
+P.S. i agree for the Altitude limit and NFZ. Serious trouble waiting there.
+The speed limint / max angle would be a better target, the Mavic can di much better then Sports mode, calling it that is close to hilarious. After hacking the angle limit i was able to go > 80 km/h on a smallish Bebop 1 ;.)
+Click to expand...
+This is the kind of stuff that would be better to share with the community. Love to see a Mavic zipping by an Inspire 2. ha
+ #40 Chase R, Nov 21, 2016 at 4:50 PM
+(You must log in or sign up to post here.)
+Page 2 of 4
+< Prev 1 2 3 4 Next >
+Ender
+Yup, and then there is that awful speed limit when you control via WiFi, i have some powerful devices (like NVIDIA Shield portable) that could work with the Mavic for a few hundred meters and be used for more ... interesting stuff then using DJI-GO.
+So the limits on WiFi usage would also be on my list.
+Ender
+ #41 Ender, Nov 21, 2016 at 4:55 PM
+ jimthebob
+I just wanted to thank you for your findings and for freely sharing them with us. This is greatly appreciated!
+Now off the replicate the same stuff... jailbroken mavic wooo! (im also pretty sure DJI will fix this soon with a fw update, thus we might need to intercept new fws and manually flash em while retaining root)
+ #42 jimthebob, Nov 21, 2016 at 7:46 PM
+ vashon100
+That's interesting, but can you get it to switch into ATTI mode when you want? I'd rather have that before over-riding the altitude or no-fly limitations.
+ #43 vashon100, Nov 22, 2016 at 2:56 AM
+ Kilrah
++1, changing the bahavior of the sport mode switch to switch to ATTI instead would be an excellent use of those findings for added safety.
+ #44 Kilrah, Nov 22, 2016 at 3:03 AM
+ Ender
+@Kilrah : Right but i guess thats exactly how DJI will do it for us.
+As they (rightly) insist on a Hardware switch i guess we might be able to configure that switch beween normal & ATTI or normal & Sports mode, thats what i expect from DJI.
+Ender
+ #45 Ender, Nov 22, 2016 at 3:15 AM
+ Ender
+Hey all !
+I'd like to summarize how i understood whats going on and would LOVCE you to add or correct what i am saying !
+(POV of course would be most welcome, NOT adding new knowledge if you shy away from that but securing that we have a correct understanding of what you were willing to share)
+We know that core features / options are configurable by manipulating contents on the Mavc as POV stated (flight limits, FCC / CE switching, NFZ).
+If i write capital THEY i am talking of POV's group to make clear that thats "known good" stuff opposed to my and our assumptions...
+How to get there ?
+--- Getting the FW update File ---
+First THEY managed to intercepted the communication between DJI Assistant and the DJI server --> check for updates, ah, there is a new version, download it.
+THEY say: "We used sslsplit and tcpdump to get the packet dump. Then we used a tool called tcpflow to split the dump into TCP streams, then a tool called foremost to dump the files out of the TCP streams"
+--->
+I assume this could've done with wireshark and a liitle app but thats just an assumption before reading up the man pages of the tools above. Only interseting if we want to intercept the NEXT FW update...
+So then they were able to get a feel for whats going on on the Mavic and what flavour of OS its running (Android 4.4, as always based on a Linux kernel)
+--- Enabling ADB to get access ---
+It seems the next step THEY took is to get ADB to work (Android Debug Bridge).
+I am unsure how THEY exactly did that, this is my assumption:
+They used a security hole in the busybox running most core commands on that flavour of Android.
+Namely the path traversal exploit of the FTPD (== FTP Daemon, == FTP Server).
+I googled for that and despite what POV said i found references but maybe the flavour we would need is something not to be found via google, i cannot know. The hints i found all work similar in a way: The FTPD is configured to present a certain folder and its subdirectories to the outside. That folder can be anywhere, lets just say it is "data/ftp". so one can access the files stored there, maybe even create new but one is in a "cage", not allowed to go up or out of that hierarchy. The exploit can be as simple as using a path like. ../../usr/etc/config.xml to "get" that file to your Desktop machine.
+So far so good, something like this must have been used to get, edit and store startup Shell scripts to enable ADB.
+THEY say:"Using path traversal exploit with FTPD: Check "start_dji_system.sh" and "adb_en.sh" for the flags you need to enable ADB"
+I found that it seems really easy to enable ADB, tehre are lines in those files checking for "debug" and thus enabling ADB.
+I wonder how its REALLY done as i can imagine getting those files and editing them on my machine (watch out for UNIX line endings).
+But putting them back assumes the FTPD is allowed to do that. Is that a given ? I doubt that so there maybe is even more to it, can someone elaborate ?
+--- Using ADB ----
+THEY managed to get ADB going and thats a huge Leap forward.
+I used ADB some times to gain root access or to get a telnet shell on the machine of interest or to push / pull files.
+I wonder if thats the way ADB works on the Mavic once enabled and i guess YEAH :)
+--> creating a Nandroid backup
+I guess my first try would be to get a Nandroid Backup of the whole machine for two reasons:
+-always feels good to have a backup although its unclear how to restore if i **** up badly.
+-Decoding partitions to look at the parts we dont have in the FW update file (especially data partition where the food stuff might be)
+--> root access: it seems root comes naturaly once you have ADB access which is great (THEY say: "the kernel has secure flag set to 0, which means "service.adb.root 1"").
+Thats probably the first thing swithced off by DJI but we cannot hinder thim, this thing is out in the wild, POV posted in the rcgroups forum which is frequented by sveral DJI employees...
+--> SSH access:
+THEY say:"After you get the root shell there, you can enable SSHD with your own root password, which will give you SSH access to your Mavic over WiFi for convenience".
+Could anyone elaborate how to do that ? there will be a config file somewhere allowing just that but i am oh sooo rusty, having played with Linux intensly last with my "empeg car" Linux car stereo (THEN revolutionary, NOW prehistoric).
+--- Using root access via SSH or ADB shell ---
+Well, we are root, HURAY... lets do things only root can do...
+---> changing properties / files to do the Mavic what we want.
+This is the most foggy part of POV's tales, from his answers i deduct (wrongly ??) that there is no config file where we can find cleartext stuff "FCC mode: on/off/auto" so we can lear what options are there and how to bend it our way.
+As the Android on the Mavic must run an app or more to do the actual job of a Flightcontroller i guess those Apps will store their settings on the data partions in property files (usually XML).
+My assumption is we should browse those files once we have adb / root / ssh access (maybe even using tools like root explorer and alike) or we can browse our decoded Nadroid backup decoded to files.
+Anyone agree or disagree on that ?!
+--- HOLY CRAP, I F*CKED UP MY Mavic ---
+This can happen. To every one of us. Or we do stuff that leads the Mavic to fly away to the sunset. Or crash into our neigbours $1000000 Ferrari. Or into our beloved childrens face. THINK ABOUT WHAT YOU DO, PLEASE.
+If it is one of the less bad things and the Mavic is simply unresponsive my hope would be to use an EMMC Interface to write back the stored Nandroid backup (or parts of it) to the Mavics non volatile memory directly.
+But taht is all foggy and i would probably ask some friends or shell out money to people having the knowledge & equipment to do so. Well i AHVE an emmc Adapter but no idea if it would work on the Mavic or how to do that.
+MAYBE POV could help us out in this respect to give us a safety line, could you let us know how to safely backup / restore our stuff so we do not face the ultimate punishment when messing aroud with the Mavic. Please do so. (Make that a PLEASE ;-) )
+THIS IS THE END.
+I feel stupid writing that as my Linux "skills" are so minimal but this is meant as a base where knowledgable people can add and correct the naive BS i wrote up.
+Please dont feel too sorry for me, help us out instead and contribute !
+Ender
+P
+ #46 Ender, Nov 22, 2016 at 4:01 AM
+Last edited: Nov 22, 2016 at 8:39 AM
+Mavic and Slat like this.
+ FredzMaxxUAV
+So did anyone try this out successfully? Someone wanting to give us mere mortals more information?
+ #47 FredzMaxxUAV, Nov 23, 2016 at 12:44 PM
+ Ender
+Well someone from my home forum at least confirmed that the FTP is open but he is unwilling to do more so at least i have to wait until my Mavic shipped...
+No news until some kind soul helps / leaks / experiments .
+And as i am not the geek i'd like to be i'll try when i get my mavic but cannot guarantee anything :)
+Ender
+ #48 Ender, Nov 23, 2016 at 12:47 PM
+ Guest
+As you have the "Mavic firmware" already, is it not as easy as "rooting" a Linux system?
+Basically (Linux): Clone the system, mount the "ISO" in a running Linux OS, cd into it and change the hashed root password in /etc/shadow to something know, save it, and replace the rooted firmware back?
+ #49 Guest, Nov 23, 2016 at 1:11 PM
+ Ender
+I dont think so. root is not the problem, getting access in the first place is the problem (getting a shell).
+As POV sasi, first step is to enable ADB by uding the FTPD explot. then it should be simple to get root access.
+If one wishes one could enable SSH but adb root shell would do for all we want to accomplish AFAIK.
+Next riddle will be to locate where & how to change the stuf (FCC /CE mode, fligt limits etc.).
+But the DETAILS how to do it will be hard for me and most novices. But as i said i cannot try w/o a Mavic.
+Ender
+ #50 Ender, Nov 23, 2016 at 1:22 PM
+ Guest
+@P0V,
+I hope you can/will answer this.
+Are you guys able to flash the extracted Mavic firmware back again?
+If so, what tools are you using for this? ADB?
+ #51 Guest, Nov 23, 2016 at 2:12 PM
+ Nathan Hoover
+Very interesting thread. I would love to be able to get into ATTI mode when needed on my Mavic. And with the P3s and P4s many times I've had the problem of just needed 50 or 100 extra meters when flying up mountains - the 500m limit seems so arbitrary. Fun project you guys are working on.
+ #52 Nathan Hoover, Nov 23, 2016 at 7:53 PM
+ FredzMaxxUAV
+Ender said: ↑
+Well someone from my home forum at least confirmed that the FTP is open but he is unwilling to do more so at least i have to wait until my Mavic shipped...
+Click to expand...
+Hey Ender what do you mean by home forum? Link?
+ #53 FredzMaxxUAV, Nov 23, 2016 at 8:10 PM
+ Ender
+FredzMaxxUAV said: ↑
+Hey Ender what do you mean by home forum? Link?
+Click to expand...
+Hi !
+Its a German speaking Forum: "drohnen-forum.de" but it wont do you much good.
+There is a discussion of THIS thread but the small tests we did were handled via PM...
+Its a bit border-line to talk about "hacking" in open forums so if there happens something new i'll post it here but i wouldnt put money on that happening myself :)
+Lets hope for more "leaks" about this !
+Ender
+P.S. i have to rely on others as i did not receive my order yet. Ordered at DJI on the first day but had a CC Problem and reordered in mid october, ARGHHH
+ #54 Ender, Nov 24, 2016 at 4:48 AM
+ Guest
+I guess that you are the same Ender on that forum (-;
+Btw. Jailbreak is an iOS thing. In Android it's called "rooting", so maybe you should consider renaming that thread to "Mavic Firmware rooting / Custom Firmware" as the Mavic is running Android (-:
+ #55 Guest, Nov 24, 2016 at 5:13 AM
+Last edited: Nov 24, 2016 at 5:22 AM
+ Ender
+Yup :)
+ #56 Ender, Nov 24, 2016 at 5:15 AM
+ P0V
+Location:
+Gothenburg, Sweden
+Guest said: ↑
+I hope you can/will answer this.
+Are you guys able to flash the extracted Mavic firmware back again?
+If so, what tools are you using for this? ADB?
+Click to expand...
+Yes, this is something I can answer. Unfortunately, we weren't at all able to flash the firmware back to the Mavic. Everything we tried has failed. The main problem is that we're not really sure how the Mavic goes into "fastboot" mode. For some very very odd reason, it just doesn't reboot in "fastboot" mode when issuing "adb boot recovery". This shouldn't happen, but I think that we somehow screwed up somewhere to cause this.
+Additionally, flashing by tricking DJI Assistant 2.0 to flash our modified firmware doesn't work because the Mavic checks the signature of the firmware before accepting.
+The only way we're handling backups at the moment is by physically extracting and re-flashing the NAND on the board. It's a lengthy and risky process, but it works. As a plus, this is a guaranteed method to "root" the device and have ADB enabled, since you can directly modify anything you want.
+ #57 P0V, Nov 24, 2016 at 8:04 AM
+Well for sure one could never exceed the Sensors specs but anything else is hard to say.
+If you look how those guys hack the Allwinner V3 "El cheapo" 4k Cameras to actually deliver useful content then you must believe everything is possible.
+First step is activating ADB, i tried to write down my understanding of the process some pages before, same still understanding here, and POV does not comment on that so thats all i have and the way i try to follow.
+Ender
+fallengod said: ↑
+@POV
+Can you take some picture of the location of the nand chip on both the drone side and the controler side and can it be backup using a clip adapter or i would need to reflow it to get it off?
+is the nand also encrypted? or is as simple as reading off the nand and making changes in HEX and reflashing it back onto the drone?
+I think you should post at least an simple how to on how to back up and restore the NAND, i know what im doing but even Im scared to experiment on a 1k toy that i waited 2 month for!
+Click to expand...
+DIdnt you see the Teardown video (There are two for the Mavic and one for the Controller AFAIK) ?
+There is a lot to see & to locate.
+And the where / how to connect sj´hould be retirevable in the Net.
+But of course you are 100% right about the risk. If there would be a "clean" solution at least for the backup...
+POV did not buy into my question if you cant make a complete Nandroid backup via ADB.
+IF thomething gets nasty and you need to flash back to the NAND directly there are always professionals who can help you for < $100.
+But its a ******* risk...
+I just want ADB to look around rooted and mod this or that, having a script active where i tell the thing to restore all original files next boot or the like...
+Basically my 2 main interests are FCC / CE switch (as i live in CE area) and maybe angle limit but thats probably in the binary and only modifiable via IDA.
+I interpreted POV in the way that the Filesystem is not encoded but of course i cannot know. If one can take the ADB way it doesnt matter as you do the job from the "inside". I guess if the FS is encrypted POV would have mentioned that when he talked about the EMMC hack of the Controller.
+Ender
+ #81 Ender, Nov 29, 2016 at 3:24 PM"
