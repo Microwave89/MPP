@@ -1,0 +1,2296 @@
+
+Tue Jan  1 00:00:12 GMT 1980
+root      208   1     123508 6208  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6764  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x13
+ap send to cp 0x3 frame(s) data.write frame offset 0x3
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  5236  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 0
+
+Tue Jan  1 00:00:13 GMT 1980
+root      208   1     123508 6208  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6764  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x16
+ap send to cp 0x6 frame(s) data.write frame offset 0x6
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  5792  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 0
+
+Tue Jan  1 00:00:15 GMT 1980
+root      208   1     123508 6208  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6764  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x19
+ap send to cp 0x7 frame(s) data.write frame offset 0x7
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  6240  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 0
+
+Tue Jan  1 00:00:16 GMT 1980
+root      208   1     123508 6208  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6764  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x1B
+ap send to cp 0x9 frame(s) data.write frame offset 0x9
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  6776  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 0
+
+Tue Jan  1 00:00:17 GMT 1980
+root      208   1     123508 6208  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6764  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x1E
+ap send to cp 0x9 frame(s) data.write frame offset 0x9
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  7248  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 0
+
+Tue Jan  1 00:00:19 GMT 1980
+root      208   1     123508 6208  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6764  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x21
+ap send to cp 0xa frame(s) data.write frame offset 0xa
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  7760  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 0
+
+Tue Jan  1 00:00:20 GMT 1980
+root      208   1     123508 6208  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6764  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x23
+ap send to cp 0xc frame(s) data.write frame offset 0xc
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  7968  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 0
+
+Tue Jan  1 00:00:21 GMT 1980
+root      208   1     123508 6208  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6764  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x26
+ap send to cp 0xc frame(s) data.write frame offset 0xc
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  8144  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 63
+
+Tue Jan  1 00:00:23 GMT 1980
+root      208   1     123508 6212  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6784  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x29
+ap send to cp 0xc frame(s) data.write frame offset 0xc
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  8328  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 63
+
+Tue Jan  1 00:00:24 GMT 1980
+root      208   1     123508 6212  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6784  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x2B
+ap send to cp 0xc frame(s) data.write frame offset 0xc
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  8500  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 63
+
+Tue Jan  1 00:00:25 GMT 1980
+root      208   1     123508 6212  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6784  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x2E
+ap send to cp 0xc frame(s) data.write frame offset 0xc
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  8680  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 63
+
+Tue Jan  1 00:00:27 GMT 1980
+root      208   1     123508 6212  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6784  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x31
+ap send to cp 0xd frame(s) data.write frame offset 0xd
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  8852  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 63
+
+Tue Jan  1 00:00:28 GMT 1980
+root      208   1     123508 6212  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6784  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x33
+ap send to cp 0xf frame(s) data.write frame offset 0xf
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  8864  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 63
+
+Tue Jan  1 00:00:29 GMT 1980
+root      208   1     123508 6212  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6784  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x36
+ap send to cp 0xf frame(s) data.write frame offset 0xf
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  8876  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 63
+
+Tue Jan  1 00:00:31 GMT 1980
+root      208   1     123508 6212  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6784  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x39
+ap send to cp 0xf frame(s) data.write frame offset 0xf
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  8892  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 63
+
+Tue Jan  1 00:00:32 GMT 1980
+root      208   1     123508 6212  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6784  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x3B
+ap send to cp 0xf frame(s) data.write frame offset 0xf
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  8904  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 63
+
+Tue Jan  1 00:00:33 GMT 1980
+root      208   1     123508 6212  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6784  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x3E
+ap send to cp 0xf frame(s) data.write frame offset 0xf
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  8916  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 63
+
+Tue Jan  1 00:00:35 GMT 1980
+root      208   1     123508 6212  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6784  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x40
+ap send to cp 0x10 frame(s) data.write frame offset 0x10
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  8928  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 63
+
+Tue Jan  1 00:00:36 GMT 1980
+root      208   1     123508 6212  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6784  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x43
+ap send to cp 0x12 frame(s) data.write frame offset 0x12
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  8944  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 63
+
+Tue Jan  1 00:00:37 GMT 1980
+root      208   1     123508 6212  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6784  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x46
+ap send to cp 0x12 frame(s) data.write frame offset 0x12
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  8956  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 63
+
+Tue Jan  1 00:00:39 GMT 1980
+root      208   1     123508 6212  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6784  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x48
+ap send to cp 0x12 frame(s) data.write frame offset 0x12
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  8968  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 63
+
+Tue Jan  1 00:00:40 GMT 1980
+root      208   1     123508 6212  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6784  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x4B
+ap send to cp 0x12 frame(s) data.write frame offset 0x12
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  8984  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 63
+
+Tue Jan  1 00:00:41 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     38964  6812  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x4E
+ap send to cp 0x12 frame(s) data.write frame offset 0x12
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9004  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 63
+
+Tue Jan  1 00:00:44 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     38964  6816  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x53
+ap send to cp 0x15 frame(s) data.write frame offset 0x15
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9028  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 63
+
+Tue Jan  1 00:00:47 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     38964  6816  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x5A
+ap send to cp 0x15 frame(s) data.write frame offset 0x15
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9060  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 63
+
+Tue Jan  1 00:00:50 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     38964  6816  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x5F
+ap send to cp 0x15 frame(s) data.write frame offset 0x15
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9084  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 63
+
+Tue Jan  1 00:00:52 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     38964  6816  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x63
+ap send to cp 0x16 frame(s) data.write frame offset 0x16
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9116  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 63
+
+Tue Jan  1 00:00:55 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     38964  6816  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x69
+ap send to cp 0x1b frame(s) data.write frame offset 0x1b
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9136  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 63
+
+Tue Jan  1 00:00:56 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x6C
+ap send to cp 0x1e frame(s) data.write frame offset 0x1e
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9148  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 63
+
+Tue Jan  1 00:00:58 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x6F
+ap send to cp 0x1e frame(s) data.write frame offset 0x1e
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9160  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 63
+
+Tue Jan  1 00:00:59 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x71
+ap send to cp 0x1e frame(s) data.write frame offset 0x1e
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9176  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 63
+
+Tue Jan  1 00:01:00 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x74
+ap send to cp 0x21 frame(s) data.write frame offset 0x21
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9188  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 63
+
+Tue Jan  1 00:01:02 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x77
+ap send to cp 0x21 frame(s) data.write frame offset 0x21
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9200  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 63
+
+Tue Jan  1 00:01:03 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x79
+ap send to cp 0x21 frame(s) data.write frame offset 0x21
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9216  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 63
+
+Tue Jan  1 00:01:04 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x7C
+ap send to cp 0x21 frame(s) data.write frame offset 0x21
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9228  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 63
+
+Tue Jan  1 00:01:06 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x7F
+ap send to cp 0x21 frame(s) data.write frame offset 0x21
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9240  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 63
+
+Tue Jan  1 00:01:07 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x81
+ap send to cp 0x21 frame(s) data.write frame offset 0x21
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9252  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 63
+
+Tue Jan  1 00:01:08 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x84
+ap send to cp 0x24 frame(s) data.write frame offset 0x24
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9268  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 63
+
+Tue Jan  1 00:01:10 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x87
+ap send to cp 0x24 frame(s) data.write frame offset 0x24
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9280  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 63
+
+Tue Jan  1 00:01:11 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x89
+ap send to cp 0x24 frame(s) data.write frame offset 0x24
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9292  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 63
+
+Tue Jan  1 00:01:12 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x8C
+ap send to cp 0x24 frame(s) data.write frame offset 0x24
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9308  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 63
+
+Tue Jan  1 00:01:14 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x8F
+ap send to cp 0x24 frame(s) data.write frame offset 0x24
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9320  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 63
+
+Tue Jan  1 00:01:15 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x91
+ap send to cp 0x24 frame(s) data.write frame offset 0x24
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9332  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 63
+
+Tue Jan  1 00:01:16 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x94
+ap send to cp 0x27 frame(s) data.write frame offset 0x27
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9344  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 63
+
+Tue Jan  1 00:01:18 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x96
+ap send to cp 0x27 frame(s) data.write frame offset 0x27
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9360  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 63
+
+Tue Jan  1 00:01:19 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x99
+ap send to cp 0x27 frame(s) data.write frame offset 0x27
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9372  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 63
+
+Tue Jan  1 00:01:20 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x9C
+ap send to cp 0x27 frame(s) data.write frame offset 0x27
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9384  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 63
+
+Tue Jan  1 00:01:22 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x9E
+ap send to cp 0x27 frame(s) data.write frame offset 0x27
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9400  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 64
+
+Tue Jan  1 00:01:23 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xA1
+ap send to cp 0x27 frame(s) data.write frame offset 0x27
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9412  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 64
+
+Tue Jan  1 00:01:24 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xA4
+ap send to cp 0x2a frame(s) data.write frame offset 0x2a
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9424  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 64
+
+Tue Jan  1 00:01:25 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xA6
+ap send to cp 0x2a frame(s) data.write frame offset 0x2a
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9436  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 64
+
+Tue Jan  1 00:01:27 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xA9
+ap send to cp 0x2a frame(s) data.write frame offset 0x2a
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9452  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 64
+
+Tue Jan  1 00:01:28 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xAC
+ap send to cp 0x2a frame(s) data.write frame offset 0x2a
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9464  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 64
+
+Tue Jan  1 00:01:29 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     38964  6816  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xAE
+ap send to cp 0x2a frame(s) data.write frame offset 0x2a
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9480  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 64
+
+Tue Jan  1 00:01:32 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     38964  6820  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xB3
+ap send to cp 0x2a frame(s) data.write frame offset 0x2a
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9552  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 64
+
+Tue Jan  1 00:01:34 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     38964  6820  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xB8
+ap send to cp 0x2e frame(s) data.write frame offset 0x2e
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9572  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 64
+
+Tue Jan  1 00:01:37 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     38964  6820  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xBD
+ap send to cp 0x31 frame(s) data.write frame offset 0x31
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9596  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 64
+
+Tue Jan  1 00:01:40 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     38964  6820  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xC4
+ap send to cp 0x34 frame(s) data.write frame offset 0x34
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9636  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 64
+
+Tue Jan  1 00:01:43 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     38964  6820  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xC9
+ap send to cp 0x36 frame(s) data.write frame offset 0x36
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9664  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 64
+
+Tue Jan  1 00:01:45 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xCE
+ap send to cp 0x36 frame(s) data.write frame offset 0x36
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9680  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 64
+
+Tue Jan  1 00:01:47 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xD1
+ap send to cp 0x36 frame(s) data.write frame offset 0x36
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 64
+
+Tue Jan  1 00:01:48 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xD3
+ap send to cp 0x36 frame(s) data.write frame offset 0x36
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 64
+
+Tue Jan  1 00:01:49 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xD6
+ap send to cp 0x39 frame(s) data.write frame offset 0x39
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 64
+
+Tue Jan  1 00:01:51 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xD9
+ap send to cp 0x39 frame(s) data.write frame offset 0x39
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 64
+
+Tue Jan  1 00:01:52 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xDB
+ap send to cp 0x39 frame(s) data.write frame offset 0x39
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 64
+
+Tue Jan  1 00:01:53 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xDE
+ap send to cp 0x39 frame(s) data.write frame offset 0x39
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 64
+
+Tue Jan  1 00:01:55 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xE1
+ap send to cp 0x39 frame(s) data.write frame offset 0x39
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 64
+
+Tue Jan  1 00:01:56 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xE3
+ap send to cp 0x39 frame(s) data.write frame offset 0x39
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 64
+
+Tue Jan  1 00:01:57 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xE6
+ap send to cp 0x3c frame(s) data.write frame offset 0x3c
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 64
+
+Tue Jan  1 00:01:59 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xE9
+ap send to cp 0x3c frame(s) data.write frame offset 0x3c
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 64
+
+Tue Jan  1 00:02:00 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xEB
+ap send to cp 0x3c frame(s) data.write frame offset 0x3c
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 64
+
+Tue Jan  1 00:02:01 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xEE
+ap send to cp 0x3c frame(s) data.write frame offset 0x3c
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 64
+
+Tue Jan  1 00:02:03 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xF1
+ap send to cp 0x3c frame(s) data.write frame offset 0x3c
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 64
+
+Tue Jan  1 00:02:04 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xF3
+ap send to cp 0x3c frame(s) data.write frame offset 0x3c
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 64
+
+Tue Jan  1 00:02:05 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xF6
+ap send to cp 0x3f frame(s) data.write frame offset 0x3f
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 64
+
+Tue Jan  1 00:02:07 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xF9
+ap send to cp 0x3f frame(s) data.write frame offset 0x3f
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 64
+
+Tue Jan  1 00:02:08 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xFB
+ap send to cp 0x3f frame(s) data.write frame offset 0x3f
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 64
+
+Tue Jan  1 00:02:09 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xFE
+ap send to cp 0x3f frame(s) data.write frame offset 0x3f
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 64
+
+Tue Jan  1 00:02:11 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x01
+ap send to cp 0x3f frame(s) data.write frame offset 0x3f
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 64
+
+Tue Jan  1 00:02:12 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x03
+ap send to cp 0x3f frame(s) data.write frame offset 0x3f
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 64
+
+Tue Jan  1 00:02:13 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x06
+ap send to cp 0x3f frame(s) data.write frame offset 0x3f
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 64
+
+Tue Jan  1 00:02:15 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x09
+ap send to cp 0x40 frame(s) data.write frame offset 0x40
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 64
+
+Tue Jan  1 00:02:16 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x0B
+ap send to cp 0x43 frame(s) data.write frame offset 0x43
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 64
+
+Tue Jan  1 00:02:17 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x0E
+ap send to cp 0x45 frame(s) data.write frame offset 0x45
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 64
+
+Tue Jan  1 00:02:19 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x11
+ap send to cp 0x48 frame(s) data.write frame offset 0x48
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 64
+
+Tue Jan  1 00:02:20 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x13
+ap send to cp 0x48 frame(s) data.write frame offset 0x48
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 64
+
+Tue Jan  1 00:02:21 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x16
+ap send to cp 0x48 frame(s) data.write frame offset 0x48
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 64
+
+Tue Jan  1 00:02:23 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x18
+ap send to cp 0x4b frame(s) data.write frame offset 0x4b
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:02:24 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x1B
+ap send to cp 0x4b frame(s) data.write frame offset 0x4b
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:02:25 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x1E
+ap send to cp 0x4b frame(s) data.write frame offset 0x4b
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:02:27 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x20
+ap send to cp 0x4b frame(s) data.write frame offset 0x4b
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:02:28 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x23
+ap send to cp 0x4b frame(s) data.write frame offset 0x4b
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:02:29 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x26
+ap send to cp 0x4b frame(s) data.write frame offset 0x4b
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:02:31 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x28
+ap send to cp 0x4e frame(s) data.write frame offset 0x4e
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:02:32 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x2B
+ap send to cp 0x4e frame(s) data.write frame offset 0x4e
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:02:33 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x2E
+ap send to cp 0x4e frame(s) data.write frame offset 0x4e
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:02:34 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x30
+ap send to cp 0x4e frame(s) data.write frame offset 0x4e
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:02:36 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x33
+ap send to cp 0x4e frame(s) data.write frame offset 0x4e
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:02:37 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x36
+ap send to cp 0x4e frame(s) data.write frame offset 0x4e
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:02:38 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x38
+ap send to cp 0x51 frame(s) data.write frame offset 0x51
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:02:40 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x3B
+ap send to cp 0x51 frame(s) data.write frame offset 0x51
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:02:41 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x3E
+ap send to cp 0x51 frame(s) data.write frame offset 0x51
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:02:42 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x40
+ap send to cp 0x51 frame(s) data.write frame offset 0x51
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:02:44 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x43
+ap send to cp 0x51 frame(s) data.write frame offset 0x51
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:02:45 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x46
+ap send to cp 0x51 frame(s) data.write frame offset 0x51
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:02:46 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x48
+ap send to cp 0x54 frame(s) data.write frame offset 0x54
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:02:48 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x4B
+ap send to cp 0x54 frame(s) data.write frame offset 0x54
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:02:49 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x4E
+ap send to cp 0x54 frame(s) data.write frame offset 0x54
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:02:50 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x50
+ap send to cp 0x54 frame(s) data.write frame offset 0x54
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:02:52 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x53
+ap send to cp 0x54 frame(s) data.write frame offset 0x54
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:02:53 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x56
+ap send to cp 0x54 frame(s) data.write frame offset 0x54
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:02:54 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x58
+ap send to cp 0x54 frame(s) data.write frame offset 0x54
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:02:56 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x5B
+ap send to cp 0x55 frame(s) data.write frame offset 0x55
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:02:57 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x5D
+ap send to cp 0x5a frame(s) data.write frame offset 0x5a
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:02:58 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x60
+ap send to cp 0x5b frame(s) data.write frame offset 0x5b
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:03:00 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x63
+ap send to cp 0x5d frame(s) data.write frame offset 0x5d
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:03:01 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x65
+ap send to cp 0x5d frame(s) data.write frame offset 0x5d
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:03:02 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x68
+ap send to cp 0x5e frame(s) data.write frame offset 0x5e
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:03:04 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x6B
+ap send to cp 0x60 frame(s) data.write frame offset 0x60
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:03:05 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x6D
+ap send to cp 0x60 frame(s) data.write frame offset 0x60
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:03:06 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x70
+ap send to cp 0x60 frame(s) data.write frame offset 0x60
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:03:08 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x73
+ap send to cp 0x60 frame(s) data.write frame offset 0x60
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:03:09 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x75
+ap send to cp 0x60 frame(s) data.write frame offset 0x60
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:03:10 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x78
+ap send to cp 0x60 frame(s) data.write frame offset 0x60
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:03:12 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x7B
+ap send to cp 0x63 frame(s) data.write frame offset 0x63
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:03:13 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x7D
+ap send to cp 0x63 frame(s) data.write frame offset 0x63
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:03:14 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x80
+ap send to cp 0x63 frame(s) data.write frame offset 0x63
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:03:16 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x83
+ap send to cp 0x63 frame(s) data.write frame offset 0x63
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:03:17 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x85
+ap send to cp 0x63 frame(s) data.write frame offset 0x63
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:03:18 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x88
+ap send to cp 0x63 frame(s) data.write frame offset 0x63
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:03:20 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x8B
+ap send to cp 0x66 frame(s) data.write frame offset 0x66
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:03:21 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x8D
+ap send to cp 0x66 frame(s) data.write frame offset 0x66
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:03:22 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x90
+ap send to cp 0x66 frame(s) data.write frame offset 0x66
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:03:24 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x93
+ap send to cp 0x66 frame(s) data.write frame offset 0x66
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:03:25 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x95
+ap send to cp 0x66 frame(s) data.write frame offset 0x66
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:03:26 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x98
+ap send to cp 0x66 frame(s) data.write frame offset 0x66
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:03:28 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x9B
+ap send to cp 0x69 frame(s) data.write frame offset 0x69
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:03:29 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x9D
+ap send to cp 0x69 frame(s) data.write frame offset 0x69
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:03:30 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xA0
+ap send to cp 0x69 frame(s) data.write frame offset 0x69
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:03:32 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xA2
+ap send to cp 0x69 frame(s) data.write frame offset 0x69
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:03:33 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xA5
+ap send to cp 0x69 frame(s) data.write frame offset 0x69
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:03:34 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xA8
+ap send to cp 0x69 frame(s) data.write frame offset 0x69
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:03:35 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xAA
+ap send to cp 0x69 frame(s) data.write frame offset 0x69
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:03:37 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xAD
+ap send to cp 0x6a frame(s) data.write frame offset 0x6a
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:03:38 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xB0
+ap send to cp 0x6f frame(s) data.write frame offset 0x6f
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:03:39 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xB2
+ap send to cp 0x70 frame(s) data.write frame offset 0x70
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:03:41 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xB5
+ap send to cp 0x72 frame(s) data.write frame offset 0x72
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:03:42 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xB8
+ap send to cp 0x72 frame(s) data.write frame offset 0x72
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:03:43 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xBA
+ap send to cp 0x73 frame(s) data.write frame offset 0x73
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:03:45 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xBD
+ap send to cp 0x75 frame(s) data.write frame offset 0x75
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:03:46 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xC0
+ap send to cp 0x75 frame(s) data.write frame offset 0x75
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:03:47 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xC2
+ap send to cp 0x75 frame(s) data.write frame offset 0x75
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:03:49 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xC5
+ap send to cp 0x75 frame(s) data.write frame offset 0x75
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:03:50 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xC8
+ap send to cp 0x75 frame(s) data.write frame offset 0x75
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:03:51 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xCA
+ap send to cp 0x76 frame(s) data.write frame offset 0x76
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:03:53 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xCD
+ap send to cp 0x78 frame(s) data.write frame offset 0x78
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:03:54 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xD0
+ap send to cp 0x78 frame(s) data.write frame offset 0x78
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:03:55 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xD2
+ap send to cp 0x78 frame(s) data.write frame offset 0x78
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:03:57 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xD5
+ap send to cp 0x78 frame(s) data.write frame offset 0x78
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:03:58 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xD8
+ap send to cp 0x78 frame(s) data.write frame offset 0x78
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:03:59 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xDA
+ap send to cp 0x79 frame(s) data.write frame offset 0x79
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:04:01 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xDD
+ap send to cp 0x7b frame(s) data.write frame offset 0x7b
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:04:02 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xE0
+ap send to cp 0x7b frame(s) data.write frame offset 0x7b
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:04:03 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xE2
+ap send to cp 0x7b frame(s) data.write frame offset 0x7b
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:04:05 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xE5
+ap send to cp 0x7b frame(s) data.write frame offset 0x7b
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:04:06 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xE7
+ap send to cp 0x7b frame(s) data.write frame offset 0x7b
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:04:07 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xEA
+ap send to cp 0x7c frame(s) data.write frame offset 0x7c
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:04:09 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xED
+ap send to cp 0x7e frame(s) data.write frame offset 0x7e
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:04:10 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xEF
+ap send to cp 0x7e frame(s) data.write frame offset 0x7e
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:04:11 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xF2
+ap send to cp 0x7e frame(s) data.write frame offset 0x7e
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:04:13 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xF5
+ap send to cp 0x7e frame(s) data.write frame offset 0x7e
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:04:14 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xF7
+ap send to cp 0x7e frame(s) data.write frame offset 0x7e
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:04:15 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xFA
+ap send to cp 0x7e frame(s) data.write frame offset 0x7e
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:04:17 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xFD
+ap send to cp 0x7e frame(s) data.write frame offset 0x7e
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:04:18 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0xFF
+ap send to cp 0x7f frame(s) data.write frame offset 0x7f
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:04:19 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x02
+ap send to cp 0x84 frame(s) data.write frame offset 0x84
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:04:21 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x05
+ap send to cp 0x85 frame(s) data.write frame offset 0x85
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 65
+
+Tue Jan  1 00:04:22 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x07
+ap send to cp 0x87 frame(s) data.write frame offset 0x87
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 66
+
+Tue Jan  1 00:04:23 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x0A
+ap send to cp 0x87 frame(s) data.write frame offset 0x87
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 66
+
+Tue Jan  1 00:04:25 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x0C
+ap send to cp 0x88 frame(s) data.write frame offset 0x88
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 66
+
+Tue Jan  1 00:04:26 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x0F
+ap send to cp 0x8a frame(s) data.write frame offset 0x8a
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 66
+
+Tue Jan  1 00:04:27 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x12
+ap send to cp 0x8a frame(s) data.write frame offset 0x8a
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 66
+
+Tue Jan  1 00:04:29 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x15
+ap send to cp 0x8a frame(s) data.write frame offset 0x8a
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 66
+
+Tue Jan  1 00:04:30 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x17
+ap send to cp 0x8a frame(s) data.write frame offset 0x8a
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 66
+
+Tue Jan  1 00:04:31 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x1A
+ap send to cp 0x8a frame(s) data.write frame offset 0x8a
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 66
+
+Tue Jan  1 00:04:33 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x1D
+ap send to cp 0x8b frame(s) data.write frame offset 0x8b
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 66
+
+Tue Jan  1 00:04:34 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x1F
+ap send to cp 0x8d frame(s) data.write frame offset 0x8d
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 66
+
+Tue Jan  1 00:04:35 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x22
+ap send to cp 0x8d frame(s) data.write frame offset 0x8d
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 66
+
+Tue Jan  1 00:04:37 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x24
+ap send to cp 0x8d frame(s) data.write frame offset 0x8d
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 66
+
+Tue Jan  1 00:04:38 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x27
+ap send to cp 0x8d frame(s) data.write frame offset 0x8d
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 66
+
+Tue Jan  1 00:04:39 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
+not work state, run as cp gnd mode, seq 0x2A
+ap send to cp 0x8d frame(s) data.write frame offset 0x8d
+cp send to ap 0x0 frame(s) data.write frame offset 0x0
+cp notbusy=1 receive 0x0 frame(s) data.read frame offset 0x0
+ap notbusy=1 recive 0x0 frame(s) data.read frame offset 0x0
+root      158   1     16896  4384  ffffffff b6d5fed4 S /system/bin/sdrs
+root      166   1     34420  9692  ffffffff b6ca4958 S /system/bin/sdrs_log
+LC1860 thermal temp is 66
+
+Tue Jan  1 00:04:41 GMT 1980
+root      208   1     123508 6216  ffffffff b6d3cf5c S /system/bin/dji_hdvt_gnd
+root      211   1     36916  6804  ffffffff b6d32f5c S /system/bin/dji_sys
