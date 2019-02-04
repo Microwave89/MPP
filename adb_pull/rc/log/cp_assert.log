@@ -1,0 +1,552 @@
+[1980/00/01 0:0:7] [0x0] state=0, reset phy
+[1980/00/01 0:0:7] [0x0]========= machine=1, state=0, runtime=155 =========
+[1980/00/01 0:0:7] [0x0] state=0, [0] reset mac to idle
+[1980/00/01 0:0:8] [0x12338] state=0, recv shakehand req
+[1980/00/01 0:0:8] [0x12352] state from 0 to connect
+[1980/00/01 0:0:5] [0x0] state=0, reset phy
+[1980/00/01 0:0:5] [0x0]========= machine=1, state=0, runtime=156 =========
+[1980/00/01 0:0:5] [0x0] state=0, [0] reset mac to idle
+[1980/00/01 0:0:7] [0x11742] state=0, recv shakehand req
+[1980/00/01 0:0:7] [0x1175e] state from 0 to connect
+[1980/00/01 0:0:7] [0x0] state=0, reset phy
+[1980/00/01 0:0:7] [0x0]========= machine=1, state=0, runtime=157 =========
+[1980/00/01 0:0:7] [0x0] state=0, [0] reset mac to idle
+[1980/00/01 0:0:8] [0x3003df] state from 0 to connect
+[2018/09/08 14:42:31] [0x3b049b] state=2, to amt
+[2018/09/08 14:42:31] [0x3b049b] state=6, reset phy
+[2018/09/08 14:42:35] [0x0] state=0, reset phy
+[2018/09/08 14:42:35] [0x0]========= machine=0, state=0, runtime=158 =========
+[2018/09/08 14:42:35] [0x0] state=0, [0] reset mac to idle
+[2018/09/08 14:42:38] [0xf2f] state=0, start shakehand[0]
+[2018/09/08 14:42:38] [0xf53] state=0, recv shakehand req
+[2018/09/08 14:42:38] [0xfa7] state=2, idle to connect[0]
+[2018/09/08 14:42:38] [0xfb1] state=2, recv shakehand req
+[2018/09/08 14:42:38] [0xfb1] FACTORY_MODE_REQ, mode=0
+[2018/09/08 14:42:38] [0xfb7] state=2, recv shakehand req
+[2018/09/08 14:42:38] [0xfb7] FACTORY_MODE_REQ, mode=0
+[2018/09/08 14:42:48] [0x10e11] state=2, to amt
+[2018/09/08 14:42:48] [0x10e11] state=6, reset phy
+[2018/09/08 14:42:51] [0x0] state=0, reset phy
+[2018/09/08 14:42:51] [0x0]========= machine=1, state=0, runtime=159 =========
+[2018/09/08 14:42:51] [0x0] state=0, [0] reset mac to idle
+[2018/09/08 14:42:56] [0x686] state=0, recv shakehand req
+[2018/09/08 14:42:56] [0x6a6] state from 0 to connect
+[2018/09/08 14:53:26] [0x3d1d98] state=2, to amt
+[2018/09/08 14:53:26] [0x3d1d98] state=6, reset phy
+[2018/09/08 14:53:31] [0x0] state=0, reset phy
+[2018/09/08 14:53:31] [0x0]========= machine=0, state=0, runtime=160 =========
+[2018/09/08 14:53:31] [0x0] state=0, [0] reset mac to idle
+[2018/09/08 14:53:32] [0x288] state=0, to amt
+[2018/09/08 14:53:32] [0x288] state=6, reset phy
+[2018/09/08 14:53:34] [0x0] state=0, reset phy
+[2018/09/08 14:53:34] [0x0]========= machine=1, state=0, runtime=161 =========
+[2018/09/08 14:53:34] [0x0] state=0, [0] reset mac to idle
+[1980/00/01 0:0:6] [0x0] state=0, reset phy
+[1980/00/01 0:0:6] [0x0]========= machine=1, state=0, runtime=162 =========
+[1980/00/01 0:0:6] [0x0] state=0, [0] reset mac to idle
+[1980/00/01 0:0:7] [0x101db] state=0, recv shakehand req
+[1980/00/01 0:0:7] [0x101f6] state from 0 to connect
+[2018/09/08 15:6:11] [0x3d123a] state=3, connect to out_of_sync
+[2018/09/08 15:6:11] [0x3d123a] state=3, [1] reset mac to idle
+[1980/00/01 0:0:5] [0x0] state=0, reset phy
+[1980/00/01 0:0:5] [0x0]========= machine=1, state=0, runtime=163 =========
+[1980/00/01 0:0:5] [0x0] state=0, [0] reset mac to idle
+[1980/00/01 0:0:7] [0x106f8] state=0, recv shakehand req
+[1980/00/01 0:0:8] [0x1071a] state from 0 to connect
+[2018/09/08 15:37:29] [0x76046c] state=3, connect to out_of_sync
+[2018/09/08 15:37:29] [0x76046c] state=3, [1] reset mac to idle
+[1980/00/01 0:0:5] [0x0] state=0, reset phy
+[1980/00/01 0:0:5] [0x0]========= machine=1, state=0, runtime=164 =========
+[1980/00/01 0:0:5] [0x0] state=0, [0] reset mac to idle
+[2018/09/10 12:50:27] [0xca6] state=0, recv shakehand req
+[2018/09/10 12:50:27] [0xcc7] state from 0 to connect
+[2018/09/10 13:6:2] [0x5b1e2e] state=3, connect to out_of_sync
+[2018/09/10 13:6:2] [0x5b1e2e] state=3, [1] reset mac to idle
+[2018/09/10 13:6:50] [0x56d] state=3, recv shakehand req
+[2018/09/10 13:6:50] [0x583] state from 3 to connect
+[2018/09/10 13:15:43] [0x3403f8] state=3, connect to out_of_sync
+[2018/09/10 13:15:43] [0x3403f8] state=3, [1] reset mac to idle
+[2018/09/10 13:15:50] [0x342016] state from 3 to connect
+[2018/09/10 13:16:15] [0x370718] state=3, connect to out_of_sync
+[2018/09/10 13:16:15] [0x370718] state=3, [1] reset mac to idle
+[2018/09/10 13:16:23] [0x3722e6] state from 3 to connect
+[2018/09/10 13:26:6] [0x7021a8] state=3, connect to out_of_sync
+[2018/09/10 13:26:6] [0x7021a8] state=3, [1] reset mac to idle
+[2018/09/10 13:26:32] [0x5d2] state=3, recv shakehand req
+[2018/09/10 13:26:32] [0x634] state from 3 to connect
+[2018/09/10 13:34:54] [0x3105cc] state=2, to amt
+[2018/09/10 13:34:54] [0x3105cc] state=6, reset phy
+[2018/09/10 13:34:57] [0x0] state=0, reset phy
+[2018/09/10 13:34:57] [0x0]========= machine=0, state=0, runtime=165 =========
+[2018/09/10 13:34:57] [0x0] state=0, [0] reset mac to idle
+[2018/09/10 13:35:0] [0xcfb] state=0, start shakehand[0]
+[2018/09/10 13:35:0] [0xd1d] state=0, recv shakehand req
+[2018/09/10 13:35:0] [0xd73] state=2, idle to connect[0]
+[2018/09/10 13:35:0] [0xd81] state=2, recv shakehand req
+[2018/09/10 13:35:0] [0xd81] FACTORY_MODE_REQ, mode=0
+[2018/09/10 13:35:0] [0xd87] state=2, recv shakehand req
+[2018/09/10 13:35:0] [0xd87] FACTORY_MODE_REQ, mode=0
+[2018/09/10 13:38:4] [0x120aa7] state=2, to amt
+[2018/09/10 13:38:4] [0x120aa7] state=6, reset phy
+[2018/09/10 13:38:7] [0x0] state=0, reset phy
+[2018/09/10 13:38:7] [0x0]========= machine=1, state=0, runtime=166 =========
+[2018/09/10 13:38:7] [0x0] state=0, [0] reset mac to idle
+[2018/09/10 13:38:12] [0x9a6] state=0, recv shakehand req
+[2018/09/10 13:38:12] [0x9c6] state from 0 to connect
+[2018/09/10 13:43:40] [0x200e58] state=3, connect to out_of_sync
+[2018/09/10 13:43:40] [0x200e58] state=3, [1] reset mac to idle
+[2018/09/10 13:43:48] [0x599] state=3, recv shakehand req
+[2018/09/10 13:43:48] [0x5b3] state from 3 to connect
+[2018/09/10 13:43:59] [0x0] state=0, reset phy
+[2018/09/10 13:43:59] [0x0]========= machine=1, state=0, runtime=167 =========
+[2018/09/10 13:43:59] [0x0] state=0, [0] reset mac to idle
+[2018/09/10 13:44:0] [0x10d17] state from 0 to connect
+[2018/09/10 13:46:19] [0xe25fe] state=3, connect to out_of_sync
+[2018/09/10 13:46:19] [0xe25fe] state=3, [1] reset mac to idle
+[1980/00/01 0:0:6] [0x0] state=0, reset phy
+[1980/00/01 0:0:6] [0x0]========= machine=1, state=0, runtime=168 =========
+[1980/00/01 0:0:6] [0x0] state=0, [0] reset mac to idle
+[2018/09/10 19:3:10] [0x7de] state=0, recv shakehand req
+[2018/09/10 19:3:10] [0x842] state=0, recv shakehand req
+[2018/09/10 19:3:10] [0x85e] state from 0 to connect
+[2018/09/10 19:4:6] [0x51b8c] state=3, connect to out_of_sync
+[2018/09/10 19:4:6] [0x51b8c] state=3, [1] reset mac to idle
+[2018/09/10 19:4:26] [0x663] state=3, recv shakehand req
+[2018/09/10 19:4:26] [0x6c0] state from 3 to connect
+[2018/09/10 19:23:28] [0x6f1b50] state=3, connect to out_of_sync
+[2018/09/10 19:23:28] [0x6f1b50] state=3, [1] reset mac to idle
+[1980/00/01 0:0:23] [0x0] state=0, reset phy
+[1980/00/01 0:0:23] [0x0]========= machine=1, state=0, runtime=169 =========
+[1980/00/01 0:0:23] [0x0] state=0, [0] reset mac to idle
+[1980/00/01 0:3:27] [0x92f] state=0, recv shakehand req
+[1980/00/01 0:3:27] [0x943] state from 0 to connect
+[2018/09/15 18:30:38] [0x95107e] state=3, connect to out_of_sync
+[2018/09/15 18:30:38] [0x95107e] state=3, [1] reset mac to idle
+[1980/00/01 0:0:6] [0x0] state=0, reset phy
+[1980/00/01 0:0:6] [0x0]========= machine=1, state=0, runtime=170 =========
+[1980/00/01 0:0:7] [0x0] state=0, [0] reset mac to idle
+[2018/09/17 0:8:6] [0x576] state=0, recv shakehand req
+[2018/09/17 0:8:6] [0x58e] state from 0 to connect
+[1980/00/01 0:0:6] [0x0] state=0, reset phy
+[1980/00/01 0:0:7] [0x0]========= machine=1, state=0, runtime=171 =========
+[1980/00/01 0:0:7] [0x0] state=0, [0] reset mac to idle
+[2018/09/17 18:5:28] [0x9aa] state=0, recv shakehand req
+[2018/09/17 18:5:28] [0x9cc] state from 0 to connect
+[2018/09/17 18:23:36] [0x6a1344] state=3, connect to out_of_sync
+[2018/09/17 18:23:36] [0x6a1344] state=3, [1] reset mac to idle
+[2018/09/17 18:29:30] [0x9d0] state=3, recv shakehand req
+[2018/09/17 18:29:30] [0x9ee] state from 3 to connect
+[2018/09/17 18:53:44] [0x8e0ae8] state=3, connect to out_of_sync
+[2018/09/17 18:53:44] [0x8e0ae8] state=3, [1] reset mac to idle
+[1980/00/01 0:0:6] [0x0] state=0, reset phy
+[1980/00/01 0:0:6] [0x0]========= machine=1, state=0, runtime=172 =========
+[1980/00/01 0:0:6] [0x0] state=0, [0] reset mac to idle
+[2018/09/20 14:58:31] [0x7de] state=0, recv shakehand req
+[2018/09/20 14:58:31] [0x842] state=0, recv shakehand req
+[2018/09/20 14:58:31] [0x865] state from 0 to connect
+[2018/09/20 15:23:32] [0x921c8a] state=3, connect to out_of_sync
+[2018/09/20 15:23:32] [0x921c8a] state=3, [1] reset mac to idle
+[1980/00/01 0:0:5] [0x0] state=0, reset phy
+[1980/00/01 0:0:5] [0x0]========= machine=1, state=0, runtime=173 =========
+[1980/00/01 0:0:6] [0x0] state=0, [0] reset mac to idle
+[1980/00/01 0:0:6] [0x0] state=0, reset phy
+[1980/00/01 0:0:7] [0x0]========= machine=1, state=0, runtime=174 =========
+[1980/00/01 0:0:7] [0x0] state=0, [0] reset mac to idle
+[2018/09/20 16:16:31] [0xbf8] state=0, recv shakehand req
+[2018/09/20 16:16:31] [0xc1a] state from 0 to connect
+[2018/09/20 16:30:52] [0x54121c] state=3, connect to out_of_sync
+[2018/09/20 16:30:52] [0x54121c] state=3, [1] reset mac to idle
+[1980/00/01 0:0:10] [0x0] state=0, reset phy
+[1980/00/01 0:0:10] [0x0]========= machine=1, state=0, runtime=175 =========
+[1980/00/01 0:0:10] [0x0] state=0, [0] reset mac to idle
+[2018/09/20 16:38:32] [0x9da] state=0, recv shakehand req
+[2018/09/20 16:38:32] [0x9ee] state from 0 to connect
+[2018/09/20 16:46:18] [0x2d1b90] state=3, connect to out_of_sync
+[2018/09/20 16:46:18] [0x2d1b90] state=3, [1] reset mac to idle
+[2018/09/20 16:46:41] [0xbf8] state=3, recv shakehand req
+[2018/09/20 16:46:41] [0xc4c] state from 3 to connect
+[2018/09/20 16:47:20] [0x403a4] state=3, connect to out_of_sync
+[2018/09/20 16:47:20] [0x403a4] state=3, [1] reset mac to idle
+[2018/09/20 16:47:46] [0x7c5] state=3, recv shakehand req
+[2018/09/20 16:47:46] [0x828] state from 3 to connect
+[2018/09/20 16:48:41] [0x51722] state=3, connect to out_of_sync
+[2018/09/20 16:48:41] [0x51722] state=3, [1] reset mac to idle
+[2018/09/20 16:49:4] [0xa94] state=3, recv shakehand req
+[2018/09/20 16:49:4] [0xaf2] state from 3 to connect
+[2018/09/20 16:53:14] [0x181b5a] state=3, connect to out_of_sync
+[2018/09/20 16:53:14] [0x181b5a] state=3, [1] reset mac to idle
+[2018/09/20 16:53:39] [0x5ba] state=3, recv shakehand req
+[2018/09/20 16:53:39] [0x60c] state from 3 to connect
+[2018/09/20 17:11:8] [0x661a06] state=3, connect to out_of_sync
+[2018/09/20 17:11:8] [0x661a06] state=3, [1] reset mac to idle
+[2018/09/20 17:12:10] [0x60d] state=3, recv shakehand req
+[2018/09/20 17:12:10] [0x623] state from 3 to connect
+[2018/09/20 17:15:51] [0x151e34] state=3, connect to out_of_sync
+[2018/09/20 17:15:51] [0x151e34] state=3, [1] reset mac to idle
+[2018/09/20 17:16:18] [0x87b] state=3, recv shakehand req
+[2018/09/20 17:16:18] [0x88f] state from 3 to connect
+[2018/09/20 17:16:51] [0x31294] state=3, connect to out_of_sync
+[2018/09/20 17:16:51] [0x31294] state=3, [1] reset mac to idle
+[2018/09/20 17:17:15] [0x640] state=3, recv shakehand req
+[2018/09/20 17:17:15] [0x6a6] state from 3 to connect
+[2018/09/20 17:19:56] [0xf246a] state=3, connect to out_of_sync
+[2018/09/20 17:19:56] [0xf246a] state=3, [1] reset mac to idle
+[2018/09/20 17:20:22] [0x658] state=3, recv shakehand req
+[2018/09/20 17:20:23] [0x6ac] state from 3 to connect
+[2018/09/20 17:22:11] [0xa1d2a] state=3, connect to out_of_sync
+[2018/09/20 17:22:11] [0xa1d2a] state=3, [1] reset mac to idle
+[2018/09/20 17:23:35] [0x760] state=3, recv shakehand req
+[2018/09/20 17:23:35] [0x777] state from 3 to connect
+[2018/09/20 17:29:26] [0x221182] state=3, connect to out_of_sync
+[2018/09/20 17:29:26] [0x221182] state=3, [1] reset mac to idle
+[2018/09/20 17:29:50] [0x5be] state=3, recv shakehand req
+[2018/09/20 17:29:50] [0x5d3] state from 3 to connect
+[2018/09/20 17:32:7] [0xd161e] state=3, connect to out_of_sync
+[2018/09/20 17:32:7] [0xd161e] state=3, [1] reset mac to idle
+[2018/09/20 17:32:27] [0x90c] state=3, recv shakehand req
+[2018/09/20 17:32:27] [0x923] state from 3 to connect
+[2018/09/20 17:35:33] [0x12115e] state=3, connect to out_of_sync
+[2018/09/20 17:35:33] [0x12115e] state=3, [1] reset mac to idle
+[1980/00/01 0:0:8] [0x0] state=0, reset phy
+[1980/00/01 0:0:8] [0x0]========= machine=1, state=0, runtime=176 =========
+[1980/00/01 0:0:8] [0x0] state=0, [0] reset mac to idle
+[2018/09/20 19:54:42] [0x59e] state=0, recv shakehand req
+[2018/09/20 19:54:42] [0x5b8] state from 0 to connect
+[2018/09/20 19:58:2] [0x131c68] state=3, connect to out_of_sync
+[2018/09/20 19:58:2] [0x131c68] state=3, [1] reset mac to idle
+[2018/09/20 19:58:45] [0x596] state=3, recv shakehand req
+[2018/09/20 19:58:45] [0x5bc] state from 3 to connect
+[2018/09/20 20:0:6] [0x801fa] state=3, connect to out_of_sync
+[2018/09/20 20:0:6] [0x801fa] state=3, [1] reset mac to idle
+[2018/09/20 20:0:23] [0x621] state=3, recv shakehand req
+[2018/09/20 20:0:23] [0x684] state from 3 to connect
+[2018/09/20 20:0:54] [0x30836] state=3, connect to out_of_sync
+[2018/09/20 20:0:54] [0x30836] state=3, [1] reset mac to idle
+[2018/09/20 20:1:27] [0xaa5] state=3, recv shakehand req
+[2018/09/20 20:1:27] [0xb0c] state from 3 to connect
+[2018/09/20 20:2:38] [0x70ade] state=3, connect to out_of_sync
+[2018/09/20 20:2:38] [0x70ade] state=3, [1] reset mac to idle
+[1980/00/01 0:0:5] [0x0] state=0, reset phy
+[1980/00/01 0:0:6] [0x0]========= machine=1, state=0, runtime=177 =========
+[1980/00/01 0:0:6] [0x0] state=0, [0] reset mac to idle
+[2018/09/23 18:3:28] [0x7de] state=0, recv shakehand req
+[2018/09/23 18:3:28] [0x842] state=0, recv shakehand req
+[2018/09/23 18:3:28] [0x860] state from 0 to connect
+[1980/00/01 0:0:7] [0x0] state=0, reset phy
+[1980/00/01 0:0:7] [0x0]========= machine=1, state=0, runtime=178 =========
+[1980/00/01 0:0:7] [0x0] state=0, [0] reset mac to idle
+[1980/00/01 0:0:9] [0x53117a] state from 0 to connect
+[2018/09/23 18:24:48] [0x7d09f8] state=3, connect to out_of_sync
+[2018/09/23 18:24:48] [0x7d09f8] state=3, [1] reset mac to idle
+[2018/09/23 18:25:12] [0x7f185c] state from 3 to connect
+[2018/09/23 18:27:16] [0x8b1d26] state=3, connect to out_of_sync
+[2018/09/23 18:27:16] [0x8b1d26] state=3, [1] reset mac to idle
+[1980/00/01 0:0:7] [0x0] state=0, reset phy
+[1980/00/01 0:0:7] [0x0]========= machine=1, state=0, runtime=179 =========
+[1980/00/01 0:0:7] [0x0] state=0, [0] reset mac to idle
+[1980/00/01 0:0:9] [0x2196d] state=0, recv shakehand req
+[1980/00/01 0:0:9] [0x21983] state from 0 to connect
+[1980/00/01 0:9:54] [0x3b1d08] state=3, connect to out_of_sync
+[1980/00/01 0:9:54] [0x3b1d08] state=3, [1] reset mac to idle
+[1980/00/01 0:11:8] [0xc35] state=3, recv shakehand req
+[1980/00/01 0:11:8] [0xc82] state from 3 to connect
+[1980/00/01 0:21:6] [0x3a1ab0] state=3, connect to out_of_sync
+[1980/00/01 0:21:6] [0x3a1ab0] state=3, [1] reset mac to idle
+[1980/00/01 0:0:6] [0x0] state=0, reset phy
+[1980/00/01 0:0:6] [0x0]========= machine=1, state=0, runtime=180 =========
+[1980/00/01 0:0:6] [0x0] state=0, [0] reset mac to idle
+[1980/00/01 0:0:36] [0x5bd] state=0, recv shakehand req
+[1980/00/01 0:0:36] [0x5de] state from 0 to connect
+[2018/11/14 9:15:11] [0x931f78] state=3, connect to out_of_sync
+[2018/11/14 9:15:11] [0x931f78] state=3, [1] reset mac to idle
+[1980/00/01 0:0:6] [0x0] state=0, reset phy
+[1980/00/01 0:0:6] [0x0]========= machine=1, state=0, runtime=181 =========
+[1980/00/01 0:0:6] [0x0] state=0, [0] reset mac to idle
+[2018/11/16 10:39:32] [0x4aa] state=0, recv shakehand req
+[2018/11/16 10:39:32] [0x4ca] state from 0 to connect
+[2018/11/16 10:59:24] [0x7414a6] state=3, connect to out_of_sync
+[2018/11/16 10:59:24] [0x7414a6] state=3, [1] reset mac to idle
+[1980/00/01 0:0:7] [0x0] state=0, reset phy
+[1980/00/01 0:0:7] [0x0]========= machine=1, state=0, runtime=182 =========
+[1980/00/01 0:0:7] [0x0] state=0, [0] reset mac to idle
+[1980/00/01 0:0:15] [0x4f6] state=0, recv shakehand req
+[1980/00/01 0:0:15] [0x516] state from 0 to connect
+[1980/00/01 0:1:4] [0x423b6] state=3, connect to out_of_sync
+[1980/00/01 0:1:4] [0x423b6] state=3, [1] reset mac to idle
+[1980/00/01 0:0:7] [0x0] state=0, reset phy
+[1980/00/01 0:0:7] [0x0]========= machine=1, state=0, runtime=183 =========
+[1980/00/01 0:0:7] [0x0] state=0, [0] reset mac to idle
+[2018/11/19 8:46:24] [0x682] state=0, recv shakehand req
+[2018/11/19 8:46:24] [0x6a3] state from 0 to connect
+[2018/11/19 9:9:17] [0x86085e] state=3, connect to out_of_sync
+[2018/11/19 9:9:17] [0x86085e] state=3, [1] reset mac to idle
+[1980/00/01 0:0:6] [0x0] state=0, reset phy
+[1980/00/01 0:0:6] [0x0]========= machine=1, state=0, runtime=184 =========
+[1980/00/01 0:0:7] [0x0] state=0, [0] reset mac to idle
+[1980/00/01 0:0:35] [0x4a6] state=0, recv shakehand req
+[1980/00/01 0:0:35] [0x4c6] state from 0 to connect
+[2018/11/20 13:36:29] [0x891cda] state=3, connect to out_of_sync
+[2018/11/20 13:36:29] [0x891cda] state=3, [1] reset mac to idle
+[1980/00/01 0:0:6] [0x0] state=0, reset phy
+[1980/00/01 0:0:6] [0x0]========= machine=1, state=0, runtime=185 =========
+[1980/00/01 0:0:6] [0x0] state=0, [0] reset mac to idle
+[2018/11/20 14:30:20] [0x432] state=0, recv shakehand req
+[2018/11/20 14:30:20] [0x44e] state from 0 to connect
+[2018/11/20 14:55:18] [0x920ee4] state=3, connect to out_of_sync
+[2018/11/20 14:55:18] [0x920ee4] state=3, [1] reset mac to idle
+[1980/00/01 0:0:7] [0x0] state=0, reset phy
+[1980/00/01 0:0:7] [0x0]========= machine=1, state=0, runtime=186 =========
+[1980/00/01 0:0:7] [0x0] state=0, [0] reset mac to idle
+[2018/11/20 15:35:43] [0x47b] state=0, recv shakehand req
+[2018/11/20 15:35:43] [0x490] state from 0 to connect
+[2018/11/20 16:0:30] [0x910e0c] state=3, connect to out_of_sync
+[2018/11/20 16:0:30] [0x910e0c] state=3, [1] reset mac to idle
+[1980/00/01 0:0:7] [0x0] state=0, reset phy
+[1980/00/01 0:0:7] [0x0]========= machine=1, state=0, runtime=187 =========
+[1980/00/01 0:0:7] [0x0] state=0, [0] reset mac to idle
+[1980/00/01 0:0:7] [0x0] state=0, reset phy
+[1980/00/01 0:0:7] [0x0]========= machine=1, state=0, runtime=188 =========
+[1980/00/01 0:0:7] [0x0] state=0, [0] reset mac to idle
+[1980/00/01 0:0:24] [0x6db] state=0, recv shakehand req
+[1980/00/01 0:0:24] [0x6f6] state from 0 to connect
+[1980/00/01 0:0:7] [0x0] state=0, reset phy
+[1980/00/01 0:0:7] [0x0]========= machine=1, state=0, runtime=189 =========
+[1980/00/01 0:0:7] [0x0] state=0, [0] reset mac to idle
+[1980/00/01 0:0:9] [0x110f56] state from 0 to connect
+[2018/11/22 12:3:39] [0x510fb0] state=3, connect to out_of_sync
+[2018/11/22 12:3:39] [0x510fb0] state=3, [1] reset mac to idle
+[1980/00/01 0:0:7] [0x0] state=0, reset phy
+[1980/00/01 0:0:7] [0x0]========= machine=1, state=0, runtime=190 =========
+[1980/00/01 0:0:7] [0x0] state=0, [0] reset mac to idle
+[2018/11/22 18:40:56] [0x6dc] state=0, recv shakehand req
+[2018/11/22 18:40:56] [0x6f6] state from 0 to connect
+[2018/11/22 18:48:31] [0x2c1966] state=3, connect to out_of_sync
+[2018/11/22 18:48:31] [0x2c1966] state=3, [1] reset mac to idle
+[1980/00/01 0:0:5] [0x0] state=0, reset phy
+[1980/00/01 0:0:5] [0x0]========= machine=1, state=0, runtime=191 =========
+[1980/00/01 0:0:5] [0x0] state=0, [0] reset mac to idle
+[1980/00/01 0:0:7] [0x0] state=0, reset phy
+[1980/00/01 0:0:7] [0x0]========= machine=1, state=0, runtime=192 =========
+[1980/00/01 0:0:7] [0x0] state=0, [0] reset mac to idle
+[2018/11/22 22:5:28] [0x633] state=0, recv shakehand req
+[2018/11/22 22:5:28] [0x653] state from 0 to connect
+[2018/11/22 22:26:31] [0x7b14ba] state=3, connect to out_of_sync
+[2018/11/22 22:26:31] [0x7b14ba] state=3, [1] reset mac to idle
+[1980/00/01 0:0:11] [0x0] state=0, reset phy
+[1980/00/01 0:0:11] [0x0]========= machine=1, state=0, runtime=193 =========
+[1980/00/01 0:0:11] [0x0] state=0, [0] reset mac to idle
+[2018/11/23 7:43:43] [0x687] state=0, recv shakehand req
+[2018/11/23 7:43:43] [0x69b] state from 0 to connect
+[2018/11/23 7:52:59] [0x361556] state=3, connect to out_of_sync
+[2018/11/23 7:52:59] [0x361556] state=3, [1] reset mac to idle
+[1980/00/01 0:0:27] [0x0] state=0, reset phy
+[1980/00/01 0:0:27] [0x0]========= machine=1, state=0, runtime=194 =========
+[1980/00/01 0:0:27] [0x0] state=0, [0] reset mac to idle
+[2018/11/23 8:46:11] [0x8c9] state=0, recv shakehand req
+[2018/11/23 8:46:11] [0x8df] state from 0 to connect
+[2018/11/23 8:47:34] [0x80c96] state=3, connect to out_of_sync
+[2018/11/23 8:47:34] [0x80c96] state=3, [1] reset mac to idle
+[2018/11/23 8:50:48] [0x87a] state=3, recv shakehand req
+[2018/11/23 8:50:48] [0x88f] state from 3 to connect
+[2018/11/23 8:51:46] [0x5212c] state=3, connect to out_of_sync
+[2018/11/23 8:51:46] [0x5212c] state=3, [1] reset mac to idle
+[2018/11/23 8:52:41] [0xd6b] state=3, recv shakehand req
+[2018/11/23 8:52:41] [0xdc8] state from 3 to connect
+[2018/11/23 8:55:18] [0xf1a42] state=3, connect to out_of_sync
+[2018/11/23 8:55:18] [0xf1a42] state=3, [1] reset mac to idle
+[1980/00/01 0:0:6] [0x0] state=0, reset phy
+[1980/00/01 0:0:6] [0x0]========= machine=1, state=0, runtime=195 =========
+[1980/00/01 0:0:6] [0x0] state=0, [0] reset mac to idle
+[2018/11/23 10:22:2] [0x5c1] state=0, recv shakehand req
+[2018/11/23 10:22:2] [0x5de] state from 0 to connect
+[2018/11/23 10:44:8] [0x811b4a] state=3, connect to out_of_sync
+[2018/11/23 10:44:8] [0x811b4a] state=3, [1] reset mac to idle
+[1980/00/01 0:0:7] [0x0] state=0, reset phy
+[1980/00/01 0:0:7] [0x0]========= machine=1, state=0, runtime=196 =========
+[1980/00/01 0:0:7] [0x0] state=0, [0] reset mac to idle
+[2018/11/23 10:47:56] [0x729] state=0, recv shakehand req
+[2018/11/23 10:47:56] [0x746] state from 0 to connect
+[2018/11/23 10:48:38] [0x40c64] state=3, connect to out_of_sync
+[2018/11/23 10:48:38] [0x40c64] state=3, [1] reset mac to idle
+[2018/11/23 10:49:1] [0x496] state=3, recv shakehand req
+[2018/11/23 10:49:1] [0x4ae] state from 3 to connect
+[2018/11/23 10:56:43] [0x2d0998] state=3, connect to out_of_sync
+[2018/11/23 10:56:43] [0x2d0998] state=3, [1] reset mac to idle
+[2018/11/23 11:11:19] [0xa44] state=3, recv shakehand req
+[2018/11/23 11:11:19] [0xa66] state from 3 to connect
+[2018/11/23 11:20:21] [0x35070a] state=3, connect to out_of_sync
+[2018/11/23 11:20:21] [0x35070a] state=3, [1] reset mac to idle
+[1980/00/01 0:0:6] [0x0] state=0, reset phy
+[1980/00/01 0:0:6] [0x0]========= machine=1, state=0, runtime=197 =========
+[1980/00/01 0:0:6] [0x0] state=0, [0] reset mac to idle
+[1980/00/01 0:0:8] [0x50071] state=0, recv shakehand req
+[1980/00/01 0:0:8] [0x5008e] state from 0 to connect
+[2018/11/23 17:59:45] [0x5e258c] state=3, connect to out_of_sync
+[2018/11/23 17:59:45] [0x5e258c] state=3, [1] reset mac to idle
+[1980/00/01 0:0:7] [0x0] state=0, reset phy
+[1980/00/01 0:0:7] [0x0]========= machine=1, state=0, runtime=198 =========
+[1980/00/01 0:0:7] [0x0] state=0, [0] reset mac to idle
+[2018/11/24 9:59:57] [0x42b] state=0, recv shakehand req
+[2018/11/24 9:59:57] [0x472] state=0, recv shakehand req
+[2018/11/24 9:59:57] [0x4d6] state=0, recv shakehand req
+[2018/11/24 9:59:57] [0x4f7] state from 0 to connect
+[2018/11/24 10:1:0] [0x609ee] state=3, connect to out_of_sync
+[2018/11/24 10:1:0] [0x609ee] state=3, [1] reset mac to idle
+[1980/00/01 0:0:7] [0x0] state=0, reset phy
+[1980/00/01 0:0:7] [0x0]========= machine=1, state=0, runtime=199 =========
+[1980/00/01 0:0:7] [0x0] state=0, [0] reset mac to idle
+[2018/11/24 19:1:22] [0x5cd] state=0, recv shakehand req
+[2018/11/24 19:1:22] [0x5ee] state from 0 to connect
+[2018/11/24 19:25:40] [0x8e1524] state=3, connect to out_of_sync
+[2018/11/24 19:25:40] [0x8e1524] state=3, [1] reset mac to idle
+[1980/00/01 0:0:6] [0x0] state=0, reset phy
+[1980/00/01 0:0:6] [0x0]========= machine=1, state=0, runtime=200 =========
+[1980/00/01 0:0:6] [0x0] state=0, [0] reset mac to idle
+[2018/11/25 12:56:40] [0x40e] state=0, recv shakehand req
+[2018/11/25 12:56:40] [0x472] state=0, recv shakehand req
+[2018/11/25 12:56:40] [0x4d6] state=0, recv shakehand req
+[2018/11/25 12:56:40] [0x4f7] state from 0 to connect
+[2018/11/25 13:16:33] [0x7417d6] state=3, connect to out_of_sync
+[2018/11/25 13:16:33] [0x7417d6] state=3, [1] reset mac to idle
+[2018/11/25 13:19:2] [0x4aa] state=3, recv shakehand req
+[2018/11/25 13:19:2] [0x4cc] state from 3 to connect
+[2018/11/25 13:40:26] [0x7d166e] state=3, connect to out_of_sync
+[2018/11/25 13:40:26] [0x7d166e] state=3, [1] reset mac to idle
+[1980/00/01 0:0:5] [0x0] state=0, reset phy
+[1980/00/01 0:0:5] [0x0]========= machine=1, state=0, runtime=201 =========
+[1980/00/01 0:0:5] [0x0] state=0, [0] reset mac to idle
+[2019/00/03 13:47:34] [0x4d1] state=0, recv shakehand req
+[2019/00/03 13:47:34] [0x4ee] state from 0 to connect
+[2019/00/03 13:58:52] [0x420fb6] state=3, connect to out_of_sync
+[2019/00/03 13:58:52] [0x420fb6] state=3, [1] reset mac to idle
+[2019/00/03 14:0:32] [0xa5d] state=3, recv shakehand req
+[2019/00/03 14:0:33] [0xabc] state from 3 to connect
+[2019/00/03 14:15:11] [0x5602c8] state=3, connect to out_of_sync
+[2019/00/03 14:15:11] [0x5602c8] state=3, [1] reset mac to idle
+[1980/00/01 0:0:6] [0x0] state=0, reset phy
+[1980/00/01 0:0:6] [0x0]========= machine=1, state=0, runtime=202 =========
+[1980/00/01 0:0:6] [0x0] state=0, [0] reset mac to idle
+[2019/00/03 19:56:38] [0x9a5] state=0, recv shakehand req
+[2019/00/03 19:56:38] [0x9c6] state from 0 to connect
+[2019/00/03 20:27:1] [0xb20b24] state=3, connect to out_of_sync
+[2019/00/03 20:27:1] [0xb20b24] state=3, [1] reset mac to idle
+[1980/00/01 0:0:27] [0x0] state=0, reset phy
+[1980/00/01 0:0:27] [0x0]========= machine=1, state=0, runtime=203 =========
+[1980/00/01 0:0:27] [0x0] state=0, [0] reset mac to idle
+[2019/00/04 9:50:1] [0x953] state=0, recv shakehand req
+[2019/00/04 9:50:1] [0x973] state from 0 to connect
+[2019/00/04 10:14:53] [0x91264e] state=3, connect to out_of_sync
+[2019/00/04 10:14:53] [0x91264e] state=3, [1] reset mac to idle
+[1980/00/01 0:0:7] [0x0] state=0, reset phy
+[1980/00/01 0:0:7] [0x0]========= machine=1, state=0, runtime=204 =========
+[1980/00/01 0:0:7] [0x0] state=0, [0] reset mac to idle
+[2019/00/04 18:45:2] [0x7a4] state=0, recv shakehand req
+[2019/00/04 18:45:2] [0x7be] state from 0 to connect
+[2019/00/04 19:7:59] [0x861826] state=3, connect to out_of_sync
+[2019/00/04 19:7:59] [0x861826] state=3, [1] reset mac to idle
+[1980/00/01 0:0:7] [0x0] state=0, reset phy
+[1980/00/01 0:0:7] [0x0]========= machine=1, state=0, runtime=205 =========
+[1980/00/01 0:0:7] [0x0] state=0, [0] reset mac to idle
+[2019/00/06 11:24:16] [0x42a] state=0, recv shakehand req
+[2019/00/06 11:24:16] [0x472] state=0, recv shakehand req
+[2019/00/06 11:24:16] [0x4d6] state=0, recv shakehand req
+[2019/00/06 11:24:16] [0x4f7] state from 0 to connect
+[2019/00/06 11:48:25] [0x8d1794] state=3, connect to out_of_sync
+[2019/00/06 11:48:25] [0x8d1794] state=3, [1] reset mac to idle
+[1980/00/01 0:0:6] [0x0] state=0, reset phy
+[1980/00/01 0:0:6] [0x0]========= machine=1, state=0, runtime=206 =========
+[1980/00/01 0:0:6] [0x0] state=0, [0] reset mac to idle
+[2019/00/06 13:50:12] [0x754] state=0, recv shakehand req
+[2019/00/06 13:50:12] [0x76e] state from 0 to connect
+[2019/00/06 14:12:27] [0x821506] state=3, connect to out_of_sync
+[2019/00/06 14:12:27] [0x821506] state=3, [1] reset mac to idle
+[1980/00/01 0:0:6] [0x0] state=0, reset phy
+[1980/00/01 0:0:7] [0x0]========= machine=1, state=0, runtime=207 =========
+[1980/00/01 0:0:7] [0x0] state=0, [0] reset mac to idle
+[2019/00/11 12:40:36] [0x4f8] state=0, recv shakehand req
+[2019/00/11 12:40:36] [0x50c] state from 0 to connect
+[2019/00/11 13:3:59] [0x890330] state=3, connect to out_of_sync
+[2019/00/11 13:3:59] [0x890330] state=3, [1] reset mac to idle
+[1980/00/01 0:0:11] [0x0] state=0, reset phy
+[1980/00/01 0:0:11] [0x0]========= machine=1, state=0, runtime=208 =========
+[1980/00/01 0:0:11] [0x0] state=0, [0] reset mac to idle
+[2019/00/12 14:37:43] [0x6d7] state=0, recv shakehand req
+[2019/00/12 14:37:43] [0x6f6] state from 0 to connect
+[2019/00/12 14:52:9] [0x541c7c] state=3, connect to out_of_sync
+[2019/00/12 14:52:9] [0x541c7c] state=3, [1] reset mac to idle
+[1980/00/01 0:0:18] [0x0] state=0, reset phy
+[1980/00/01 0:0:18] [0x0]========= machine=1, state=0, runtime=209 =========
+[1980/00/01 0:0:18] [0x0] state=0, [0] reset mac to idle
+[2019/00/12 15:53:53] [0xbd0] state=0, recv shakehand req
+[2019/00/12 15:53:53] [0xbf3] state from 0 to connect
+[2019/00/12 16:5:35] [0x4423a2] state=3, connect to out_of_sync
+[2019/00/12 16:5:35] [0x4423a2] state=3, [1] reset mac to idle
+[1980/00/01 0:0:6] [0x0] state=0, reset phy
+[1980/00/01 0:0:6] [0x0]========= machine=1, state=0, runtime=210 =========
+[1980/00/01 0:0:6] [0x0] state=0, [0] reset mac to idle
+[1980/00/01 0:0:23] [0x838] state=0, recv shakehand req
+[1980/00/01 0:0:23] [0x85a] state from 0 to connect
+[1980/00/01 0:11:4] [0x3e2154] state=3, connect to out_of_sync
+[1980/00/01 0:11:4] [0x3e2154] state=3, [1] reset mac to idle
+[1980/00/01 0:0:6] [0x0] state=0, reset phy
+[1980/00/01 0:0:6] [0x0]========= machine=1, state=0, runtime=211 =========
+[1980/00/01 0:0:7] [0x0] state=0, [0] reset mac to idle
+[2019/00/26 17:5:18] [0x729] state=0, recv shakehand req
+[2019/00/26 17:5:18] [0x74c] state from 0 to connect
+[2019/00/26 17:16:5] [0x3f0c40] state=3, connect to out_of_sync
+[2019/00/26 17:16:5] [0x3f0c40] state=3, [1] reset mac to idle
+[1980/00/01 0:0:23] [0x0] state=0, reset phy
+[1980/00/01 0:0:23] [0x0]========= machine=1, state=0, runtime=212 =========
+[1980/00/01 0:0:23] [0x0] state=0, [0] reset mac to idle
+[1980/00/01 0:0:6] [0x0] state=0, reset phy
+[1980/00/01 0:0:6] [0x0]========= machine=1, state=0, runtime=213 =========
+[1980/00/01 0:0:6] [0x0] state=0, [0] reset mac to idle
+[1980/00/01 0:0:5] [0x0] state=0, reset phy
+[1980/00/01 0:0:5] [0x0]========= machine=1, state=0, runtime=214 =========
+[1980/00/01 0:0:5] [0x0] state=0, [0] reset mac to idle
+[2019/00/30 18:43:55] [0x5e7] state=0, recv shakehand req
+[2019/00/30 18:43:55] [0x5fb] state from 0 to connect
+[2019/00/30 18:44:53] [0x520be] state=3, connect to out_of_sync
+[2019/00/30 18:44:53] [0x520be] state=3, [1] reset mac to idle
+[1980/00/01 0:0:7] [0x0] state=0, reset phy
+[1980/00/01 0:0:7] [0x0]========= machine=1, state=0, runtime=215 =========
+[1980/00/01 0:0:7] [0x0] state=0, [0] reset mac to idle
+[1980/00/01 0:0:11] [0x0] state=0, reset phy
+[1980/00/01 0:0:11] [0x0]========= machine=1, state=0, runtime=216 =========
+[1980/00/01 0:0:11] [0x0] state=0, [0] reset mac to idle
+[1980/00/01 0:0:11] [0x0] state=0, reset phy
+[1980/00/01 0:0:11] [0x0]========= machine=1, state=0, runtime=217 =========
+[1980/00/01 0:0:11] [0x0] state=0, [0] reset mac to idle
+[1980/00/01 0:0:11] [0x0] state=0, reset phy
+[1980/00/01 0:0:11] [0x0]========= machine=1, state=0, runtime=218 =========
+[1980/00/01 0:0:11] [0x0] state=0, [0] reset mac to idle
+[2019/01/04 22:28:32] [0x0] state=0, reset phy
+[2019/01/04 22:28:32] [0x0]========= machine=1, state=0, runtime=219 =========
+[2019/01/04 22:28:32] [0x0] state=0, [0] reset mac to idle
+[2019/01/04 22:29:40] [0x0] state=0, reset phy
+[2019/01/04 22:29:40] [0x0]========= machine=1, state=0, runtime=220 =========
+[2019/01/04 22:29:40] [0x0] state=0, [0] reset mac to idle
+[2019/01/04 22:32:39] [0x0] state=0, reset phy
+[2019/01/04 22:32:39] [0x0]========= machine=1, state=0, runtime=221 =========
+[2019/01/04 22:32:39] [0x0] state=0, [0] reset mac to idle
+[1980/00/01 0:0:10] [0x0] state=0, reset phy
+[1980/00/01 0:0:10] [0x0]========= machine=1, state=0, runtime=222 =========
+[1980/00/01 0:0:11] [0x0] state=0, [0] reset mac to idle
+[1980/00/01 0:0:21] [0x0] state=0, reset phy
+[1980/00/01 0:0:21] [0x0]========= machine=1, state=0, runtime=223 =========
+[1980/00/01 0:0:21] [0x0] state=0, [0] reset mac to idle
+[1980/00/01 0:0:11] [0x0] state=0, reset phy
+[1980/00/01 0:0:11] [0x0]========= machine=1, state=0, runtime=224 =========
+[1980/00/01 0:0:11] [0x0] state=0, [0] reset mac to idle
+[1980/00/01 0:0:10] [0x0] state=0, reset phy
+[1980/00/01 0:0:10] [0x0]========= machine=1, state=0, runtime=225 =========
+[1980/00/01 0:0:10] [0x0] state=0, [0] reset mac to idle
+[1980/00/01 0:1:54] [0x0] state=0, reset phy
+[1980/00/01 0:1:54] [0x0]========= machine=1, state=0, runtime=226 =========
+[1980/00/01 0:1:54] [0x0] state=0, [0] reset mac to idle
+[1980/00/01 0:0:11] [0x0] state=0, reset phy
+[1980/00/01 0:0:11] [0x0]========= machine=1, state=0, runtime=227 =========
+[1980/00/01 0:0:11] [0x0] state=0, [0] reset mac to idle
+[1980/00/01 0:1:35] [0x0] state=0, reset phy
+[1980/00/01 0:1:35] [0x0]========= machine=1, state=0, runtime=228 =========
+[1980/00/01 0:1:35] [0x0] state=0, [0] reset mac to idle
