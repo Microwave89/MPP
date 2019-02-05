@@ -1,1 +1,1 @@
-adb pull /data/ftp/upgrade/dji/log/
+Was it "adb pull /data/ftp/upgrade/dji/log/" ?
