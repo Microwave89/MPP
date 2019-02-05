@@ -1,0 +1,1 @@
+adb pull /data/ftp/upgrade/dji/log/
