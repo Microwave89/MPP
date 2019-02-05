@@ -1,0 +1,12 @@
+With info drawn from https://github.com/MAVProxyUser/DUMLrub/blob/master/CherryPicker.rb, Line 156
+Thanks @hostile
+
+How to create tarball that behaves same (no directory structure, name, ...) like original dji_system.bin and thus can be flashed with pyduml.py:
+1.) micelwhave$ mkdir ./dji_system
+2.) micelwhave$ gtar -cvf ~/dji_system.bin -C dji_system/ .
+
+(I also made sure that in "https://extract.me" the structure of the new tarball looked exactly the very same like that of the original dji_system.bin tar.).
+3.) Copy new tarball into same directory where pyduml.py resides.
+4.) Now the new dji_system.bin can be flashed with pyduml as usual.
+
+Tested with 01.04.0300, rooted RC, using gnu-tar via homebrew on a Mac.
