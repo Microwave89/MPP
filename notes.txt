@@ -21,6 +21,7 @@ How ensure recording of .DAT files?
 2.) Save FLY000.DAT all the way up to and including FLY{nnn-1}.DAT where FLYnnn.DAT denotes the DAT file that's currently being recorded.
 3.) Remove FLY000.DAT to FLY{nnn-1}.DAT.
 4.) Repeat or perform above steps prior to a risky flight or test of modified firmware.
+5.) Always turn on RC and then AC to prevent messing up the timestamps as described in http://www.datfile.net/DatCon/retrieveV3Dat.html, "Picking the correct .DAT"!
 
 How read .DAT files?
 1.) adb pull FLY000.DAT to FLY{nnn-1}.DAT where FLYnnn.DAT denotes the DAT file that's currently being recorded.
