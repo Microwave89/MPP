@@ -17,8 +17,12 @@ For me in step 2 of https://github.com/o-gs/DJI_FC_Patcher python3 was necessary
 Additionally, "pip3 install pycrypto" and "pip3 install configparser" had to be issued to successfully complete step 2.
 
 How ensure recording of .DAT files?
-1.) In FileZilla connect to 192.168.42.2 on port 21 with "nouser", "nopass"
-2.) Save FLY000.DAT all the way up to and including FLY{nnn-1}.DAT where FLYnnn.DAT denotes the DAT file that's currently being recorded
-3.) Remove FLY000.DAT to FLY{nnn-1}.DAT
-4.) If you know which DAT files are consecutive from a single power-up then these can be joined with cat FLY{xxx}.DAT FLY{xxx+1}.DAT FLY{xxx+n}.DAT>{YourOutputFile}.DAT
-5.) Resulting file can be viewed with CsrView for Mac.
+1.) In FileZilla connect to 192.168.42.2 on port 21 with "nouser", "nopass".
+2.) Save FLY000.DAT all the way up to and including FLY{nnn-1}.DAT where FLYnnn.DAT denotes the DAT file that's currently being recorded.
+3.) Remove FLY000.DAT to FLY{nnn-1}.DAT.
+4.) Repeat or perform above steps prior to a risky flight or test of modified firmware.
+
+How read .DAT files?
+1.) adb pull FLY000.DAT to FLY{nnn-1}.DAT where FLYnnn.DAT denotes the DAT file that's currently being recorded.
+2.) If you know which DAT files are consecutive from a single power-up then these can be joined with cat FLY{xxx}.DAT FLY{xxx+1}.DAT FLY{xxx+n}.DAT>{YourOutputFile}.DAT.
+3.) I could view the resulting files with CsrView for Mac from datfile.net. If motors were armed the "Motor Speeds" SigPlayer did not display 0.
