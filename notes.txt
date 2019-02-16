@@ -25,4 +25,4 @@ How ensure recording of .DAT files?
 How read .DAT files?
 1.) adb pull FLY000.DAT to FLY{nnn-1}.DAT where FLYnnn.DAT denotes the DAT file that's currently being recorded.
 2.) If you know which DAT files are consecutive while being from a single power-up then these can be joined with cat FLY{xxx}.DAT FLY{xxx+1}.DAT FLY{xxx+n}.DAT>{YourOutputFile}.DAT.
-3.) I could view the resulting files with CsrView for Mac from datfile.net. If motors were armed the "Motor Speeds" SigPlayer did not display 0.
+3.) I was able to view the resulting files with CsrView for Mac from datfile.net. If motors were armed the "Motor Speeds" SigPlayer did not display 0.
