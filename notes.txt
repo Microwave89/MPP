@@ -16,6 +16,8 @@ When flashing the bird, as of now it appears like the same firmware cannot be fl
 For me in step 2 of https://github.com/o-gs/DJI_FC_Patcher python3 was necessary. A Mac was used for step 2.
 Additionally, "pip3 install pycrypto" and "pip3 install configparser" had to be issued to successfully complete step 2.
 
+For me in step 2 of https://github.com/o-gs/DJI_FC_Patcher I could as well open the "wm220.cfg.sig" file in TextEdit.app on a Mac and copy the xml part including the very last empty line into VisualStudioCode. The hash of the saved file was checked with md5sum and equal to a "wm220.cfg.ori" extract.
+
 How ensure recording of .DAT files?
 1.) In FileZilla connect to 192.168.42.2 on port 21 with "nouser", "nopass".
 2.) Save FLY000.DAT all the way up to and including FLY{nnn-1}.DAT where FLYnnn.DAT denotes the DAT file that's currently being recorded.
