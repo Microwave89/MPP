@@ -1,2 +1,2 @@
 Was it "adb pull /data/ftp/upgrade/dji/log/" ?
-On AC it is "adb pull /data/dji/log/".
+On AC "adb pull /data/dji/log/" worked.
