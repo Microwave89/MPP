@@ -39,3 +39,5 @@ How read .DAT files?
 can be joined with cat FLY{xxx}.DAT FLY{xxx+1}.DAT FLY{xxx+n}.DAT>{YourOutputFile}.DAT.
 3.) I was able to view the resulting files with CsrView for Mac from datfile.net. If motors were
 armed the "Motor Speeds" SigPlayer did not display 0.
+
+How push file: adb push /somefile.local /somefolder_remote/
