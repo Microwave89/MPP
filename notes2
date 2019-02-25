@@ -1,8 +1,3 @@
-3.) Copy new tarball into same directory where pyduml.py resides.
-4.) Now the new dji_system.bin can be flashed with pyduml as usual.
-
-Tested with 01.04.0300, rooted RC, using gnu-tar via homebrew on a Mac.
-
 When flashing the bird, as of now it appears like the same firmware cannot be flashed twice as opposed to the
 general recommendations. The pyduml tool failed with a 550 ftp error. Pyduml tool was used with python2.7 on a Mac.
 When even the first flash failed altogether then for me the second flash was always successful.
