@@ -1,2 +1,4 @@
 Was it "adb pull /data/ftp/upgrade/dji/log/" ?
 On AC "adb pull /data/dji/log/" worked.
+
+Get jcase-check_1860_state.sh file: "adb pull /vendor/bin/check_1860_state.sh"
