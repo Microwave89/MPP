@@ -1,6 +1,4 @@
-dji_verify ==> dummy_verify.sh
-
-packet1
+// packet1
 01-01 00:01:12.840   254   407 I DUSS&63[sys_event_enter_upgrade_: 854]:: 0x7:received cmd to request enter upgrade mode, peer_id=0xa01, this_host=0x801
 01-01 00:01:12.841   254   407 I DUSS&63[sys_up_cleanup_last_reso:  85]:: cleanup last upgrading resources: sys_info=0xb6f738b8
 01-01 00:01:13.171   254   407 I DUSS&63[ sys_up_del_full_package:1099]:: deleted /data/ftp/upgrade/dji_system.bin
