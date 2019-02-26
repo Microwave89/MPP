@@ -3,7 +3,7 @@
 
 !!!new file start!!!
 
-boot
+// boot
 01-01 00:00:05.553   254   254 I DUSS&63[                    main: 657]:: dji_sys run as dev_type 0, duss_sketch_initialize done...
 01-01 00:00:05.560   254   254 I DUSS&63[sys_load_config_from_jso: 154]:: Get the hw_str WM220 AC
 01-01 00:00:05.560   254   254 I DUSS&63[         sys_load_config: 488]:: platform dev_info: WM220 1860AC
@@ -89,7 +89,7 @@ boot
 01-01 00:00:11.573   254   254 W DUSS&63[            sys_mainloop: 264]:: not updated before, use initial ver, major = 1, minor=0, build=0
 01-01 00:00:11.573   254   254 I DUSS&63[            sys_mainloop: 266]:: version scan done.
 
-connect usb to Mac
+// connect usb to Mac
 01-01 00:01:05.678   254   444 I DUSS&63[ handle_dji_device_event: 176]:: android_usb CONNECTED
 01-01 00:01:05.683   254   444 I DUSS&63[ handle_dji_device_event: 176]:: android_usb CONFIGURED
 01-01 00:01:05.685   254   444 I DUSS&63[ handle_dji_device_event: 181]:: handle usb events for pc plugging in
