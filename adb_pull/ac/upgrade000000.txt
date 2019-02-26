@@ -1,0 +1,163 @@
+packet1 t + 0
+01-01 00:07:05.423   254   400 I DUSS&63[sys_event_enter_upgrade_: 854]:: 0x7:received cmd to request enter upgrade mode, peer_id=0xa01, this_host=0x801
+01-01 00:07:05.427   254   400 I DUSS&63[sys_up_cleanup_last_reso:  85]:: cleanup last upgrading resources: sys_info=0xb6ff28b8
+01-01 00:07:05.667   254   400 I DUSS&63[ sys_up_del_full_package:1099]:: deleted /data/ftp/upgrade/dji_system.bin
+01-01 00:07:05.750   254   400 I DUSS&63[sys_up_free_some_disk_sp: 104]:: free disk space of data
+01-01 00:07:05.834   254   400 I DUSS&63[sys_p1_check_uav_fly_sta:4240]:: motor is still, upgrade is ok.
+01-01 00:07:05.900   254   400 I DUSS&63[sys_event_enter_upgrade_: 918]:: 0x7:request enter upgrading success, host_id=0x801
+01-01 00:07:06.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 1, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 3
+01-01 00:07:06.484   254   443 I DUSS&63[   sys_cam_switch_to_eth: 341]:: A9 USB switch to ETH mode, cur_mode=3!
+01-01 00:07:06.516   254   444 I DUSS&63[ handle_dji_device_event: 305]:: remove usb:v070Ap4026d0001dc00dsc00dp00ic08isc06ip50in00
+01-01 00:07:07.509   254   443 I DUSS&63[   sys_cam_switch_to_eth: 374]:: usb0 device ready
+01-01 00:07:07.509   254   443 I DUSS&63[   sys_cam_switch_to_eth: 380]:: success
+01-01 00:07:07.509   254   444 I DUSS&63[ handle_dji_device_event: 312]:: set cam_usb_mode to CAM_USB_MODE_INVALID
+01-01 00:07:07.509   254   444 I DUSS&63[ handle_dji_device_event: 468]:: add network interface: usb0
+01-01 00:07:07.529   254   444 I DUSS&63[ handle_dji_device_event: 473]:: Handle events for usb0 network plug in.
+01-01 00:07:07.529   254   444 I DUSS&63[ handle_dji_device_event: 478]:: ++++++Disable uart channel to camera
+01-01 00:07:07.709   254   444 E DUSS&63[ sys_event_usb_rt_enable:1123]:: Find route item to 0x104 fail: -1001
+01-01 00:07:07.709   254   444 E DUSS&63[ sys_event_usb_rt_enable:1123]:: Find route item to 0x106 fail: -1001
+01-01 00:07:07.709   254   444 E DUSS&63[ sys_event_usb_rt_enable:1123]:: Find route item to 0x401 fail: -1001
+01-01 00:07:07.709   254   444 E DUSS&63[ sys_event_usb_rt_enable:1123]:: Find route item to 0x402 fail: -1001
+01-01 00:07:07.709   254   444 I DUSS&63[sys_event_camera_rt_enab:1170]:: enable the mobile rt (throught camera).
+01-01 00:07:07.709   254   444 E DUSS&63[ sys_event_usb_rt_enable:1123]:: Find route item to 0x200 fail: -1001
+01-01 00:07:07.709   254   444 E DUSS&63[sys_event_camera_rt_enab:1175]:: route table: turn on USB eth to 2:0 fail
+01-01 00:07:09.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 1, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+
+packet2 t + 6
+01-01 00:07:11.527   254   400 I DUSS&63[ sys_event_report_status:1431]:: report status:  0:0
+01-01 00:07:12.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 1, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:07:15.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 1, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:07:18.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 1, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:07:21.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 1, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+
+(start uploading 1.5 MB bin) t + 17
+
+01-01 00:07:24.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 1, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:07:27.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 1, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:07:30.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 1, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:07:33.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 1, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:07:36.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 1, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:07:39.485   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 1, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+
+(packet3) t + 34.5
+
+01-01 00:07:41.396   254   400 I DUSS&63[sys_event_accept_upgrade: 981]:: 0x8:whole image size: 1579520, path = 2, type = 4
+01-01 00:07:41.396   254   400 I DUSS&63[sys_event_accept_upgrade:1036]:: 0x8: using path ftp, app_host=0xa01, event_peer_host=0xa01
+01-01 00:07:41.585   254   400 I DUSS&63[sys_event_accept_upgrade:1082]:: 0x8:send back ftp upgrade request done. file_name=/upgrade/dji_system.bin
+01-01 00:07:42.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 2, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:07:45.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 2, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:07:48.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 2, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:07:51.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 2, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:07:54.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 2, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:07:57.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 2, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:08:00.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 2, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+
+(packet4) t + 57
+
+01-01 00:08:03.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 2, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:08:04.003   254   400 I DUSS&63[sys_event_finish_upgrade:1240]:: 0xa:Receive transfer complete message.
+01-01 00:08:04.003   254   400 I DUSS&63[sys_event_finish_upgrade:1287]:: 0xa:ftp file /data/ftp/upgrade/dji_system.bin, file_size=1579520, info->img_size(1579520)
+01-01 00:08:04.003   254   400 I DUSS&63[sys_event_finish_upgrade:1304]:: 0xa:path_use=2, type_use=4, data_store=1, info->recv_size(0), info->img_size(1579520)
+01-01 00:08:04.003   254   400 I DUSS&63[sys_event_finish_upgrade:1354]:: 0xa:Md5sum check ok......
+01-01 00:08:04.005   254   400 I DUSS&63[          sys_p1_upgrade:4569]:: P1: update all uav/gnd system now ...
+01-01 00:08:04.005   254   400 I DUSS&63[sys_up_save_upgrade_stat: 370]:: fileName=/cache/upgrade_status, optionName=upgrade_host, optionValue=2561
+01-01 00:08:04.005   254   400 I DUSS&63[sys_up_save_upgrade_stat: 374]:: file /cache/upgrade_status not exist, will create it
+01-01 00:08:04.104   254 12057 I DUSS&63[    sys_up_sec_up_thread:1381]:: upgrade thread start... retry=2, up_mode=1
+01-01 00:08:04.104   254 12057 I DUSS&63[sys_p1_push_ongoing_stat:2997]:: Push to 0xa01 for module 0x801, overall upgrade progress: 1 (0:0:0), stop_pushing=0
+01-01 00:08:04.104   254 12057 I DUSS&63[sys_p1_up_start_smooth_p:2877]:: will start smooth pushing, from 1 to 7, step=1,interval=2, mod_id=0x0, is_local_progress=0
+01-01 00:08:04.106   254   426 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 1, progress: 0, total_progress: 1
+01-01 00:08:04.312   254 12057 I DUSS&63[    sys_up_sec_up_thread:1443]:: Start to extract firmware
+01-01 00:08:04.349   254 12057 I DUSS&63[    sys_up_sec_up_thread:1460]:: Finish to extract firmware
+01-01 00:08:04.349   254 12057 I DUSS&63[sys_p1_up_stop_smooth_pu:2904]:: will stop smooth pushing, previous timer=0xb71914f0
+01-01 00:08:04.349   254 12057 I DUSS&63[sys_p1_up_stop_smooth_pu:2908]:: stop previous timer, mod_id=0x0, start_progress=1, end_progress=7
+01-01 00:08:04.349   254 12057 I DUSS&63[sys_p1_push_ongoing_stat:2997]:: Push to 0xa01 for module 0x801, overall upgrade progress: 7 (0:0:0), stop_pushing=0
+01-01 00:08:04.349   254 12057 I DUSS&63[    sys_up_sec_up_thread:1476]:: scan_system = 2
+01-01 00:08:04.349   254 12057 I DUSS&63[sys_p1_up_start_smooth_p:2877]:: will start smooth pushing, from 7 to 15, step=1,interval=3, mod_id=0x0, is_local_progress=0
+01-01 00:08:04.354   254   426 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 1, progress: 0, total_progress: 7
+01-01 00:08:04.356   254 12057 I DUSS&63[sys_p1_get_filelist_from:3848]:: got signed cfg file: /data/ftp/upgrade/upgrade/signimgs/wm220.cfg.sig
+01-01 00:08:04.357   254 12057 I DUSS&63[sys_p1_get_filelist_from:3867]:: Got signed cfg file /data/ftp/upgrade/upgrade/signimgs/wm220.cfg.sig
+01-01 00:08:04.397   254 12057 I DUSS&63[       sys_p1_unsign_img:1829]:: verify results: [dji_image_verify_header:99] ERROR too short image size 4194304
+01-01 00:08:04.397   254 12057 I DUSS&63[       sys_p1_unsign_img:1829]:: verify results: [dji_image_verify_update:183] ERROR failed to verify image header
+01-01 00:08:04.397   254 12057 I DUSS&63[       sys_p1_unsign_img:1829]:: verify results: failed to verify image /data/ftp/upgrade/upgrade/signimgs/wm220.cfg.sig, error=-1
+01-01 00:08:04.397   254 12057 I DUSS&63[       sys_p1_unsign_img:1837]:: dji_verify -n 0000 -o /cache/upgrade/unsignimgs/wm330_0000.xml /data/ftp/upgrade/upgrade/signimgs/wm220.cfg.sig exit status 65280, return 255
+01-01 00:08:04.397   254 12057 E DUSS&63[       sys_p1_unsign_img:1841]:: dji_verify -n 0000 -o /cache/upgrade/unsignimgs/wm330_0000.xml /data/ftp/upgrade/upgrade/signimgs/wm220.cfg.sig error, file_size=6515
+01-01 00:08:04.397   254 12057 E DUSS&63[sys_p1_get_filelist_from:3875]:: /data/ftp/upgrade/upgrade/signimgs/wm220.cfg.sig: unsign error.
+01-01 00:08:04.397   254 12057 I DUSS&63[sys_p1_up_stop_smooth_pu:2904]:: will stop smooth pushing, previous timer=0xb71914f0
+01-01 00:08:04.397   254 12057 I DUSS&63[sys_p1_up_stop_smooth_pu:2908]:: stop previous timer, mod_id=0x0, start_progress=7, end_progress=15
+01-01 00:08:04.397   254 12057 I DUSS&63[sys_p1_push_ongoing_stat:2997]:: Push to 0xa01 for module 0x801, overall upgrade progress: 15 (0:0:0), stop_pushing=0
+01-01 00:08:04.397   254 12057 E DUSS&63[    sys_up_sec_up_thread:1504]:: verify image error.
+01-01 00:08:04.397   254 12057 I DUSS&63[ sys_up_fail_immediately:1277]:: delete unsigned images.
+01-01 00:08:04.397   254   426 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 1, progress: 0, total_progress: 15
+01-01 00:08:04.672   254 12057 I DUSS&63[ sys_up_fail_immediately:1279]:: delete sign images.
+01-01 00:08:04.797   254 12057 I DUSS&63[ sys_up_fail_immediately:1281]:: delete full package.
+01-01 00:08:04.895   254 12057 I DUSS&63[ sys_up_del_full_package:1099]:: deleted /data/ftp/upgrade/dji_system.bin
+01-01 00:08:04.895   254 12057 I DUSS&63[  sys_p1_push_finish_all:3045]:: push finish: host 0xa01, mod_id: 0x801, finish_reason=3, status = 0, progress = 0
+01-01 00:08:04.896   254   426 I DUSS&63[sys_up_status_push_threa: 970]:: +++++++ Sending upgrade status for finishing_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 0, reason 3, progress: 0
+01-01 00:08:06.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 6, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:08:06.898   254   426 I DUSS&63[sys_up_status_push_threa: 970]:: +++++++ Sending upgrade status for finishing_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 0, reason 3, progress: 0
+01-01 00:08:08.898   254   426 I DUSS&63[sys_up_status_push_threa: 970]:: +++++++ Sending upgrade status for finishing_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 0, reason 3, progress: 0
+01-01 00:08:09.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 6, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:08:10.899   254   426 I DUSS&63[sys_up_status_push_threa: 970]:: +++++++ Sending upgrade status for finishing_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 0, reason 3, progress: 0
+01-01 00:08:12.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 6, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:08:12.900   254   426 I DUSS&63[sys_up_status_push_threa: 970]:: +++++++ Sending upgrade status for finishing_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 0, reason 3, progress: 0
+01-01 00:08:14.900   254   426 I DUSS&63[sys_up_status_push_threa: 970]:: +++++++ Sending upgrade status for finishing_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 0, reason 3, progress: 0
+01-01 00:08:15.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 6, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:08:16.901   254   426 I DUSS&63[sys_up_status_push_threa: 970]:: +++++++ Sending upgrade status for finishing_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 0, reason 3, progress: 0
+01-01 00:08:18.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 6, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:08:18.902   254   426 I DUSS&63[sys_up_status_push_threa: 970]:: +++++++ Sending upgrade status for finishing_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 0, reason 3, progress: 0
+01-01 00:08:20.904   254   426 I DUSS&63[sys_up_status_push_threa: 970]:: +++++++ Sending upgrade status for finishing_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 0, reason 3, progress: 0
+01-01 00:08:21.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 6, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:08:22.904   254   426 I DUSS&63[sys_up_status_push_threa: 970]:: +++++++ Sending upgrade status for finishing_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 0, reason 3, progress: 0
+01-01 00:08:24.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 6, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:08:24.904   254   426 I DUSS&63[sys_up_status_push_threa: 970]:: +++++++ Sending upgrade status for finishing_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 0, reason 3, progress: 0
+01-01 00:08:26.905   254   426 I DUSS&63[sys_up_status_push_threa: 970]:: +++++++ Sending upgrade status for finishing_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 0, reason 3, progress: 0
+01-01 00:08:27.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 6, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:08:28.905   254   426 I DUSS&63[sys_up_status_push_threa: 970]:: +++++++ Sending upgrade status for finishing_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 0, reason 3, progress: 0
+01-01 00:08:30.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 6, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:08:30.906   254   426 I DUSS&63[sys_up_status_push_threa: 970]:: +++++++ Sending upgrade status for finishing_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 0, reason 3, progress: 0
+01-01 00:08:32.907   254   426 I DUSS&63[sys_up_status_push_threa: 970]:: +++++++ Sending upgrade status for finishing_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 0, reason 3, progress: 0
+01-01 00:08:33.485   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 6, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:08:34.908   254   426 I DUSS&63[sys_up_status_push_threa: 970]:: +++++++ Sending upgrade status for finishing_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 0, reason 3, progress: 0
+01-01 00:08:36.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 6, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:08:36.908   254   426 I DUSS&63[sys_up_status_push_threa: 970]:: +++++++ Sending upgrade status for finishing_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 0, reason 3, progress: 0
+01-01 00:08:38.908   254   426 I DUSS&63[sys_up_status_push_threa: 970]:: +++++++ Sending upgrade status for finishing_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 0, reason 3, progress: 0
+01-01 00:08:38.910   254   426 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:08:38.910   254   426 I DUSS&63[       sys_check_pc_conn: 304]:: pc state is CONFIGURED
+01-01 00:08:38.910   254   426 I DUSS&63[sys_up_status_push_threa:1017]:: conn_pc=1 when re-check in pushing thread
+01-01 00:08:38.911   254   426 E DUSS&63[sys_event_pc_through_rc_:1205]:: switch pc wl channel to 0 success
+01-01 00:08:39.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 6, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:08:40.911   254   426 I DUSS&63[sys_up_status_push_threa: 970]:: +++++++ Sending upgrade status for finishing_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 0, reason 3, progress: 0
+01-01 00:08:40.913   254   426 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:08:42.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 6, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:08:42.914   254   426 I DUSS&63[sys_up_status_push_threa: 970]:: +++++++ Sending upgrade status for finishing_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 0, reason 3, progress: 0
+01-01 00:08:42.916   254   426 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:08:44.916   254   426 I DUSS&63[sys_up_status_push_threa: 970]:: +++++++ Sending upgrade status for finishing_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 0, reason 3, progress: 0
+01-01 00:08:44.920   254   426 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:08:45.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 6, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:08:46.920   254   426 I DUSS&63[sys_up_status_push_threa: 970]:: +++++++ Sending upgrade status for finishing_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 0, reason 3, progress: 0
+01-01 00:08:46.923   254   426 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:08:48.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 6, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:08:48.923   254   426 I DUSS&63[sys_up_status_push_threa: 970]:: +++++++ Sending upgrade status for finishing_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 0, reason 3, progress: 0
+01-01 00:08:48.926   254   426 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:08:50.926   254   426 I DUSS&63[sys_up_status_push_threa: 970]:: +++++++ Sending upgrade status for finishing_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 0, reason 3, progress: 0
+01-01 00:08:50.928   254   426 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:08:51.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 6, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:08:52.929   254   426 I DUSS&63[sys_up_status_push_threa: 970]:: +++++++ Sending upgrade status for finishing_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 0, reason 3, progress: 0
+01-01 00:08:52.931   254   426 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:08:54.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 6, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:08:54.931   254   426 I DUSS&63[sys_up_status_push_threa: 970]:: +++++++ Sending upgrade status for finishing_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 0, reason 3, progress: 0
+01-01 00:08:54.940   254   426 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:08:56.941   254   426 I DUSS&63[sys_up_status_push_threa: 970]:: +++++++ Sending upgrade status for finishing_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 0, reason 3, progress: 0
+01-01 00:08:56.943   254   426 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:08:57.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 6, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:08:58.943   254   426 I DUSS&63[sys_up_status_push_threa: 970]:: +++++++ Sending upgrade status for finishing_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 0, reason 3, progress: 0
+01-01 00:08:58.945   254   426 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:09:00.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 6, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:09:00.945   254   426 I DUSS&63[sys_up_status_push_threa: 970]:: +++++++ Sending upgrade status for finishing_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 0, reason 3, progress: 0
+01-01 00:09:00.948   254   426 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:09:02.948   254   426 I DUSS&63[sys_up_status_push_threa: 970]:: +++++++ Sending upgrade status for finishing_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 0, reason 3, progress: 0
+01-01 00:09:02.950   254   426 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:09:03.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 6, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:09:04.951   254   426 I DUSS&63[sys_up_status_push_threa: 970]:: +++++++ Sending upgrade status for finishing_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 0, reason 3, progress: 0
+01-01 00:09:04.953   254   426 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:09:06.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 6, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
