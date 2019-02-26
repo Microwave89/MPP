@@ -1,6 +1,6 @@
 test w/o bind mount
 
-packet1 t + 0
+// packet1 t + 0
 01-01 00:07:05.423   254   400 I DUSS&63[sys_event_enter_upgrade_: 854]:: 0x7:received cmd to request enter upgrade mode, peer_id=0xa01, this_host=0x801
 01-01 00:07:05.427   254   400 I DUSS&63[sys_up_cleanup_last_reso:  85]:: cleanup last upgrading resources: sys_info=0xb6ff28b8
 01-01 00:07:05.667   254   400 I DUSS&63[ sys_up_del_full_package:1099]:: deleted /data/ftp/upgrade/dji_system.bin
@@ -25,14 +25,14 @@ packet1 t + 0
 01-01 00:07:07.709   254   444 E DUSS&63[sys_event_camera_rt_enab:1175]:: route table: turn on USB eth to 2:0 fail
 01-01 00:07:09.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 1, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
 
-packet2 t + 6
+// packet2 t + 6
 01-01 00:07:11.527   254   400 I DUSS&63[ sys_event_report_status:1431]:: report status:  0:0
 01-01 00:07:12.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 1, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
 01-01 00:07:15.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 1, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
 01-01 00:07:18.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 1, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
 01-01 00:07:21.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 1, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
 
-(start uploading 1.5 MB bin) t + 17
+// (start uploading 1.5 MB bin) t + 17
 
 01-01 00:07:24.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 1, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
 01-01 00:07:27.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 1, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
@@ -41,7 +41,7 @@ packet2 t + 6
 01-01 00:07:36.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 1, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
 01-01 00:07:39.485   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 1, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
 
-(packet3) t + 34.5
+// (packet3) t + 34.5
 
 01-01 00:07:41.396   254   400 I DUSS&63[sys_event_accept_upgrade: 981]:: 0x8:whole image size: 1579520, path = 2, type = 4
 01-01 00:07:41.396   254   400 I DUSS&63[sys_event_accept_upgrade:1036]:: 0x8: using path ftp, app_host=0xa01, event_peer_host=0xa01
@@ -54,7 +54,7 @@ packet2 t + 6
 01-01 00:07:57.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 2, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
 01-01 00:08:00.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 2, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
 
-(packet4) t + 57
+// (packet4) t + 57
 
 01-01 00:08:03.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 2, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
 01-01 00:08:04.003   254   400 I DUSS&63[sys_event_finish_upgrade:1240]:: 0xa:Receive transfer complete message.
