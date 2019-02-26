@@ -1,0 +1,749 @@
+dji_verify ==> dummy_verify.sh
+
+packet1
+01-01 00:01:12.840   254   407 I DUSS&63[sys_event_enter_upgrade_: 854]:: 0x7:received cmd to request enter upgrade mode, peer_id=0xa01, this_host=0x801
+01-01 00:01:12.841   254   407 I DUSS&63[sys_up_cleanup_last_reso:  85]:: cleanup last upgrading resources: sys_info=0xb6f738b8
+01-01 00:01:13.171   254   407 I DUSS&63[ sys_up_del_full_package:1099]:: deleted /data/ftp/upgrade/dji_system.bin
+01-01 00:01:13.287   254   407 I DUSS&63[sys_up_free_some_disk_sp: 104]:: free disk space of data
+01-01 00:01:13.377   254   407 I DUSS&63[sys_p1_check_uav_fly_sta:4240]:: motor is still, upgrade is ok.
+01-01 00:01:13.678   254   407 E DUSS&63[sys_p1_disable_motor_run:4285]:: set motor work status error: -1002
+01-01 00:01:13.678   254   407 I DUSS&63[sys_event_enter_upgrade_: 918]:: 0x7:request enter upgrading success, host_id=0x801
+01-01 00:01:13.950   254   407 I DUSS&63[ sys_event_report_status:1431]:: report status:  0:0
+01-01 00:01:15.182   254   445 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 1, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 3
+01-01 00:01:15.182   254   445 I DUSS&63[   sys_cam_switch_to_eth: 341]:: A9 USB switch to ETH mode, cur_mode=3!
+01-01 00:01:15.335   254   446 I DUSS&63[ handle_dji_device_event: 305]:: remove usb:v070Ap4026d0001dc00dsc00dp00ic08isc06ip50in00
+01-01 00:01:16.211   254   445 I DUSS&63[   sys_cam_switch_to_eth: 374]:: usb0 device ready
+01-01 00:01:16.211   254   445 I DUSS&63[   sys_cam_switch_to_eth: 380]:: success
+01-01 00:01:16.211   254   446 I DUSS&63[ handle_dji_device_event: 312]:: set cam_usb_mode to CAM_USB_MODE_INVALID
+01-01 00:01:16.211   254   446 I DUSS&63[ handle_dji_device_event: 468]:: add network interface: usb0
+01-01 00:01:16.235   254   446 I DUSS&63[ handle_dji_device_event: 473]:: Handle events for usb0 network plug in.
+01-01 00:01:16.235   254   446 I DUSS&63[ handle_dji_device_event: 478]:: ++++++Disable uart channel to camera
+01-01 00:01:16.254   254   446 E DUSS&63[ sys_event_usb_rt_enable:1123]:: Find route item to 0x104 fail: -1001
+01-01 00:01:16.254   254   446 E DUSS&63[ sys_event_usb_rt_enable:1123]:: Find route item to 0x106 fail: -1001
+01-01 00:01:16.254   254   446 E DUSS&63[ sys_event_usb_rt_enable:1123]:: Find route item to 0x401 fail: -1001
+01-01 00:01:16.254   254   446 E DUSS&63[ sys_event_usb_rt_enable:1123]:: Find route item to 0x402 fail: -1001
+01-01 00:01:16.254   254   446 I DUSS&63[sys_event_camera_rt_enab:1170]:: enable the mobile rt (throught camera).
+01-01 00:01:16.254   254   446 E DUSS&63[ sys_event_usb_rt_enable:1123]:: Find route item to 0x200 fail: -1001
+01-01 00:01:16.254   254   446 E DUSS&63[sys_event_camera_rt_enab:1175]:: route table: turn on USB eth to 2:0 fail
+01-01 00:01:18.182   254   445 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 1, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:01:19.988   254   407 I DUSS&63[sys_event_accept_upgrade: 981]:: 0x8:whole image size: 1579520, path = 2, type = 4
+01-01 00:01:19.988   254   407 I DUSS&63[sys_event_accept_upgrade:1036]:: 0x8: using path ftp, app_host=0xa01, event_peer_host=0xa01
+01-01 00:01:20.138   254   407 I DUSS&63[sys_event_accept_upgrade:1082]:: 0x8:send back ftp upgrade request done. file_name=/upgrade/dji_system.bin
+01-01 00:01:21.182   254   445 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 2, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:01:22.597   254   407 I DUSS&63[sys_event_finish_upgrade:1240]:: 0xa:Receive transfer complete message.
+01-01 00:01:22.597   254   407 I DUSS&63[sys_event_finish_upgrade:1287]:: 0xa:ftp file /data/ftp/upgrade/dji_system.bin, file_size=1579520, info->img_size(1579520)
+01-01 00:01:22.597   254   407 I DUSS&63[sys_event_finish_upgrade:1304]:: 0xa:path_use=2, type_use=4, data_store=1, info->recv_size(0), info->img_size(1579520)
+01-01 00:01:22.597   254   407 I DUSS&63[sys_event_finish_upgrade:1354]:: 0xa:Md5sum check ok......
+01-01 00:01:23.448   254   407 I DUSS&63[          sys_p1_upgrade:4569]:: P1: update all uav/gnd system now ...
+01-01 00:01:23.451   254   407 I DUSS&63[sys_up_save_upgrade_stat: 370]:: fileName=/cache/upgrade_status, optionName=upgrade_host, optionValue=2561
+01-01 00:01:23.451   254   407 I DUSS&63[sys_up_save_upgrade_stat: 374]:: file /cache/upgrade_status not exist, will create it
+01-01 00:01:23.940   254  2403 I DUSS&63[    sys_up_sec_up_thread:1381]:: upgrade thread start... retry=2, up_mode=1
+01-01 00:01:23.940   254  2403 I DUSS&63[sys_p1_push_ongoing_stat:2997]:: Push to 0xa01 for module 0x801, overall upgrade progress: 1 (0:0:0), stop_pushing=0
+01-01 00:01:23.940   254  2403 I DUSS&63[sys_p1_up_start_smooth_p:2877]:: will start smooth pushing, from 1 to 7, step=1,interval=2, mod_id=0x0, is_local_progress=0
+01-01 00:01:23.941   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 1, progress: 0, total_progress: 1
+01-01 00:01:24.164   254  2403 I DUSS&63[    sys_up_sec_up_thread:1443]:: Start to extract firmware
+01-01 00:01:24.185   254   445 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 4, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:01:24.199   254  2403 I DUSS&63[    sys_up_sec_up_thread:1460]:: Finish to extract firmware
+01-01 00:01:24.199   254  2403 I DUSS&63[sys_p1_up_stop_smooth_pu:2904]:: will stop smooth pushing, previous timer=0xb71124c0
+01-01 00:01:24.199   254  2403 I DUSS&63[sys_p1_up_stop_smooth_pu:2908]:: stop previous timer, mod_id=0x0, start_progress=1, end_progress=7
+01-01 00:01:24.199   254  2403 I DUSS&63[sys_p1_push_ongoing_stat:2997]:: Push to 0xa01 for module 0x801, overall upgrade progress: 7 (0:0:0), stop_pushing=0
+01-01 00:01:24.200   254  2403 I DUSS&63[    sys_up_sec_up_thread:1476]:: scan_system = 2
+01-01 00:01:24.200   254  2403 I DUSS&63[sys_p1_up_start_smooth_p:2877]:: will start smooth pushing, from 7 to 15, step=1,interval=3, mod_id=0x0, is_local_progress=0
+01-01 00:01:24.200   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 1, progress: 0, total_progress: 7
+01-01 00:01:24.206   254  2403 I DUSS&63[sys_p1_get_filelist_from:3848]:: got signed cfg file: /data/ftp/upgrade/upgrade/signimgs/wm220.cfg.sig
+01-01 00:01:24.207   254  2403 I DUSS&63[sys_p1_get_filelist_from:3867]:: Got signed cfg file /data/ftp/upgrade/upgrade/signimgs/wm220.cfg.sig
+01-01 00:01:24.255   254  2403 I DUSS&63[       sys_p1_unsign_img:1829]:: verify results: switching to OG mode
+01-01 00:01:24.267   254  2403 I DUSS&63[       sys_p1_unsign_img:1837]:: dji_verify -n 0000 -o /cache/upgrade/unsignimgs/wm330_0000.xml /data/ftp/upgrade/upgrade/signimgs/wm220.cfg.sig exit status 0, return 0
+01-01 00:01:24.267   254  2403 I DUSS&63[       sys_p1_unsign_img:1845]:: dji_verify -n 0000 -o /cache/upgrade/unsignimgs/wm330_0000.xml /data/ftp/upgrade/upgrade/signimgs/wm220.cfg.sig success.
+01-01 00:01:24.267   254  2403 I DUSS&63[sys_p1_get_filelist_from:3879]:: succeed to unsign cfg file.
+01-01 00:01:24.270   254  2403 I DUSS&63[        sys_p1_parse_cfg:  63]:: root name: dji
+01-01 00:01:24.271   254  2403 I DUSS&63[        sys_p1_parse_cfg:  66]:: child name: device
+01-01 00:01:24.271   254  2403 I DUSS&63[        sys_p1_parse_cfg:  72]:: get device_id wm220 from xml
+01-01 00:01:24.271   254  2403 I DUSS&63[        sys_p1_parse_cfg:  82]:: formal = 01.04.0400
+01-01 00:01:24.271   254  2403 I DUSS&63[        sys_p1_parse_cfg:  95]:: release version = 01.04.0400
+01-01 00:01:24.271   254  2403 I DUSS&63[        sys_p1_parse_cfg: 101]:: parsed version:1.4.400
+01-01 00:01:24.271   254  2403 I DUSS&63[        sys_p1_parse_cfg: 104]:: anti rool back = 3
+01-01 00:01:24.271   254  2403 I DUSS&63[        sys_p1_parse_cfg: 109]:: from = 2018/07/04
+01-01 00:01:24.271   254  2403 I DUSS&63[        sys_p1_parse_cfg: 116]:: expire = 2019/07/04
+01-01 00:01:24.271   254  2403 I DUSS&63[        sys_p1_parse_cfg: 130]:: module id: 0907
+01-01 00:01:24.271   254  2403 I DUSS&63[        sys_p1_parse_cfg: 133]:: module version: 47.26.02.18
+01-01 00:01:24.271   254  2403 I DUSS&63[        sys_p1_parse_cfg: 136]:: hardware version: 
+01-01 00:01:24.271   254  2403 I DUSS&63[        sys_p1_parse_cfg: 141]:: module file_name = wm220_0907_v47.26.02.18_20170801.pro.fw.sig
+01-01 00:01:24.271   254  2403 I DUSS&63[        sys_p1_parse_cfg: 146]:: /data/ftp/upgrade/upgrade/signimgs//wm220_0907_v47.26.02.18_20170801.pro.fw.sig not exists
+01-01 00:01:24.271   254  2403 I DUSS&63[        sys_p1_parse_cfg: 130]:: module id: 0305
+01-01 00:01:24.271   254  2403 I DUSS&63[        sys_p1_parse_cfg: 133]:: module version: 34.04.00.24
+01-01 00:01:24.271   254  2403 I DUSS&63[        sys_p1_parse_cfg: 136]:: hardware version: 
+01-01 00:01:24.271   254  2403 I DUSS&63[        sys_p1_parse_cfg: 141]:: module file_name = wm220_0305_v34.04.00.24_20170726.pro.fw.sig
+01-01 00:01:24.271   254  2403 I DUSS&63[        sys_p1_parse_cfg: 153]:: md5: fcde0f3bc310c78e5c13f1e2239e185e
+01-01 00:01:24.272   254  2403 I DUSS&63[      sys_p1_add_up_file:2359]:: get hw_ver[NULL] from file /data/ftp/upgrade/upgrade/signimgs//wm220_0305_v34.04.00.24_20170726.pro.fw.sig
+01-01 00:01:24.272   254  2403 I DUSS&63[      sys_p1_add_up_file:2456]:: parse file ok, id 3, index 5, ver: 34.4.0.24
+01-01 00:01:24.272   254  2403 I DUSS&63[      sys_p1_add_up_file:2458]:: sign file name: /data/ftp/upgrade/upgrade/signimgs//wm220_0305_v34.04.00.24_20170726.pro.fw.sig, file_size=55072
+01-01 00:01:24.272   254  2403 I DUSS&63[        sys_p1_parse_cfg: 130]:: module id: 0306
+01-01 00:01:24.272   254  2403 I DUSS&63[        sys_p1_parse_cfg: 133]:: module version: 03.02.44.13
+01-01 00:01:24.272   254  2403 I DUSS&63[        sys_p1_parse_cfg: 136]:: hardware version: 
+01-01 00:01:24.272   254  2403 I DUSS&63[        sys_p1_parse_cfg: 141]:: module file_name = wm220_0306_v03.02.44.13_20171116.pro.fw.sig
+01-01 00:01:24.272   254  2403 I DUSS&63[        sys_p1_parse_cfg: 153]:: md5: 173cf3d4286c83e74baa5f5b79fdd5d2
+01-01 00:01:24.292   254  2403 I DUSS&63[      sys_p1_add_up_file:2359]:: get hw_ver[NULL] from file /data/ftp/upgrade/upgrade/signimgs//wm220_0306_v03.02.44.13_20171116.pro.fw.sig
+01-01 00:01:24.292   254  2403 I DUSS&63[      sys_p1_add_up_file:2456]:: parse file ok, id 3, index 6, ver: 3.2.44.13
+01-01 00:01:24.292   254  2403 I DUSS&63[      sys_p1_add_up_file:2458]:: sign file name: /data/ftp/upgrade/upgrade/signimgs//wm220_0306_v03.02.44.13_20171116.pro.fw.sig, file_size=1483776
+01-01 00:01:24.292   254  2403 I DUSS&63[        sys_p1_parse_cfg: 130]:: module id: 1100
+01-01 00:01:24.292   254  2403 I DUSS&63[        sys_p1_parse_cfg: 133]:: module version: 01.00.07.32
+01-01 00:01:24.292   254  2403 I DUSS&63[        sys_p1_parse_cfg: 136]:: hardware version: 
+01-01 00:01:24.292   254  2403 I DUSS&63[        sys_p1_parse_cfg: 141]:: module file_name = wm220_1100_v01.00.07.32_20170726.pro.fw.sig
+01-01 00:01:24.292   254  2403 I DUSS&63[        sys_p1_parse_cfg: 146]:: /data/ftp/upgrade/upgrade/signimgs//wm220_1100_v01.00.07.32_20170726.pro.fw.sig not exists
+01-01 00:01:24.292   254  2403 I DUSS&63[        sys_p1_parse_cfg: 130]:: module id: 0803
+01-01 00:01:24.292   254  2403 I DUSS&63[        sys_p1_parse_cfg: 133]:: module version: 00.00.04.09
+01-01 00:01:24.292   254  2403 I DUSS&63[        sys_p1_parse_cfg: 136]:: hardware version: 
+01-01 00:01:24.292   254  2403 I DUSS&63[        sys_p1_parse_cfg: 141]:: module file_name = wm220_0803_v00.00.04.09_20170728.pro.fw.sig
+01-01 00:01:24.292   254  2403 I DUSS&63[        sys_p1_parse_cfg: 146]:: /data/ftp/upgrade/upgrade/signimgs//wm220_0803_v00.00.04.09_20170728.pro.fw.sig not exists
+01-01 00:01:24.292   254  2403 I DUSS&63[        sys_p1_parse_cfg: 130]:: module id: 0100
+01-01 00:01:24.292   254  2403 I DUSS&63[        sys_p1_parse_cfg: 133]:: module version: 02.08.56.68
+01-01 00:01:24.292   254  2403 I DUSS&63[        sys_p1_parse_cfg: 136]:: hardware version: 
+01-01 00:01:24.292   254  2403 I DUSS&63[        sys_p1_parse_cfg: 141]:: module file_name = wm220_0100_v02.08.56.68_20180122.pro.fw.sig
+01-01 00:01:24.292   254  2403 I DUSS&63[        sys_p1_parse_cfg: 146]:: /data/ftp/upgrade/upgrade/signimgs//wm220_0100_v02.08.56.68_20180122.pro.fw.sig not exists
+01-01 00:01:24.292   254  2403 I DUSS&63[        sys_p1_parse_cfg: 130]:: module id: 0100
+01-01 00:01:24.292   254  2403 I DUSS&63[        sys_p1_parse_cfg: 133]:: module version: 02.10.05.19
+01-01 00:01:24.292   254  2403 I DUSS&63[        sys_p1_parse_cfg: 136]:: hardware version: ca02
+01-01 00:01:24.292   254  2403 I DUSS&63[        sys_p1_parse_cfg: 141]:: module file_name = wm220_0100_v02.10.05.19_20180122_ca02.pro.fw.sig
+01-01 00:01:24.292   254  2403 I DUSS&63[        sys_p1_parse_cfg: 146]:: /data/ftp/upgrade/upgrade/signimgs//wm220_0100_v02.10.05.19_20180122_ca02.pro.fw.sig not exists
+01-01 00:01:24.292   254  2403 I DUSS&63[        sys_p1_parse_cfg: 130]:: module id: 0101
+01-01 00:01:24.292   254  2403 I DUSS&63[        sys_p1_parse_cfg: 133]:: module version: 02.08.56.68
+01-01 00:01:24.292   254  2403 I DUSS&63[        sys_p1_parse_cfg: 136]:: hardware version: 
+01-01 00:01:24.292   254  2403 I DUSS&63[        sys_p1_parse_cfg: 141]:: module file_name = wm220_0101_v02.08.56.68_20180122.pro.fw.sig
+01-01 00:01:24.292   254  2403 I DUSS&63[        sys_p1_parse_cfg: 146]:: /data/ftp/upgrade/upgrade/signimgs//wm220_0101_v02.08.56.68_20180122.pro.fw.sig not exists
+01-01 00:01:24.292   254  2403 I DUSS&63[        sys_p1_parse_cfg: 130]:: module id: 0101
+01-01 00:01:24.292   254  2403 I DUSS&63[        sys_p1_parse_cfg: 133]:: module version: 02.10.05.19
+01-01 00:01:24.292   254  2403 I DUSS&63[        sys_p1_parse_cfg: 136]:: hardware version: ca02
+01-01 00:01:24.292   254  2403 I DUSS&63[        sys_p1_parse_cfg: 141]:: module file_name = wm220_0101_v02.10.05.19_20180122_ca02.pro.fw.sig
+01-01 00:01:24.293   254  2403 I DUSS&63[        sys_p1_parse_cfg: 146]:: /data/ftp/upgrade/upgrade/signimgs//wm220_0101_v02.10.05.19_20180122_ca02.pro.fw.sig not exists
+01-01 00:01:24.293   254  2403 I DUSS&63[        sys_p1_parse_cfg: 130]:: module id: 0400
+01-01 00:01:24.293   254  2403 I DUSS&63[        sys_p1_parse_cfg: 133]:: module version: 01.50.12.10
+01-01 00:01:24.293   254  2403 I DUSS&63[        sys_p1_parse_cfg: 136]:: hardware version: 
+01-01 00:01:24.293   254  2403 I DUSS&63[        sys_p1_parse_cfg: 141]:: module file_name = wm220_0400_v01.50.12.10_20170809.pro.fw.sig
+01-01 00:01:24.293   254  2403 I DUSS&63[        sys_p1_parse_cfg: 146]:: /data/ftp/upgrade/upgrade/signimgs//wm220_0400_v01.50.12.10_20170809.pro.fw.sig not exists
+01-01 00:01:24.293   254  2403 I DUSS&63[        sys_p1_parse_cfg: 130]:: module id: 0804
+01-01 00:01:24.293   254  2403 I DUSS&63[        sys_p1_parse_cfg: 133]:: module version: 01.00.00.11
+01-01 00:01:24.293   254  2403 I DUSS&63[        sys_p1_parse_cfg: 136]:: hardware version: 
+01-01 00:01:24.293   254  2403 I DUSS&63[        sys_p1_parse_cfg: 141]:: module file_name = wm220_0804_v01.00.00.11_20170828.pro.fw.sig
+01-01 00:01:24.293   254  2403 I DUSS&63[        sys_p1_parse_cfg: 146]:: /data/ftp/upgrade/upgrade/signimgs//wm220_0804_v01.00.00.11_20170828.pro.fw.sig not exists
+01-01 00:01:24.293   254  2403 I DUSS&63[        sys_p1_parse_cfg: 130]:: module id: 0801
+01-01 00:01:24.293   254  2403 I DUSS&63[        sys_p1_parse_cfg: 133]:: module version: 01.06.00.46
+01-01 00:01:24.293   254  2403 I DUSS&63[        sys_p1_parse_cfg: 136]:: hardware version: 
+01-01 00:01:24.293   254  2403 I DUSS&63[        sys_p1_parse_cfg: 141]:: module file_name = wm220_0801_v01.06.00.46_20180613.pro.fw.sig
+01-01 00:01:24.293   254  2403 I DUSS&63[        sys_p1_parse_cfg: 146]:: /data/ftp/upgrade/upgrade/signimgs//wm220_0801_v01.06.00.46_20180613.pro.fw.sig not exists
+01-01 00:01:24.293   254  2403 I DUSS&63[        sys_p1_parse_cfg: 130]:: module id: 1200
+01-01 00:01:24.293   254  2403 I DUSS&63[        sys_p1_parse_cfg: 133]:: module version: 01.10.00.00
+01-01 00:01:24.293   254  2403 I DUSS&63[        sys_p1_parse_cfg: 136]:: hardware version: 
+01-01 00:01:24.293   254  2403 I DUSS&63[        sys_p1_parse_cfg: 141]:: module file_name = wm220_1200_v01.10.00.00_20170731.pro.fw.sig
+01-01 00:01:24.293   254  2403 I DUSS&63[        sys_p1_parse_cfg: 146]:: /data/ftp/upgrade/upgrade/signimgs//wm220_1200_v01.10.00.00_20170731.pro.fw.sig not exists
+01-01 00:01:24.293   254  2403 I DUSS&63[        sys_p1_parse_cfg: 130]:: module id: 1200
+01-01 00:01:24.293   254  2403 I DUSS&63[        sys_p1_parse_cfg: 133]:: module version: 01.01.00.72
+01-01 00:01:24.293   254  2403 I DUSS&63[        sys_p1_parse_cfg: 136]:: hardware version: es02
+01-01 00:01:24.293   254  2403 I DUSS&63[        sys_p1_parse_cfg: 141]:: module file_name = wm220_1200_v01.01.00.72_20180515_es02.pro.fw.sig
+01-01 00:01:24.293   254  2403 I DUSS&63[        sys_p1_parse_cfg: 153]:: md5: 0d033c910c37ed7c323739db04633325
+01-01 00:01:24.294   254  2403 I DUSS&63[      sys_p1_add_up_file:2359]:: get hw_ver[ES02] from file /data/ftp/upgrade/upgrade/signimgs//wm220_1200_v01.01.00.72_20180515_es02.pro.fw.sig
+01-01 00:01:24.294   254  2403 I DUSS&63[      sys_p1_add_up_file:2456]:: parse file ok, id 12, index 0, ver: 1.1.0.72
+01-01 00:01:24.294   254  2403 I DUSS&63[      sys_p1_add_up_file:2458]:: sign file name: /data/ftp/upgrade/upgrade/signimgs//wm220_1200_v01.01.00.72_20180515_es02.pro.fw.sig, file_size=28448
+01-01 00:01:24.294   254  2403 I DUSS&63[        sys_p1_parse_cfg: 130]:: module id: 1201
+01-01 00:01:24.294   254  2403 I DUSS&63[        sys_p1_parse_cfg: 133]:: module version: 01.10.00.00
+01-01 00:01:24.294   254  2403 I DUSS&63[        sys_p1_parse_cfg: 136]:: hardware version: 
+01-01 00:01:24.294   254  2403 I DUSS&63[        sys_p1_parse_cfg: 141]:: module file_name = wm220_1201_v01.10.00.00_20170731.pro.fw.sig
+01-01 00:01:24.294   254  2403 I DUSS&63[        sys_p1_parse_cfg: 146]:: /data/ftp/upgrade/upgrade/signimgs//wm220_1201_v01.10.00.00_20170731.pro.fw.sig not exists
+01-01 00:01:24.294   254  2403 I DUSS&63[        sys_p1_parse_cfg: 130]:: module id: 1202
+01-01 00:01:24.294   254  2403 I DUSS&63[        sys_p1_parse_cfg: 133]:: module version: 01.10.00.00
+01-01 00:01:24.294   254  2403 I DUSS&63[        sys_p1_parse_cfg: 136]:: hardware version: 
+01-01 00:01:24.294   254  2403 I DUSS&63[        sys_p1_parse_cfg: 141]:: module file_name = wm220_1202_v01.10.00.00_20170731.pro.fw.sig
+01-01 00:01:24.294   254  2403 I DUSS&63[        sys_p1_parse_cfg: 146]:: /data/ftp/upgrade/upgrade/signimgs//wm220_1202_v01.10.00.00_20170731.pro.fw.sig not exists
+01-01 00:01:24.294   254  2403 I DUSS&63[        sys_p1_parse_cfg: 130]:: module id: 1203
+01-01 00:01:24.294   254  2403 I DUSS&63[        sys_p1_parse_cfg: 133]:: module version: 01.10.00.00
+01-01 00:01:24.294   254  2403 I DUSS&63[        sys_p1_parse_cfg: 136]:: hardware version: 
+01-01 00:01:24.294   254  2403 I DUSS&63[        sys_p1_parse_cfg: 141]:: module file_name = wm220_1203_v01.10.00.00_20170731.pro.fw.sig
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 146]:: /data/ftp/upgrade/upgrade/signimgs//wm220_1203_v01.10.00.00_20170731.pro.fw.sig not exists
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 130]:: module id: 0802
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 133]:: module version: 01.01.00.02
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 136]:: hardware version: 
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 141]:: module file_name = wm220_0802_v01.01.00.02_20170729.pro.fw.sig
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 146]:: /data/ftp/upgrade/upgrade/signimgs//wm220_0802_v01.01.00.02_20170729.pro.fw.sig not exists
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 130]:: module id: 0805
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 133]:: module version: 01.04.00.99
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 136]:: hardware version: 
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 141]:: module file_name = wm220_0805_v01.04.00.99_20180601.pro.fw.sig
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 146]:: /data/ftp/upgrade/upgrade/signimgs//wm220_0805_v01.04.00.99_20180601.pro.fw.sig not exists
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 130]:: module id: 1407
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 133]:: module version: 47.26.02.18
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 136]:: hardware version: 
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 141]:: module file_name = wm220_1407_v47.26.02.18_20170801.pro.fw.sig
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 146]:: /data/ftp/upgrade/upgrade/signimgs//wm220_1407_v47.26.02.18_20170801.pro.fw.sig not exists
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 130]:: module id: 0600
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 133]:: module version: 00.00.01.28
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 136]:: hardware version: 
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 141]:: module file_name = wm220_0600_v00.00.01.28_20170727.pro.fw.sig
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 146]:: /data/ftp/upgrade/upgrade/signimgs//wm220_0600_v00.00.01.28_20170727.pro.fw.sig not exists
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 130]:: module id: 1301
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 133]:: module version: 01.06.00.46
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 136]:: hardware version: 
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 141]:: module file_name = wm220_1301_v01.06.00.46_20180613.pro.fw.sig
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 146]:: /data/ftp/upgrade/upgrade/signimgs//wm220_1301_v01.06.00.46_20180613.pro.fw.sig not exists
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 130]:: module id: 2807
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 133]:: module version: 34.84.01.00
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 136]:: hardware version: 
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 141]:: module file_name = wm220_2807_v34.84.01.00_20180522.pro.fw.sig
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 146]:: /data/ftp/upgrade/upgrade/signimgs//wm220_2807_v34.84.01.00_20180522.pro.fw.sig not exists
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 130]:: module id: 0601
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 133]:: module version: 00.00.03.06
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 136]:: hardware version: 
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 141]:: module file_name = wm220_0601_v00.00.03.06_20170528.pro.fw.sig
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 146]:: /data/ftp/upgrade/upgrade/signimgs//wm220_0601_v00.00.03.06_20170528.pro.fw.sig not exists
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 130]:: module id: 0603
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 133]:: module version: 00.00.06.09
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 136]:: hardware version: 
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 141]:: module file_name = wm220_0603_v00.00.06.09_20170728.pro.fw.sig
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 146]:: /data/ftp/upgrade/upgrade/signimgs//wm220_0603_v00.00.06.09_20170728.pro.fw.sig not exists
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 130]:: module id: 2801
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 133]:: module version: 01.04.01.09
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 136]:: hardware version: 
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 141]:: module file_name = wm220_2801_v01.04.01.09_20180612.pro.fw.sig
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 146]:: /data/ftp/upgrade/upgrade/signimgs//wm220_2801_v01.04.01.09_20180612.pro.fw.sig not exists
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 130]:: module id: 2803
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 133]:: module version: 00.00.03.07
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 136]:: hardware version: 
+01-01 00:01:24.295   254  2403 I DUSS&63[        sys_p1_parse_cfg: 141]:: module file_name = wm220_2803_v00.00.03.07_20170228.pro.fw.sig
+01-01 00:01:24.296   254  2403 I DUSS&63[        sys_p1_parse_cfg: 146]:: /data/ftp/upgrade/upgrade/signimgs//wm220_2803_v00.00.03.07_20170228.pro.fw.sig not exists
+01-01 00:01:24.296   254  2403 I DUSS&63[        sys_p1_parse_cfg: 130]:: module id: 2803
+01-01 00:01:24.296   254  2403 I DUSS&63[        sys_p1_parse_cfg: 133]:: module version: 00.00.03.08
+01-01 00:01:24.296   254  2403 I DUSS&63[        sys_p1_parse_cfg: 136]:: hardware version: cd01
+01-01 00:01:24.296   254  2403 I DUSS&63[        sys_p1_parse_cfg: 141]:: module file_name = wm220_2803_v00.00.03.08_20170302_cd01.pro.fw.sig
+01-01 00:01:24.296   254  2403 I DUSS&63[        sys_p1_parse_cfg: 146]:: /data/ftp/upgrade/upgrade/signimgs//wm220_2803_v00.00.03.08_20170302_cd01.pro.fw.sig not exists
+01-01 00:01:24.296   254  2403 I DUSS&63[        sys_p1_parse_cfg: 130]:: module id: 2803
+01-01 00:01:24.296   254  2403 I DUSS&63[        sys_p1_parse_cfg: 133]:: module version: 00.00.03.08
+01-01 00:01:24.296   254  2403 I DUSS&63[        sys_p1_parse_cfg: 136]:: hardware version: cd02
+01-01 00:01:24.296   254  2403 I DUSS&63[        sys_p1_parse_cfg: 141]:: module file_name = wm220_2803_v00.00.03.08_20170302_cd02.pro.fw.sig
+01-01 00:01:24.296   254  2403 I DUSS&63[        sys_p1_parse_cfg: 146]:: /data/ftp/upgrade/upgrade/signimgs//wm220_2803_v00.00.03.08_20170302_cd02.pro.fw.sig not exists
+01-01 00:01:24.296   254  2403 I DUSS&63[        sys_p1_parse_cfg: 130]:: module id: 2803
+01-01 00:01:24.296   254  2403 I DUSS&63[        sys_p1_parse_cfg: 133]:: module version: 00.00.03.08
+01-01 00:01:24.296   254  2403 I DUSS&63[        sys_p1_parse_cfg: 136]:: hardware version: cd03
+01-01 00:01:24.296   254  2403 I DUSS&63[        sys_p1_parse_cfg: 141]:: module file_name = wm220_2803_v00.00.04.08_20170828_cd03.pro.fw.sig
+01-01 00:01:24.296   254  2403 I DUSS&63[        sys_p1_parse_cfg: 146]:: /data/ftp/upgrade/upgrade/signimgs//wm220_2803_v00.00.04.08_20170828_cd03.pro.fw.sig not exists
+01-01 00:01:24.296   254  2403 I DUSS&63[        sys_p1_parse_cfg: 130]:: module id: 0905
+01-01 00:01:24.296   254  2403 I DUSS&63[        sys_p1_parse_cfg: 133]:: module version: 01.00.01.07
+01-01 00:01:24.296   254  2403 I DUSS&63[        sys_p1_parse_cfg: 136]:: hardware version: 
+01-01 00:01:24.296   254  2403 I DUSS&63[        sys_p1_parse_cfg: 141]:: module file_name = wm220_0905_v01.00.01.07_20170929.pro.fw.sig
+01-01 00:01:24.296   254  2403 I DUSS&63[        sys_p1_parse_cfg: 146]:: /data/ftp/upgrade/upgrade/signimgs//wm220_0905_v01.00.01.07_20170929.pro.fw.sig not exists
+01-01 00:01:24.297   254  2403 I DUSS&63[sys_p1_get_filelist_from:3894]:: dev id in cfg file: wm220, hw_str: WM220 AC
+01-01 00:01:24.297   254  2403 I DUSS&63[sys_p1_get_filelist_from:3902]:: +++ p1->up_file_cnt = 3, p1_first=1
+01-01 00:01:24.304   254  2403 I DUSS&63[     sys_p1_verify_image:3995]:: file parse result: up_file_cnt=3, uav_img_cnt=3, gnd_img_cnt=0, gls_img_cnt=0
+01-01 00:01:24.304   254  2403 I DUSS&63[     sys_p1_verify_image:4047]:: ++++ id_idx = 0305, unsign_file_name /cache/upgrade/unsignimgs//wm220_0305_v34.04.00.24_20170726.pro.fw
+01-01 00:01:24.372   254  2403 I DUSS&63[       sys_p1_unsign_img:1837]:: dji_verify -n 0305 -o /cache/upgrade/unsignimgs//wm220_0305_v34.04.00.24_20170726.pro.fw /data/ftp/upgrade/upgrade/signimgs//wm220_0305_v34.04.00.24_20170726.pro.fw.sig exit status 0, return 0
+01-01 00:01:24.372   254  2403 I DUSS&63[       sys_p1_unsign_img:1845]:: dji_verify -n 0305 -o /cache/upgrade/unsignimgs//wm220_0305_v34.04.00.24_20170726.pro.fw /data/ftp/upgrade/upgrade/signimgs//wm220_0305_v34.04.00.24_20170726.pro.fw.sig success.
+01-01 00:01:24.372   254  2403 I DUSS&63[     sys_p1_verify_image:4047]:: ++++ id_idx = 0306, unsign_file_name /cache/upgrade/unsignimgs//wm220_0306_v03.02.44.13_20171116.pro.fw
+01-01 00:01:24.420   254  2403 I DUSS&63[       sys_p1_unsign_img:1829]:: verify results: switching to OG mode
+01-01 00:01:24.448   254  2403 I DUSS&63[       sys_p1_unsign_img:1837]:: dji_verify -n 0306 -o /cache/upgrade/unsignimgs//wm220_0306_v03.02.44.13_20171116.pro.fw /data/ftp/upgrade/upgrade/signimgs//wm220_0306_v03.02.44.13_20171116.pro.fw.sig exit status 0, return 0
+01-01 00:01:24.448   254  2403 I DUSS&63[       sys_p1_unsign_img:1845]:: dji_verify -n 0306 -o /cache/upgrade/unsignimgs//wm220_0306_v03.02.44.13_20171116.pro.fw /data/ftp/upgrade/upgrade/signimgs//wm220_0306_v03.02.44.13_20171116.pro.fw.sig success.
+01-01 00:01:24.448   254  2403 I DUSS&63[     sys_p1_verify_image:4047]:: ++++ id_idx = 1200, unsign_file_name /cache/upgrade/unsignimgs//wm220_1200_v01.01.00.72_20180515_es02.pro.fw
+01-01 00:01:24.511   254  2403 I DUSS&63[       sys_p1_unsign_img:1837]:: dji_verify -n 1200 -o /cache/upgrade/unsignimgs//wm220_1200_v01.01.00.72_20180515_es02.pro.fw /data/ftp/upgrade/upgrade/signimgs//wm220_1200_v01.01.00.72_20180515_es02.pro.fw.sig exit status 0, return 0
+01-01 00:01:24.511   254  2403 I DUSS&63[       sys_p1_unsign_img:1845]:: dji_verify -n 1200 -o /cache/upgrade/unsignimgs//wm220_1200_v01.01.00.72_20180515_es02.pro.fw /data/ftp/upgrade/upgrade/signimgs//wm220_1200_v01.01.00.72_20180515_es02.pro.fw.sig success.
+01-01 00:01:24.511   254  2403 I DUSS&63[sys_p1_up_stop_smooth_pu:2904]:: will stop smooth pushing, previous timer=0xb71124c0
+01-01 00:01:24.511   254  2403 I DUSS&63[sys_p1_up_stop_smooth_pu:2908]:: stop previous timer, mod_id=0x0, start_progress=7, end_progress=15
+01-01 00:01:24.512   254  2403 I DUSS&63[sys_p1_push_ongoing_stat:2997]:: Push to 0xa01 for module 0x801, overall upgrade progress: 15 (0:3:0), stop_pushing=0
+01-01 00:01:24.512   254  2403 I DUSS&63[    sys_up_sec_up_thread:1555]:: first upgrading, back up upgrade images.
+01-01 00:01:24.512   254  2403 I DUSS&63[sys_p1_up_start_smooth_p:2877]:: will start smooth pushing, from 15 to 20, step=1,interval=2, mod_id=0x0, is_local_progress=0
+01-01 00:01:24.512   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 1, progress: 0, total_progress: 15
+01-01 00:01:26.512   254  2453 I DUSS&63[sys_p1_up_smooth_push_en:2831]:: smooth pushing status, start=15, end=20, step=1, cur=15, mod_id=0
+01-01 00:01:26.512   254  2453 I DUSS&63[sys_p1_push_ongoing_stat:2997]:: Push to 0xa01 for module 0x801, overall upgrade progress: 15 (0:3:0), stop_pushing=0
+01-01 00:01:26.512   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 1, progress: 0, total_progress: 15
+01-01 00:01:26.515   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:01:26.515   254   442 I DUSS&63[       sys_check_pc_conn: 304]:: pc state is CONFIGURED
+01-01 00:01:26.515   254   442 I DUSS&63[sys_up_status_push_threa:1017]:: conn_pc=1 when re-check in pushing thread
+01-01 00:01:26.515   254   442 E DUSS&63[sys_event_pc_through_rc_:1205]:: switch pc wl channel to 0 success
+01-01 00:01:27.182   254   445 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 4, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:01:28.065   254  2403 I DUSS&63[ sys_up_del_full_package:1099]:: deleted /data/ftp/upgrade/dji_system.bin
+01-01 00:01:28.512   254  2453 I DUSS&63[sys_p1_up_smooth_push_en:2831]:: smooth pushing status, start=15, end=20, step=1, cur=16, mod_id=0
+01-01 00:01:28.512   254  2453 I DUSS&63[sys_p1_push_ongoing_stat:2997]:: Push to 0xa01 for module 0x801, overall upgrade progress: 16 (0:3:0), stop_pushing=0
+01-01 00:01:28.512   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 1, progress: 0, total_progress: 16
+01-01 00:01:28.514   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:01:30.182   254   445 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 4, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:01:30.512   254  2453 I DUSS&63[sys_p1_up_smooth_push_en:2831]:: smooth pushing status, start=15, end=20, step=1, cur=17, mod_id=0
+01-01 00:01:30.512   254  2453 I DUSS&63[sys_p1_push_ongoing_stat:2997]:: Push to 0xa01 for module 0x801, overall upgrade progress: 17 (0:3:0), stop_pushing=0
+01-01 00:01:30.512   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 1, progress: 0, total_progress: 17
+01-01 00:01:30.514   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:01:31.329   254  2403 I DUSS&63[sys_p1_up_stop_smooth_pu:2904]:: will stop smooth pushing, previous timer=0xb71124c0
+01-01 00:01:31.329   254  2403 I DUSS&63[sys_p1_up_stop_smooth_pu:2908]:: stop previous timer, mod_id=0x0, start_progress=15, end_progress=20
+01-01 00:01:31.329   254  2403 I DUSS&63[sys_p1_push_ongoing_stat:2997]:: Push to 0xa01 for module 0x801, overall upgrade progress: 20 (0:3:0), stop_pushing=0
+01-01 00:01:31.329   254  2403 I DUSS&63[sys_up_save_upgrade_stat: 462]:: optionName=package_id, optionValue=wm220
+01-01 00:01:31.330   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 1, progress: 0, total_progress: 20
+01-01 00:01:31.336   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:01:31.432   254  2403 I DUSS&63[sys_up_save_upgrade_stat: 462]:: optionName=package_ver, optionValue=1.4.400
+01-01 00:01:31.514   254  2403 I DUSS&63[sys_up_save_upgrade_stat: 370]:: fileName=/cache/general_status, optionName=package_uav_cnt, optionValue=3
+01-01 00:01:31.515   254  2403 I DUSS&63[sys_up_save_upgrade_stat: 406]:: original value 3, new value 3
+01-01 00:01:31.589   254  2403 I DUSS&63[sys_up_save_upgrade_stat: 370]:: fileName=/cache/general_status, optionName=package_gnd_cnt, optionValue=0
+01-01 00:01:31.590   254  2403 I DUSS&63[sys_up_save_upgrade_stat: 406]:: original value 0, new value 0
+01-01 00:01:31.659   254  2403 I DUSS&63[sys_up_save_upgrade_stat: 370]:: fileName=/cache/general_status, optionName=package_gls_cnt, optionValue=0
+01-01 00:01:31.660   254  2403 I DUSS&63[sys_up_save_upgrade_stat: 406]:: original value 0, new value 0
+01-01 00:01:31.762   254  2403 I DUSS&63[ sys_up_save_int_to_file: 547]:: fileName=/cache/upgrade_retry, value=2
+01-01 00:01:31.846   254  2403 I DUSS&63[      sys_p1_upgrade_all:3324]::  **********************  upgrade begins *******************
+01-01 00:01:31.846   254  2403 I DUSS&63[      sys_p1_upgrade_all:3326]::  3 modules need to be upgraded, 1860 is not the last one
+01-01 00:01:31.846   254  2403 I DUSS&63[sys_p1_push_ongoing_stat:2997]:: Push to 0xa01 for module 0x305, overall upgrade progress: 20 (3:3:0), stop_pushing=0
+01-01 00:01:31.846   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0xa3 (03.05), status 1, progress: 0, total_progress: 20
+01-01 00:01:31.848   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:01:33.182   254   445 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 4, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:01:33.846   254  2403 I DUSS&63[  sys_upgrade_check_file:1653]:: FC Loader Upgrade: check file /cache/upgrade/unsignimgs//wm220_0305_v34.04.00.24_20170726.pro.fw
+01-01 00:01:33.846   254  2403 I DUSS&63[  sys_upgrade_check_file:1719]:: /cache/upgrade/unsignimgs//wm220_0305_v34.04.00.24_20170726.pro.fw: header crc16_verify ok
+01-01 00:01:33.847   254  2403 I DUSS&63[   sys_upgrade_commom_hw:3036]:: Start to upgrade FC Loader
+01-01 00:01:33.847   254  2403 I DUSS&63[sys_upgrade_check_connec:1608]:: Send check connection message to FC Loader ...
+01-01 00:01:33.848   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0xa3 (03.05), status 1, progress: 0, total_progress: 20
+01-01 00:01:33.851   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:01:33.855   254  2403 I DUSS&63[sys_upgrade_check_connec:1620]:: get response from FC Loader, ret_code: 0x0
+01-01 00:01:33.855   254  2403 I DUSS&63[sys_upgrade_check_connec:1629]:: Has HW ver for FC Loader: 08RDEBMP0103FC
+01-01 00:01:33.855   254  2403 I DUSS&63[       sys_check_version:  77]:: Same version. Current: 34.4.0.24 (24); Target: 34.4.0.24
+01-01 00:01:33.855   254  2403 I DUSS&63[      sys_p1_upgrade_all:3620]:: FC Loader: sys_upgrade_commom_hw success
+01-01 00:01:33.855   254  2403 I DUSS&63[sys_p1_push_ongoing_stat:2997]:: Push to 0xa01 for module 0x305, overall upgrade progress: 46 (3:3:100), stop_pushing=0
+01-01 00:01:33.855   254  2403 I DUSS&63[    sys_del_upgrade_file:3297]:: del file /data/ftp/upgrade/upgrade/signimgs//wm220_0305_v34.04.00.24_20170726.pro.fw.sig /cache/upgrade/unsignimgs//wm220_0305_v34.04.00.24_20170726.pro.fw
+01-01 00:01:33.855   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0xa3 (03.05), status 5, progress: 100, total_progress: 46
+01-01 00:01:33.859   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:01:35.859   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0xa3 (03.05), status 5, progress: 100, total_progress: 46
+01-01 00:01:35.861   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:01:36.182   254   445 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 4, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:01:36.875   254  2403 I DUSS&63[sys_p1_push_ongoing_stat:2997]:: Push to 0xa01 for module 0x306, overall upgrade progress: 46 (3:2:0), stop_pushing=0
+01-01 00:01:36.875   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0xc3 (03.06), status 1, progress: 0, total_progress: 46
+01-01 00:01:36.877   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:01:38.876   254  2403 I DUSS&63[  sys_upgrade_check_file:1653]:: FC APP Upgrade: check file /cache/upgrade/unsignimgs//wm220_0306_v03.02.44.13_20171116.pro.fw
+01-01 00:01:38.876   254  2403 I DUSS&63[  sys_upgrade_check_file:1701]:: Firmaware /cache/upgrade/unsignimgs//wm220_0306_v03.02.44.13_20171116.pro.fw is not encrypted
+01-01 00:01:38.878   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0xc3 (03.06), status 1, progress: 0, total_progress: 46
+01-01 00:01:38.880   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:01:38.897   254  2403 I DUSS&63[  sys_upgrade_check_file:1713]:: md5string: 173cf3d4286c83e74baa5f5b79fdd5d2
+01-01 00:01:38.897   254  2403 I DUSS&63[   sys_upgrade_commom_hw:3036]:: Start to upgrade FC APP
+01-01 00:01:38.897   254  2403 I DUSS&63[sys_upgrade_check_connec:1608]:: Send check connection message to FC APP ...
+01-01 00:01:38.916   254  2403 I DUSS&63[sys_upgrade_check_connec:1620]:: get response from FC APP, ret_code: 0x0
+01-01 00:01:38.916   254  2403 I DUSS&63[sys_upgrade_check_connec:1629]:: Has HW ver for FC APP: 08RDEBMP0103FC
+01-01 00:01:38.916   254  2403 I DUSS&63[       sys_check_version:  81]:: Different version.
+01-01 00:01:38.916   254  2403 I DUSS&63[       sys_check_version:  82]:: Current ver.Fw = 3.2.44.12
+01-01 00:01:38.916   254  2403 I DUSS&63[       sys_check_version:  87]:: Targetr.Fw = 3.2.44.13
+01-01 00:01:39.182   254   445 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 4, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:01:40.880   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0xc3 (03.06), status 1, progress: 0, total_progress: 46
+01-01 00:01:40.885   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:01:40.916   254  2403 I DUSS&63[sys_upgrade_request_upgr:1794]:: Send enter upgrade mode to FC APP...
+01-01 00:01:40.937   254  2403 I DUSS&63[sys_upgrade_request_upgr:1814]:: Got enter upgrade mode ack message, len = 1.
+01-01 00:01:40.937   254  2403 I DUSS&63[sys_upgrade_request_upgr:1827]:: Hw FC APP return ok for requesting upgrade.
+01-01 00:01:41.868   254   446 I DUSS&63[ handle_dji_device_event: 415]:: Handle events for usb ACM /dev/ttyACM:vFFF0p0008 plug out.
+01-01 00:01:41.879   254   446 I DUSS&63[ handle_dji_device_event: 419]:: disable ttyACM channel result: 0
+01-01 00:01:41.879   254   446 I DUSS&63[ handle_dji_device_event: 433]:: Enable local channel to FC 0306 channel.
+01-01 00:01:42.182   254   445 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 4, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:01:42.478   254   444 E DUSS&63[sys_p1_disable_motor_run:4285]:: set motor work status error: -1002
+01-01 00:01:42.885   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0xc3 (03.06), status 1, progress: 0, total_progress: 46
+01-01 00:01:42.887   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:01:42.937   254  2403 I DUSS&63[ sys_upgrade_check_state:1888]:: Send check state message to FC APP...
+01-01 00:01:43.642   254   446 I DUSS&63[ handle_dji_device_event: 350]:: ttyACM1 modalias: usb:vFFF0p0008d0100dc02dsc00dp00ic02isc02ip00in00
+01-01 00:01:44.477   254   444 E DUSS&63[sys_p1_disable_motor_run:4285]:: set motor work status error: -1002
+01-01 00:01:44.887   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0xc3 (03.06), status 1, progress: 0, total_progress: 46
+01-01 00:01:44.889   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:01:44.937   254  2403 E DUSS&63[ sys_upgrade_check_state:1904]:: FC APP: duss_event_send() error: -1002, continue
+01-01 00:01:45.182   254   445 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 4, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:01:46.477   254   444 E DUSS&63[sys_p1_disable_motor_run:4285]:: set motor work status error: -1002
+01-01 00:01:46.642   254   446 I DUSS&63[ handle_dji_device_event: 357]:: Handle events for usb ACM /dev/ttyACM:vFFF0p0008 plug in.
+01-01 00:01:46.653   254   446 I DUSS&63[ handle_dji_device_event: 361]:: enable ttyACM channel result: 0
+01-01 00:01:46.654   254   446 I DUSS&63[ handle_dji_device_event: 404]:: Disable local channel to FC 0306 channel.
+01-01 00:01:46.889   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0xc3 (03.06), status 1, progress: 0, total_progress: 46
+01-01 00:01:46.892   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:01:46.937   254  2403 I DUSS&63[ sys_upgrade_check_state:1888]:: Send check state message to FC APP...
+01-01 00:01:46.938   254  2403 I DUSS&63[ sys_upgrade_check_state:1910]:: Got FC APP status report message.
+01-01 00:01:46.938   254  2403 I DUSS&63[ sys_upgrade_check_state:1933]:: Ack: version major = 0
+01-01 00:01:46.938   254  2403 I DUSS&63[ sys_upgrade_check_state:1934]:: Ack: version minor = 0
+01-01 00:01:46.938   254  2403 I DUSS&63[ sys_upgrade_check_state:1935]:: Ack: status = 0x1
+01-01 00:01:46.938   254  2403 I DUSS&63[sys_upgrade_request_acce:1976]:: FC APP: upgrade data size = 1483776
+01-01 00:01:48.182   254   445 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 4, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:01:48.477   254   444 E DUSS&63[sys_p1_disable_motor_run:4285]:: set motor work status error: -1002
+01-01 00:01:48.892   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0xc3 (03.06), status 1, progress: 0, total_progress: 46
+01-01 00:01:48.894   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:01:48.938   254  2403 I DUSS&63[sys_upgrade_request_acce:2018]:: Send cmd 0x8 to FC APP, size 1483776...
+01-01 00:01:48.938   254  2403 I DUSS&63[sys_upgrade_request_acce:2026]:: FC APP: wait for cmd 0x8's ack message
+01-01 00:01:48.939   254   441 I DUSS&63[sys_event_pc_accept_upgr: 554]:: FC APP: ACK size = 5 ----
+01-01 00:01:48.939   254  2403 I DUSS&63[sys_upgrade_request_acce:2051]:: FC APP: wait for erase flash
+01-01 00:01:50.477   254   444 E DUSS&63[sys_p1_disable_motor_run:4285]:: set motor work status error: -1002
+01-01 00:01:50.477   254   444 I DUSS&63[sys_p1_disable_motor_run:4302]:: timeout, reset requester_id to 0
+01-01 00:01:50.894   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0xc3 (03.06), status 1, progress: 0, total_progress: 46
+01-01 00:01:50.896   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:01:51.182   254   445 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 4, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:01:52.478   254   444 E DUSS&63[sys_p1_register_motor_er:4350]:: register motor_err_action error: -1002
+01-01 00:01:52.896   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0xc3 (03.06), status 1, progress: 0, total_progress: 46
+01-01 00:01:52.899   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:01:54.182   254   445 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 4, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:01:54.477   254   444 E DUSS&63[sys_p1_register_motor_er:4350]:: register motor_err_action error: -1002
+01-01 00:01:54.899   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0xc3 (03.06), status 1, progress: 0, total_progress: 46
+01-01 00:01:54.902   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:01:56.478   254   444 E DUSS&63[sys_p1_register_motor_er:4350]:: register motor_err_action error: -1002
+01-01 00:01:56.902   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0xc3 (03.06), status 1, progress: 0, total_progress: 46
+01-01 00:01:56.904   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:01:57.014   254   441 I DUSS&63[sys_event_pc_accept_upgr: 554]:: FC APP: ACK size = 5 ----
+01-01 00:01:57.014   254  2403 I DUSS&63[sys_upgrade_request_acce:2076]:: Ack: sub package size = 256
+01-01 00:01:57.014   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2208]:: sys_upgrade_transfer_data: Start transferring data, offset = 0
+01-01 00:01:57.014   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 0, enc_type = 0, offset=0
+01-01 00:01:57.182   254   445 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 4, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:01:57.188   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 100, enc_type = 0, offset=25600
+01-01 00:01:57.361   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 200, enc_type = 0, offset=51200
+01-01 00:01:57.539   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 300, enc_type = 0, offset=76800
+01-01 00:01:57.721   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 400, enc_type = 0, offset=102400
+01-01 00:01:57.910   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 500, enc_type = 0, offset=128000
+01-01 00:01:57.959   254  2403 I DUSS&63[sys_p1_push_ongoing_stat:2997]:: Push to 0xa01 for module 0x306, overall upgrade progress: 47 (3:2:5), stop_pushing=0
+01-01 00:01:57.959   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0xc3 (03.06), status 1, progress: 5, total_progress: 47
+01-01 00:01:57.961   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:01:58.104   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 600, enc_type = 0, offset=153600
+01-01 00:01:58.282   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 700, enc_type = 0, offset=179200
+01-01 00:01:58.460   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 800, enc_type = 0, offset=204800
+01-01 00:01:58.477   254   444 E DUSS&63[sys_p1_register_motor_er:4350]:: register motor_err_action error: -1002
+01-01 00:01:58.643   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 900, enc_type = 0, offset=230400
+01-01 00:01:58.795   254  2403 I DUSS&63[sys_p1_push_ongoing_stat:2997]:: Push to 0xa01 for module 0x306, overall upgrade progress: 48 (3:2:10), stop_pushing=0
+01-01 00:01:58.795   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0xc3 (03.06), status 1, progress: 10, total_progress: 48
+01-01 00:01:58.797   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:01:58.817   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 1000, enc_type = 0, offset=256000
+01-01 00:01:58.990   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 1100, enc_type = 0, offset=281600
+01-01 00:01:59.171   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 1200, enc_type = 0, offset=307200
+01-01 00:01:59.362   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 1300, enc_type = 0, offset=332800
+01-01 00:01:59.553   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 1400, enc_type = 0, offset=358400
+01-01 00:01:59.639   254  2403 I DUSS&63[sys_p1_push_ongoing_stat:2997]:: Push to 0xa01 for module 0x306, overall upgrade progress: 50 (3:2:15), stop_pushing=0
+01-01 00:01:59.640   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0xc3 (03.06), status 1, progress: 15, total_progress: 50
+01-01 00:01:59.642   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:01:59.727   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 1500, enc_type = 0, offset=384000
+01-01 00:01:59.902   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 1600, enc_type = 0, offset=409600
+01-01 00:02:00.079   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 1700, enc_type = 0, offset=435200
+01-01 00:02:00.182   254   445 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 4, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:02:00.255   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 1800, enc_type = 0, offset=460800
+01-01 00:02:00.427   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 1900, enc_type = 0, offset=486400
+01-01 00:02:00.477   254   444 E DUSS&63[sys_p1_register_motor_er:4350]:: register motor_err_action error: -1002
+01-01 00:02:00.560   254  2403 I DUSS&63[sys_p1_push_ongoing_stat:2997]:: Push to 0xa01 for module 0x306, overall upgrade progress: 51 (3:2:20), stop_pushing=0
+01-01 00:02:00.560   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0xc3 (03.06), status 1, progress: 20, total_progress: 51
+01-01 00:02:00.563   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:02:00.613   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 2000, enc_type = 0, offset=512000
+01-01 00:02:00.801   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 2100, enc_type = 0, offset=537600
+01-01 00:02:00.983   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 2200, enc_type = 0, offset=563200
+01-01 00:02:01.169   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 2300, enc_type = 0, offset=588800
+01-01 00:02:01.351   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 2400, enc_type = 0, offset=614400
+01-01 00:02:01.415   254  2403 I DUSS&63[sys_p1_push_ongoing_stat:2997]:: Push to 0xa01 for module 0x306, overall upgrade progress: 52 (3:2:25), stop_pushing=0
+01-01 00:02:01.416   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0xc3 (03.06), status 1, progress: 25, total_progress: 52
+01-01 00:02:01.418   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:02:01.533   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 2500, enc_type = 0, offset=640000
+01-01 00:02:01.711   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 2600, enc_type = 0, offset=665600
+01-01 00:02:01.883   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 2700, enc_type = 0, offset=691200
+01-01 00:02:02.054   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 2800, enc_type = 0, offset=716800
+01-01 00:02:02.230   254  2403 I DUSS&63[sys_p1_push_ongoing_stat:2997]:: Push to 0xa01 for module 0x306, overall upgrade progress: 54 (3:2:30), stop_pushing=0
+01-01 00:02:02.230   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0xc3 (03.06), status 1, progress: 30, total_progress: 54
+01-01 00:02:02.232   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 2900, enc_type = 0, offset=742400
+01-01 00:02:02.232   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:02:02.408   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 3000, enc_type = 0, offset=768000
+01-01 00:02:02.477   254   444 E DUSS&63[sys_p1_register_motor_er:4350]:: register motor_err_action error: -1002
+01-01 00:02:02.588   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 3100, enc_type = 0, offset=793600
+01-01 00:02:02.763   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 3200, enc_type = 0, offset=819200
+01-01 00:02:02.939   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 3300, enc_type = 0, offset=844800
+01-01 00:02:03.118   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 3400, enc_type = 0, offset=870400
+01-01 00:02:03.153   254  2403 I DUSS&63[sys_p1_push_ongoing_stat:2997]:: Push to 0xa01 for module 0x306, overall upgrade progress: 55 (3:2:35), stop_pushing=0
+01-01 00:02:03.153   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0xc3 (03.06), status 1, progress: 35, total_progress: 55
+01-01 00:02:03.155   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:02:03.182   254   445 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 4, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:02:03.295   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 3500, enc_type = 0, offset=896000
+01-01 00:02:03.473   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 3600, enc_type = 0, offset=921600
+01-01 00:02:03.650   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 3700, enc_type = 0, offset=947200
+01-01 00:02:03.824   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 3800, enc_type = 0, offset=972800
+01-01 00:02:03.972   254  2403 I DUSS&63[sys_p1_push_ongoing_stat:2997]:: Push to 0xa01 for module 0x306, overall upgrade progress: 56 (3:2:40), stop_pushing=0
+01-01 00:02:03.972   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0xc3 (03.06), status 1, progress: 40, total_progress: 56
+01-01 00:02:03.974   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:02:03.999   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 3900, enc_type = 0, offset=998400
+01-01 00:02:04.178   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 4000, enc_type = 0, offset=1024000
+01-01 00:02:04.367   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 4100, enc_type = 0, offset=1049600
+01-01 00:02:04.477   254   444 E DUSS&63[sys_p1_register_motor_er:4350]:: register motor_err_action error: -1002
+01-01 00:02:04.563   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 4200, enc_type = 0, offset=1075200
+01-01 00:02:04.741   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 4300, enc_type = 0, offset=1100800
+01-01 00:02:04.829   254  2403 I DUSS&63[sys_p1_push_ongoing_stat:2997]:: Push to 0xa01 for module 0x306, overall upgrade progress: 58 (3:2:45), stop_pushing=0
+01-01 00:02:04.830   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0xc3 (03.06), status 1, progress: 45, total_progress: 58
+01-01 00:02:04.832   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:02:04.923   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 4400, enc_type = 0, offset=1126400
+01-01 00:02:05.105   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 4500, enc_type = 0, offset=1152000
+01-01 00:02:05.281   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 4600, enc_type = 0, offset=1177600
+01-01 00:02:05.461   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 4700, enc_type = 0, offset=1203200
+01-01 00:02:05.642   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 4800, enc_type = 0, offset=1228800
+01-01 00:02:05.777   254  2403 I DUSS&63[sys_p1_push_ongoing_stat:2997]:: Push to 0xa01 for module 0x306, overall upgrade progress: 59 (3:2:50), stop_pushing=0
+01-01 00:02:05.778   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0xc3 (03.06), status 1, progress: 50, total_progress: 59
+01-01 00:02:05.780   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:02:05.834   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 4900, enc_type = 0, offset=1254400
+01-01 00:02:06.024   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 5000, enc_type = 0, offset=1280000
+01-01 00:02:06.182   254   445 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 4, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:02:06.217   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 5100, enc_type = 0, offset=1305600
+01-01 00:02:06.394   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 5200, enc_type = 0, offset=1331200
+01-01 00:02:06.477   254   444 E DUSS&63[sys_p1_register_motor_er:4350]:: register motor_err_action error: -1002
+01-01 00:02:06.569   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 5300, enc_type = 0, offset=1356800
+01-01 00:02:06.628   254  2403 I DUSS&63[sys_p1_push_ongoing_stat:2997]:: Push to 0xa01 for module 0x306, overall upgrade progress: 60 (3:2:55), stop_pushing=0
+01-01 00:02:06.628   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0xc3 (03.06), status 1, progress: 55, total_progress: 60
+01-01 00:02:06.630   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:02:06.744   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 5400, enc_type = 0, offset=1382400
+01-01 00:02:06.919   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 5500, enc_type = 0, offset=1408000
+01-01 00:02:07.094   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 5600, enc_type = 0, offset=1433600
+01-01 00:02:07.290   254  2403 I DUSS&63[sys_upgrade_transfer_dat:2265]:: Send upgrade data to FC APP, data seq_num = 5700, enc_type = 0, offset=1459200
+01-01 00:02:08.477   254   444 E DUSS&63[sys_p1_register_motor_er:4350]:: register motor_err_action error: -1002
+01-01 00:02:08.630   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0xc3 (03.06), status 1, progress: 55, total_progress: 60
+01-01 00:02:08.633   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:02:09.182   254   445 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 4, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:02:09.474   254  2403 I DUSS&63[sys_upgrade_transfer_com:2657]:: Send transfer complete message to FC APP, len = 17, timeout = 20000000
+01-01 00:02:09.766   254  2403 I DUSS&63[sys_upgrade_transfer_com:2686]:: resp_msg->msg_buf[0] = 0x0
+01-01 00:02:09.766   254  2403 I DUSS&63[sys_upgrade_transfer_com:2750]:: Succeed to send transfer completet message to FC APP
+01-01 00:02:09.766   254  2403 I DUSS&63[   sys_upgrade_commom_hw:3126]:: ..... Succeed to upgrade  FC APP ......
+01-01 00:02:10.478   254   444 E DUSS&63[sys_p1_register_motor_er:4350]:: register motor_err_action error: -1002
+01-01 00:02:10.633   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0xc3 (03.06), status 1, progress: 55, total_progress: 60
+01-01 00:02:10.635   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:02:10.766   254  2403 I DUSS&63[sys_upgrade_reboot_and_c:2874]:: Send reboot to FC APP
+01-01 00:02:10.766   254  2403 I DUSS&63[sys_upgrade_reboot_and_c:2899]:: Succeed to send reboot msg to FC APP
+01-01 00:02:12.182   254   445 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 4, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:02:12.277   254   446 I DUSS&63[ handle_dji_device_event: 415]:: Handle events for usb ACM /dev/ttyACM:vFFF0p0008 plug out.
+01-01 00:02:12.282   254   446 I DUSS&63[ handle_dji_device_event: 419]:: disable ttyACM channel result: 0
+01-01 00:02:12.282   254   446 I DUSS&63[ handle_dji_device_event: 433]:: Enable local channel to FC 0306 channel.
+01-01 00:02:12.478   254   444 E DUSS&63[sys_p1_register_motor_er:4350]:: register motor_err_action error: -1002
+01-01 00:02:12.635   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0xc3 (03.06), status 1, progress: 55, total_progress: 60
+01-01 00:02:12.637   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:02:12.767   254  2403 I DUSS&63[sys_upgrade_check_connec:1608]:: Send check connection message to FC APP ...
+01-01 00:02:13.267   254  2403 I DUSS&63[sys_upgrade_check_connec:1615]:: duss_event_send_sync error: -1002, retry=0
+01-01 00:02:13.767   254  2403 I DUSS&63[sys_upgrade_check_connec:1608]:: Send check connection message to FC APP ...
+01-01 00:02:14.267   254  2403 I DUSS&63[sys_upgrade_check_connec:1615]:: duss_event_send_sync error: -1002, retry=1
+01-01 00:02:14.477   254   444 E DUSS&63[sys_p1_register_motor_er:4350]:: register motor_err_action error: -1002
+01-01 00:02:14.637   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0xc3 (03.06), status 1, progress: 55, total_progress: 60
+01-01 00:02:14.639   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:02:14.767   254  2403 I DUSS&63[sys_upgrade_check_connec:1608]:: Send check connection message to FC APP ...
+01-01 00:02:15.182   254   445 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 4, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:02:15.267   254  2403 I DUSS&63[sys_upgrade_check_connec:1615]:: duss_event_send_sync error: -1002, retry=2
+01-01 00:02:15.326   254   446 I DUSS&63[ handle_dji_device_event: 350]:: ttyACM1 modalias: usb:vFFF0p0008d0100dc02dsc00dp00ic02isc02ip00in00
+01-01 00:02:15.767   254  2403 I DUSS&63[sys_upgrade_check_connec:1608]:: Send check connection message to FC APP ...
+01-01 00:02:16.268   254  2403 I DUSS&63[sys_upgrade_check_connec:1615]:: duss_event_send_sync error: -1002, retry=3
+01-01 00:02:16.477   254   444 E DUSS&63[sys_p1_register_motor_er:4350]:: register motor_err_action error: -1002
+01-01 00:02:16.640   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0xc3 (03.06), status 1, progress: 55, total_progress: 60
+01-01 00:02:16.642   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:02:16.768   254  2403 I DUSS&63[sys_upgrade_check_connec:1608]:: Send check connection message to FC APP ...
+01-01 00:02:17.268   254  2403 I DUSS&63[sys_upgrade_check_connec:1615]:: duss_event_send_sync error: -1002, retry=4
+01-01 00:02:17.768   254  2403 I DUSS&63[sys_upgrade_check_connec:1608]:: Send check connection message to FC APP ...
+01-01 00:02:18.182   254   445 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 4, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:02:18.268   254  2403 I DUSS&63[sys_upgrade_check_connec:1615]:: duss_event_send_sync error: -1002, retry=5
+01-01 00:02:18.326   254   446 I DUSS&63[ handle_dji_device_event: 357]:: Handle events for usb ACM /dev/ttyACM:vFFF0p0008 plug in.
+01-01 00:02:18.352   254   446 I DUSS&63[ handle_dji_device_event: 361]:: enable ttyACM channel result: 0
+01-01 00:02:18.352   254   446 I DUSS&63[ handle_dji_device_event: 404]:: Disable local channel to FC 0306 channel.
+01-01 00:02:18.477   254   444 E DUSS&63[sys_p1_register_motor_er:4350]:: register motor_err_action error: -1002
+01-01 00:02:18.642   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0xc3 (03.06), status 1, progress: 55, total_progress: 60
+01-01 00:02:18.644   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:02:18.768   254  2403 I DUSS&63[sys_upgrade_check_connec:1608]:: Send check connection message to FC APP ...
+01-01 00:02:18.780   254  2403 I DUSS&63[sys_upgrade_check_connec:1620]:: get response from FC APP, ret_code: 0x0
+01-01 00:02:18.780   254  2403 I DUSS&63[sys_upgrade_check_connec:1629]:: Has HW ver for FC APP: 08RDEBMP0103FC
+01-01 00:02:18.780   254  2403 I DUSS&63[       sys_check_version:  77]:: Same version. Current: 3.2.44.13 (11277); Target: 3.2.44.13
+01-01 00:02:18.780   254  2403 I DUSS&63[      sys_p1_upgrade_all:3620]:: FC APP: sys_upgrade_commom_hw success
+01-01 00:02:18.780   254  2403 I DUSS&63[sys_p1_push_ongoing_stat:2997]:: Push to 0xa01 for module 0x306, overall upgrade progress: 72 (3:2:100), stop_pushing=0
+01-01 00:02:18.780   254  2403 I DUSS&63[    sys_del_upgrade_file:3297]:: del file /data/ftp/upgrade/upgrade/signimgs//wm220_0306_v03.02.44.13_20171116.pro.fw.sig /cache/upgrade/unsignimgs//wm220_0306_v03.02.44.13_20171116.pro.fw
+01-01 00:02:18.780   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0xc3 (03.06), status 5, progress: 100, total_progress: 72
+01-01 00:02:18.785   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:02:20.186   254   444 I DUSS&63[sys_p1_register_motor_er:4359]:: succ to register motor_err_act, result = 0, requester_id=0xe3004400, motor_action_id=201, surplus_id_num=39
+01-01 00:02:20.785   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0xc3 (03.06), status 5, progress: 100, total_progress: 72
+01-01 00:02:20.789   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:02:21.182   254   445 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 4, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:02:21.800   254  2403 I DUSS&63[sys_p1_push_ongoing_stat:2997]:: Push to 0xa01 for module 0xc00, overall upgrade progress: 72 (3:1:0), stop_pushing=0
+01-01 00:02:21.800   254  2403 I DUSS&63[sys_upgrade_check_connec:1608]:: Send check connection message to ESC 0 ...
+01-01 00:02:21.800   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0xc (12.00), status 1, progress: 0, total_progress: 72
+01-01 00:02:21.802   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:02:21.831   254  2403 I DUSS&63[sys_upgrade_check_connec:1620]:: get response from ESC 0, ret_code: 0x0
+01-01 00:02:21.831   254  2403 I DUSS&63[sys_upgrade_check_connec:1629]:: Has HW ver for ESC 0: ES02_FD_V1
+01-01 00:02:21.831   254  2403 I DUSS&63[      sys_p1_upgrade_all:3424]:: ESC 0: file HW ES02, module HW ES02_FD_V1, HW match!
+01-01 00:02:23.802   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0xc (12.00), status 1, progress: 0, total_progress: 72
+01-01 00:02:23.804   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:02:23.831   254  2403 I DUSS&63[  sys_upgrade_check_file:1653]:: ESC 0 Upgrade: check file /cache/upgrade/unsignimgs//wm220_1200_v01.01.00.72_20180515_es02.pro.fw
+01-01 00:02:23.831   254  2403 I DUSS&63[  sys_upgrade_check_file:1701]:: Firmaware /cache/upgrade/unsignimgs//wm220_1200_v01.01.00.72_20180515_es02.pro.fw is not encrypted
+01-01 00:02:23.832   254  2403 I DUSS&63[  sys_upgrade_check_file:1713]:: md5string: 6a40fdaa55a4ee6ca91cbf5ddccb5980
+01-01 00:02:23.832   254  2403 I DUSS&63[   sys_upgrade_commom_hw:3026]:: new ESC, hw_str=ES02, need_repeat!
+01-01 00:02:23.832   254  2403 I DUSS&63[   sys_upgrade_commom_hw:3032]:: Start to upgrade ESC 0_0
+01-01 00:02:23.832   254  2403 I DUSS&63[sys_upgrade_check_connec:1608]:: Send check connection message to ESC 0 ...
+01-01 00:02:23.851   254  2403 I DUSS&63[sys_upgrade_check_connec:1620]:: get response from ESC 0, ret_code: 0x0
+01-01 00:02:23.851   254  2403 I DUSS&63[sys_upgrade_check_connec:1629]:: Has HW ver for ESC 0: ES02_FD_V1
+01-01 00:02:23.851   254  2403 I DUSS&63[       sys_check_version:  77]:: Same version. Current: 1.1.0.72 (72); Target: 1.1.0.72
+01-01 00:02:23.852   254  2403 I DUSS&63[   sys_upgrade_commom_hw:3155]:: try next hw: ESC 0_1
+01-01 00:02:23.852   254  2403 I DUSS&63[   sys_upgrade_commom_hw:3032]:: Start to upgrade ESC 0_1
+01-01 00:02:23.852   254  2403 I DUSS&63[sys_upgrade_check_connec:1608]:: Send check connection message to ESC 0 ...
+01-01 00:02:23.872   254  2403 I DUSS&63[sys_upgrade_check_connec:1620]:: get response from ESC 0, ret_code: 0x0
+01-01 00:02:23.872   254  2403 I DUSS&63[sys_upgrade_check_connec:1629]:: Has HW ver for ESC 0: ES02_FD_V1
+01-01 00:02:23.872   254  2403 I DUSS&63[       sys_check_version:  77]:: Same version. Current: 1.1.0.72 (72); Target: 1.1.0.72
+01-01 00:02:23.872   254  2403 I DUSS&63[   sys_upgrade_commom_hw:3155]:: try next hw: ESC 0_2
+01-01 00:02:23.872   254  2403 I DUSS&63[   sys_upgrade_commom_hw:3032]:: Start to upgrade ESC 0_2
+01-01 00:02:23.872   254  2403 I DUSS&63[sys_upgrade_check_connec:1608]:: Send check connection message to ESC 0 ...
+01-01 00:02:23.900   254  2403 I DUSS&63[sys_upgrade_check_connec:1620]:: get response from ESC 0, ret_code: 0x0
+01-01 00:02:23.900   254  2403 I DUSS&63[sys_upgrade_check_connec:1629]:: Has HW ver for ESC 0: ES02_FD_V1
+01-01 00:02:23.900   254  2403 I DUSS&63[       sys_check_version:  77]:: Same version. Current: 1.1.0.72 (72); Target: 1.1.0.72
+01-01 00:02:23.900   254  2403 I DUSS&63[   sys_upgrade_commom_hw:3155]:: try next hw: ESC 0_3
+01-01 00:02:23.900   254  2403 I DUSS&63[   sys_upgrade_commom_hw:3032]:: Start to upgrade ESC 0_3
+01-01 00:02:23.900   254  2403 I DUSS&63[sys_upgrade_check_connec:1608]:: Send check connection message to ESC 0 ...
+01-01 00:02:23.932   254  2403 I DUSS&63[sys_upgrade_check_connec:1620]:: get response from ESC 0, ret_code: 0x0
+01-01 00:02:23.932   254  2403 I DUSS&63[sys_upgrade_check_connec:1629]:: Has HW ver for ESC 0: ES02_FD_V1
+01-01 00:02:23.932   254  2403 I DUSS&63[       sys_check_version:  77]:: Same version. Current: 1.1.0.72 (72); Target: 1.1.0.72
+01-01 00:02:23.932   254  2403 I DUSS&63[      sys_p1_upgrade_all:3620]:: ESC 0: sys_upgrade_commom_hw success
+01-01 00:02:23.932   254  2403 I DUSS&63[sys_p1_push_ongoing_stat:2997]:: Push to 0xa01 for module 0xc00, overall upgrade progress: 99 (3:1:100), stop_pushing=0
+01-01 00:02:23.932   254  2403 I DUSS&63[    sys_del_upgrade_file:3297]:: del file /data/ftp/upgrade/upgrade/signimgs//wm220_1200_v01.01.00.72_20180515_es02.pro.fw.sig /cache/upgrade/unsignimgs//wm220_1200_v01.01.00.72_20180515_es02.pro.fw
+01-01 00:02:23.938   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0xc (12.00), status 5, progress: 100, total_progress: 99
+01-01 00:02:23.946   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:02:24.182   254   445 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 4, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:02:25.946   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0xc (12.00), status 5, progress: 100, total_progress: 99
+01-01 00:02:25.950   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:02:27.182   254   445 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 4, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:02:27.950   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0xc (12.00), status 5, progress: 100, total_progress: 99
+01-01 00:02:27.952   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:02:29.960   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0xc (12.00), status 5, progress: 100, total_progress: 99
+01-01 00:02:29.963   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:02:30.182   254   445 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 4, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:02:31.964   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0xc (12.00), status 5, progress: 100, total_progress: 99
+01-01 00:02:31.966   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:02:33.182   254   445 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 4, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:02:33.230   254  2403 I DUSS&63[ sys_up_del_full_package:1099]:: deleted /data/ftp/upgrade/dji_system.bin
+01-01 00:02:33.230   254  2403 I DUSS&63[sys_up_save_upgrade_stat: 370]:: fileName=/cache/upgrade_status, optionName=push_status, optionValue=1
+01-01 00:02:33.230   254  2403 I DUSS&63[sys_up_save_upgrade_stat: 416]:: can not find this option, append new line
+01-01 00:02:33.355   254  2403 I DUSS&63[      sys_p1_upgrade_all:3734]:: Update the cfg file for system.
+01-01 00:02:33.966   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0xc (12.00), status 5, progress: 100, total_progress: 99
+01-01 00:02:33.969   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:02:35.969   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0xc (12.00), status 5, progress: 100, total_progress: 99
+01-01 00:02:35.973   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:02:36.183   254   445 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 4, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:02:37.973   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0xc (12.00), status 5, progress: 100, total_progress: 99
+01-01 00:02:37.976   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:02:39.182   254   445 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 4, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:02:39.366   254  2403 I DUSS&63[      sys_p1_upgrade_all:3744]::  All upgrade success, reboot.
+01-01 00:02:39.976   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0xc (12.00), status 5, progress: 100, total_progress: 99
+01-01 00:02:39.979   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:02:40.521   254  2403 I DUSS&63[sys_p1_active_reboot_for:5504]:: app_host=0xa01
+01-01 00:02:40.647   254  2403 I DUSS&63[sys_p1_active_reboot_for:5512]:: Send reboot request to battery.
+01-01 00:02:40.647   254  2403 I DUSS&63[sys_upgrade_request_rebo:1572]:: Send reboot to 11:0
+01-01 00:02:41.979   254   442 I DUSS&63[sys_up_status_push_threa: 993]:: +++++++ Sending upgrade status for upgrading_stage, len: 11, app_host=0xa01, mod_id=0xc (12.00), status 5, progress: 100, total_progress: 99
+01-01 00:02:41.981   254   442 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:02:42.182   254   445 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 4, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:02:42.404   254   407 I DUSS&63[        sys_event_reboot:1401]:: receive reboot from 0xb00, this_host=0x801
+01-01 00:02:42.404   254   407 I DUSS&63[        sys_event_reboot:1407]:: Get reboot callback. .
+01-01 00:02:42.404   254   407 I DUSS&63[           sys_p1_reboot:4879]:: Request power/boot 2 after 0 ms from 0xb00
+01-01 00:02:42.651   254  2403 I DUSS&63[sys_p1_active_reboot_for:5512]:: Send reboot request to battery.
+01-01 00:02:42.651   254  2403 I DUSS&63[sys_upgrade_request_rebo:1572]:: Send reboot to 11:0
+01-01 00:02:42.704   254   407 I DUSS&63[  sys_notify_reboot_peer:4854]:: power: send command 300166, -1002
+01-01 00:02:42.704   254   407 E DUSS&63[  sys_notify_reboot_peer:4856]:: power: can not reach peer, result=-1002, retry_count=0
+01-01 00:02:43.004   254   407 I DUSS&63[  sys_notify_reboot_peer:4854]:: power: send command 300169, -1002
+01-01 00:02:43.004   254   407 E DUSS&63[  sys_notify_reboot_peer:4856]:: power: can not reach peer, result=-1002, retry_count=1
+01-01 00:02:43.305   254   407 I DUSS&63[  sys_notify_reboot_peer:4854]:: power: send command 300248, -1002
+01-01 00:02:43.305   254   407 E DUSS&63[  sys_notify_reboot_peer:4856]:: power: can not reach peer, result=-1002, retry_count=2
+01-01 00:02:43.605   254   407 I DUSS&63[  sys_notify_reboot_peer:4854]:: power: send command 300168, -1002
+01-01 00:02:43.605   254   407 E DUSS&63[  sys_notify_reboot_peer:4856]:: power: can not reach peer, result=-1002, retry_count=3
+01-01 00:02:43.905   254   407 I DUSS&63[  sys_notify_reboot_peer:4854]:: power: send command 300172, -1002
+01-01 00:02:43.905   254   407 E DUSS&63[  sys_notify_reboot_peer:4856]:: power: can not reach peer, result=-1002, retry_count=4
+01-01 00:02:43.905   254   407 E DUSS&63[       sys_notify_reboot:4818]:: duss_event_send() power error: -1007
+===/data/dji/log is already a link===
+
+
+!!!new file start!!!
+
+01-01 00:00:09.498   242   242 I DUSS&63[                    main: 657]:: dji_sys run as dev_type 0, duss_sketch_initialize done...
+01-01 00:00:09.507   242   242 I DUSS&63[sys_load_config_from_jso: 154]:: Get the hw_str WM220 AC
+01-01 00:00:09.507   242   242 I DUSS&63[         sys_load_config: 488]:: platform dev_info: WM220 1860AC
+01-01 00:00:09.524   242   242 I DUSS&63[sys_check_boot_mode_norm: 333]:: Set system mode to NORMAL.
+01-01 00:00:10.722   242   242 I DUSS&63[sys_up_load_general_stat: 203]:: get option_value wm220 for package_id
+01-01 00:00:10.722   242   242 I DUSS&63[sys_up_load_general_stat: 204]:: updated package_str wm220
+01-01 00:00:10.722   242   242 I DUSS&63[sys_up_load_general_stat: 211]:: get package_ver 1.4.400
+01-01 00:00:10.722   242   242 I DUSS&63[sys_up_load_general_stat: 211]:: 
+01-01 00:00:10.722   242   242 I DUSS&63[sys_up_load_general_stat: 215]:: updated package_ver 1.4.400
+01-01 00:00:10.722   242   242 I DUSS&63[sys_up_load_general_stat: 222]:: get package_uav_cnt 3
+01-01 00:00:10.722   242   242 I DUSS&63[sys_up_load_general_stat: 222]:: 
+01-01 00:00:10.722   242   242 I DUSS&63[sys_up_load_general_stat: 224]:: updated package_uav_cnt 3
+01-01 00:00:10.722   242   242 I DUSS&63[sys_up_load_general_stat: 231]:: get package_gnd_cnt 0
+01-01 00:00:10.722   242   242 I DUSS&63[sys_up_load_general_stat: 231]:: 
+01-01 00:00:10.722   242   242 I DUSS&63[sys_up_load_general_stat: 233]:: updated package_gnd_cnt 0
+01-01 00:00:10.722   242   242 I DUSS&63[sys_up_load_general_stat: 240]:: get package_gls_cnt 0
+01-01 00:00:10.722   242   242 I DUSS&63[sys_up_load_general_stat: 240]:: 
+01-01 00:00:10.722   242   242 I DUSS&63[sys_up_load_general_stat: 242]:: updated package_gls_cnt 0
+01-01 00:00:10.725   242   242 I DUSS&63[sys_up_load_upgrade_stat: 298]:: get option_value 0xa01 for upgrade_host
+01-01 00:00:10.725   242   242 I DUSS&63[sys_up_load_upgrade_stat: 309]:: get option_value 1 for push_status
+01-01 00:00:10.759   242   242 I DUSS&63[sys_upgrade_check_status:5119]:: didn't save upgrade_retry in last boot
+01-01 00:00:10.759   242   242 I DUSS&63[sys_upgrade_check_status:5127]:: push_status=1, need to push status to host 0xa01
+01-01 00:00:12.042   242   242 I DUSS&63[            sys_pre_init: 534]:: this is production board
+01-01 00:00:12.055   242   242 I DUSS&63[      wl_prot_tcp_create: 404]:: [sys]open_type=1, local_port=22350, remote_ip=0.0.0.0, remote_port=0, l_ctx=0xb70c5d30 
+01-01 00:00:12.055   242   242 I DUSS&63[      wl_prot_tcp_create: 452]:: [sys]create tcp listen task success, task=0xb70c5d90
+01-01 00:00:12.056   242   242 I DUSS&63[      wl_prot_tcp_create: 500]:: [sys]create tcp channel success, l_ctx=0xb70c5d30
+01-01 00:00:12.159   242   242 I DUSS&63[        sys_events_start:  96]:: aging_test_mode=0, system_mode=0
+01-01 00:00:12.160   242   242 I DUSS&63[            sys_ltc_init: 636]:: use the same i2c device /dev/i2c-1 for version read
+01-01 00:00:12.160   242   242 I DUSS&63[            sys_ltc_init: 640]:: check the cpld version and toggle program pin.
+01-01 00:00:12.160   242   242 I DUSS&63[   sys_ltc_program_check: 535]:: return ver 0x409
+01-01 00:00:12.162   242   242 I DUSS&63[       sys_check_pc_conn: 304]:: pc state is CONFIGURED
+01-01 00:00:12.162   242   242 I DUSS&63[           sys_post_init: 565]:: conn_pc=1 when init
+01-01 00:00:12.162   242   242 I DUSS&63[      sys_usbclient_init: 496]:: MFi: Ignore mobile channels...
+01-01 00:00:12.163   242   422 I DUSS&63[sys_up_status_push_threa: 863]:: pushing thread start, stop_pushing=0, push_status=1
+01-01 00:00:12.163   242   422 I DUSS&63[      sys_up_status_init: 703]:: Init the upgrade status.
+01-01 00:00:12.163   242   422 I DUSS&63[      sys_up_status_init: 712]:: Set the finish result to SUCCESS.
+01-01 00:00:12.163   242   422 I DUSS&63[sys_up_status_push_threa: 899]:: Succeed to send the led control msg to camera.
+01-01 00:00:12.171   242   242 I DUSS&63[sys_uevent_force_usb_eve: 626]:: ttyACM0 modalias: usb:vFFF0p0008d0100dc02dsc00dp00ic02isc02ip00in00
+01-01 00:00:12.171   242   242 I DUSS&63[sys_uevent_force_usb_eve: 635]:: ttyACM0: force trigger add uevent /sys/class/tty/ttyACM0/uevent!
+01-01 00:00:12.190   242   242 I DUSS&63[sys_uevent_force_usb_eve: 657]:: force trigger add uevent /sys/class/net/usb0/uevent
+01-01 00:00:12.192   242   242 I DUSS&63[sys_flight_data_do_first: 575]:: nfz database exist,need to check the version!
+01-01 00:00:12.193   242   242 I DUSS&63[sys_flight_data_get_vers: 451]:: Get the version from mflight_data.
+01-01 00:00:12.193   242   242 I DUSS&63[sys_flight_data_get_vers: 461]:: ver.Protocal.MajorVer = 0
+01-01 00:00:12.193   242   242 I DUSS&63[sys_flight_data_get_vers: 462]:: ver.Protocal.MinorVer = 0
+01-01 00:00:12.193   242   242 I DUSS&63[sys_flight_data_get_vers: 463]:: ver.Loader = 1.0.1.11
+01-01 00:00:12.193   242   242 I DUSS&63[sys_flight_data_get_vers: 464]:: ver.Fw = 1.0.1.11
+01-01 00:00:12.193   242   242 I DUSS&63[sys_flight_data_do_first: 638]:: nfz database already exist, return directly!
+01-01 00:00:12.281   242   427 I DUSS&63[ handle_dji_device_event: 350]:: ttyACM0 modalias: usb:vFFF0p0008d0100dc02dsc00dp00ic02isc02ip00in00
+01-01 00:00:13.193   242   242 I DUSS&63[    sys_p1_up_check_conn:4172]:: check connection with camera failed: -1002
+01-01 00:00:14.159   242   425 E DUSS&63[sys_p1_register_motor_er:4350]:: register motor_err_action error: -1001
+01-01 00:00:14.164   242   422 I DUSS&63[sys_up_status_push_threa: 970]:: +++++++ Sending upgrade status for finishing_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 0, reason 1, progress: 100
+01-01 00:00:14.194   242   242 I DUSS&63[    sys_p1_up_check_conn:4172]:: check connection with camera failed: -1002
+01-01 00:00:15.015   238   238 I DUSS&63[      wl_prot_tcp_create: 404]:: [sys]open_type=1, local_port=22352, remote_ip=0.0.0.0, remote_port=0, l_ctx=0xb704fb70 
+01-01 00:00:15.017   238   238 I DUSS&63[      wl_prot_tcp_create: 452]:: [sys]create tcp listen task success, task=0xb704fbd0
+01-01 00:00:15.019   238   238 I DUSS&63[      wl_prot_tcp_create: 500]:: [sys]create tcp channel success, l_ctx=0xb704fb70
+01-01 00:00:15.112   242   400 I DUSS&63[  sys_event_get_date_ack: 116]:: Got get_date_ack and the return code is 0xe0, peer_host=0x100
+01-01 00:00:15.162   242   426 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 5, conn_pc 1, conn_app_timeout 0, cam_rt_mode 2, cam_mode 0
+01-01 00:00:15.162   242   426 I DUSS&63[   sys_cam_switch_to_eth: 341]:: A9 USB switch to ETH mode, cur_mode=0!
+01-01 00:00:15.195   242   242 I DUSS&63[    sys_p1_up_check_conn:4172]:: check connection with camera failed: -1002
+01-01 00:00:15.203   242   242 I DUSS&63[    sys_p1_up_check_conn:4175]:: check connection with camera success
+01-01 00:00:15.222   242   242 I DUSS&63[    sys_p1_up_check_conn:4199]:: check connection with flight control success
+01-01 00:00:15.222   242   242 I DUSS&63[            sys_mainloop: 266]:: version scan done.
+01-01 00:00:15.281   242   427 I DUSS&63[ handle_dji_device_event: 357]:: Handle events for usb ACM /dev/ttyACM:vFFF0p0008 plug in.
+01-01 00:00:15.284   242   427 I DUSS&63[ handle_dji_device_event: 361]:: enable ttyACM channel result: 0
+01-01 00:00:15.284   242   427 I DUSS&63[ handle_dji_device_event: 404]:: Disable local channel to FC 0306 channel.
+01-01 00:00:15.284   242   427 I DUSS&63[ handle_dji_device_event: 468]:: add network interface: usb0
+01-01 00:00:15.293   242   427 I DUSS&63[ handle_dji_device_event: 473]:: Handle events for usb0 network plug in.
+01-01 00:00:15.293   242   427 I DUSS&63[ handle_dji_device_event: 478]:: ++++++Disable uart channel to camera
+01-01 00:00:16.164   242   422 I DUSS&63[sys_up_status_push_threa: 970]:: +++++++ Sending upgrade status for finishing_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 0, reason 1, progress: 100
+01-01 00:00:16.166   242   422 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:00:16.166   242   422 I DUSS&63[       sys_check_pc_conn: 304]:: pc state is CONFIGURED
+01-01 00:00:16.166   242   422 I DUSS&63[sys_up_status_push_threa:1017]:: conn_pc=1 when re-check in pushing thread
+01-01 00:00:16.167   242   422 E DUSS&63[sys_event_pc_through_rc_:1205]:: switch pc wl channel to 0 success
+01-01 00:00:16.171   242   426 I DUSS&63[   sys_cam_switch_to_eth: 374]:: usb0 device ready
+01-01 00:00:16.171   242   426 I DUSS&63[   sys_cam_switch_to_eth: 380]:: success
+01-01 00:00:16.173   242   425 I DUSS&63[sys_p1_register_motor_er:4359]:: succ to register motor_err_act, result = 0, requester_id=0x3f2a58c0, motor_action_id=200, surplus_id_num=40
+01-01 00:00:16.172   242   427 E DUSS&63[ sys_event_usb_rt_enable:1123]:: Find route item to 0x104 fail: -1001
+01-01 00:00:16.174   242   427 E DUSS&63[ sys_event_usb_rt_enable:1123]:: Find route item to 0x106 fail: -1001
+01-01 00:00:16.174   242   427 E DUSS&63[ sys_event_usb_rt_enable:1123]:: Find route item to 0x401 fail: -1001
+01-01 00:00:16.174   242   427 E DUSS&63[ sys_event_usb_rt_enable:1123]:: Find route item to 0x402 fail: -1001
+01-01 00:00:16.174   242   427 I DUSS&63[sys_event_camera_rt_enab:1170]:: enable the mobile rt (throught camera).
+01-01 00:00:16.174   242   427 E DUSS&63[ sys_event_usb_rt_enable:1123]:: Find route item to 0x200 fail: -1001
+01-01 00:00:16.174   242   427 E DUSS&63[sys_event_camera_rt_enab:1175]:: route table: turn on USB eth to 2:0 fail
+01-01 00:00:16.174   242   427 I DUSS&63[ handle_dji_device_event: 176]:: android_usb DISCONNECTED
+01-01 00:00:16.174   242   427 I DUSS&63[ handle_dji_device_event: 194]:: handle usb events for pc plugging out
+01-01 00:00:16.176   242   427 E DUSS&63[sys_event_pc_through_rc_:1205]:: switch pc wl channel to 1 success
+01-01 00:00:16.223   242   427 E DUSS&63[find_and_kill_all_udhcpd: 457]:: pid 193's cmdline: busybox udhcpd
+01-01 00:00:16.223   242   427 E DUSS&63[find_and_kill_all_udhcpd: 460]:: execute busybox kill 193
+01-01 00:00:16.232   242   427 E DUSS&63[find_and_kill_all_udhcpd: 457]:: pid 194's cmdline: busybox tcpsvd
+01-01 00:00:16.248   242   427 E DUSS&63[find_and_kill_all_udhcpd: 457]:: pid 578's cmdline: busybox udhcpd
+01-01 00:00:16.248   242   427 E DUSS&63[find_and_kill_all_udhcpd: 460]:: execute busybox kill 578
+01-01 00:00:16.267   242   427 I DUSS&63[ handle_dji_device_event: 284]:: kill udhcpd service (busybox)
+01-01 00:00:16.280   242   427 I DUSS&63[ handle_dji_device_event: 274]:: start udhcpd service for rndis
+01-01 00:00:16.290   242   427 I DUSS&63[ handle_dji_device_event: 279]:: start udhcpd service for wifi
+01-01 00:00:16.307   242   427 I DUSS&63[ handle_dji_device_event: 176]:: android_usb CONNECTED
+01-01 00:00:16.307   242   427 I DUSS&63[ handle_dji_device_event: 176]:: android_usb CONFIGURED
+01-01 00:00:16.308   242   427 I DUSS&63[ handle_dji_device_event: 181]:: handle usb events for pc plugging in
+01-01 00:00:17.629   242   412 E DUSS&63[ sys_upgrade_get_version:1532]:: 12:0: query version error: -1002
+01-01 00:00:18.167   242   422 I DUSS&63[sys_up_status_push_threa: 970]:: +++++++ Sending upgrade status for finishing_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 0, reason 1, progress: 100
+01-01 00:00:31.261   242   422 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:00:31.270   242   427 E DUSS&63[sys_event_pc_through_rc_:1205]:: switch pc wl channel to 0 success
+01-01 00:00:31.561   242   425 E DUSS&63[sys_p1_disable_motor_run:4285]:: set motor work status error: -1002
+01-01 00:00:31.561   242   425 I DUSS&63[sys_p1_logout_motor_err_:4387]:: logout: motor_requester_id = 0x3f2a58c0, action_id=200
+01-01 00:00:31.811   242   425 I DUSS&63[sys_p1_logout_motor_err_:4419]:: succ to logout motor_err_act, result = 0, surplus_id_num=41
+01-01 00:00:32.171   242   425 I DUSS&63[sys_p1_register_motor_er:4359]:: succ to register motor_err_act, result = 0, requester_id=0xd2395700, motor_action_id=201, surplus_id_num=40
+01-01 00:00:33.162   242   426 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 5, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:00:33.261   242   422 I DUSS&63[sys_up_status_push_threa: 970]:: +++++++ Sending upgrade status for finishing_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 0, reason 1, progress: 100
+01-01 00:00:33.263   242   422 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:00:35.263   242   422 I DUSS&63[sys_up_status_push_threa: 970]:: +++++++ Sending upgrade status for finishing_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 0, reason 1, progress: 100
+01-01 00:00:35.266   242   422 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:00:36.163   242   426 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 5, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:00:37.266   242   422 I DUSS&63[sys_up_status_push_threa: 970]:: +++++++ Sending upgrade status for finishing_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 0, reason 1, progress: 100
+01-01 00:00:37.271   242   422 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
+01-01 00:00:39.162   242   426 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 5, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:00:39.271   242   422 I DUSS&63[sys_up_status_push_threa: 970]:: +++++++ Sending upgrade status for finishing_stage, len: 11, app_host=0xa01, mod_id=0x28 (08.01), status 0, reason 1, progress: 100
+01-01 00:00:39.273   242   422 E DUSS&63[sys_up_status_push_threa:1012]:: Sending upgrade status to app_host 0xa01 failed, result=-1002
