@@ -1,0 +1,115 @@
+===/data/dji/log is already a link===
+
+
+!!!new file start!!!
+
+boot
+01-01 00:00:05.553   254   254 I DUSS&63[                    main: 657]:: dji_sys run as dev_type 0, duss_sketch_initialize done...
+01-01 00:00:05.560   254   254 I DUSS&63[sys_load_config_from_jso: 154]:: Get the hw_str WM220 AC
+01-01 00:00:05.560   254   254 I DUSS&63[         sys_load_config: 488]:: platform dev_info: WM220 1860AC
+01-01 00:00:05.609   254   254 I DUSS&63[sys_check_boot_mode_norm: 333]:: Set system mode to NORMAL.
+01-01 00:00:05.698   254   254 I DUSS&63[sys_up_load_general_stat: 203]:: get option_value wm220 for package_id
+01-01 00:00:05.698   254   254 I DUSS&63[sys_up_load_general_stat: 204]:: updated package_str wm220
+01-01 00:00:05.698   254   254 I DUSS&63[sys_up_load_general_stat: 211]:: get package_ver 1.4.400
+01-01 00:00:05.698   254   254 I DUSS&63[sys_up_load_general_stat: 211]:: 
+01-01 00:00:05.698   254   254 I DUSS&63[sys_up_load_general_stat: 215]:: updated package_ver 1.4.400
+01-01 00:00:05.698   254   254 I DUSS&63[sys_up_load_general_stat: 222]:: get package_uav_cnt 3
+01-01 00:00:05.698   254   254 I DUSS&63[sys_up_load_general_stat: 222]:: 
+01-01 00:00:05.698   254   254 I DUSS&63[sys_up_load_general_stat: 224]:: updated package_uav_cnt 3
+01-01 00:00:05.698   254   254 I DUSS&63[sys_up_load_general_stat: 231]:: get package_gnd_cnt 0
+01-01 00:00:05.698   254   254 I DUSS&63[sys_up_load_general_stat: 231]:: 
+01-01 00:00:05.698   254   254 I DUSS&63[sys_up_load_general_stat: 233]:: updated package_gnd_cnt 0
+01-01 00:00:05.698   254   254 I DUSS&63[sys_up_load_general_stat: 240]:: get package_gls_cnt 0
+01-01 00:00:05.698   254   254 I DUSS&63[sys_up_load_general_stat: 240]:: 
+01-01 00:00:05.698   254   254 I DUSS&63[sys_up_load_general_stat: 242]:: updated package_gls_cnt 0
+01-01 00:00:05.700   254   254 I DUSS&63[sys_up_load_upgrade_stat: 298]:: get option_value 0xa01 for upgrade_host
+01-01 00:00:05.718   254   254 I DUSS&63[sys_upgrade_check_status:5119]:: didn't save upgrade_retry in last boot
+01-01 00:00:05.718   254   254 I DUSS&63[sys_upgrade_check_status:5145]:: non need to push upgrade status, set upgrade status to idle.
+01-01 00:00:05.949   254   254 I DUSS&63[            sys_pre_init: 534]:: this is production board
+01-01 00:00:05.960   254   254 I DUSS&63[      wl_prot_tcp_create: 404]:: [sys]open_type=1, local_port=22350, remote_ip=0.0.0.0, remote_port=0, l_ctx=0xb718ef18 
+01-01 00:00:05.960   254   254 I DUSS&63[      wl_prot_tcp_create: 452]:: [sys]create tcp listen task success, task=0xb718ef78
+01-01 00:00:05.960   254   254 I DUSS&63[      wl_prot_tcp_create: 500]:: [sys]create tcp channel success, l_ctx=0xb718ef18
+01-01 00:00:06.286   254   254 I DUSS&63[        sys_events_start:  96]:: aging_test_mode=0, system_mode=0
+01-01 00:00:06.287   254   254 I DUSS&63[            sys_ltc_init: 636]:: use the same i2c device /dev/i2c-1 for version read
+01-01 00:00:06.287   254   254 I DUSS&63[            sys_ltc_init: 640]:: check the cpld version and toggle program pin.
+01-01 00:00:06.288   254   254 I DUSS&63[   sys_ltc_program_check: 535]:: return ver 0x409
+01-01 00:00:06.289   254   254 I DUSS&63[       sys_check_pc_conn: 300]:: For pc connection, usb state is DISCONNECTED
+01-01 00:00:06.289   254   254 I DUSS&63[           sys_post_init: 565]:: conn_pc=0 when init
+01-01 00:00:06.289   254   426 I DUSS&63[sys_up_status_push_threa: 863]:: pushing thread start, stop_pushing=1, push_status=0
+01-01 00:00:06.484   254   254 E DUSS&63[sys_event_pc_through_rc_:1205]:: switch pc wl channel to 1 success
+01-01 00:00:06.484   254   254 I DUSS&63[      sys_usbclient_init: 496]:: MFi: Ignore mobile channels...
+01-01 00:00:06.490   254   254 I DUSS&63[sys_uevent_force_usb_eve: 626]:: ttyACM0 modalias: usb:vFFF0p0008d0100dc02dsc00dp00ic02isc02ip00in00
+01-01 00:00:06.490   254   254 I DUSS&63[sys_uevent_force_usb_eve: 635]:: ttyACM0: force trigger add uevent /sys/class/tty/ttyACM0/uevent!
+01-01 00:00:06.500   254   254 I DUSS&63[sys_uevent_force_usb_eve: 657]:: force trigger add uevent /sys/class/net/usb0/uevent
+01-01 00:00:06.540   254   254 I DUSS&63[sys_flight_data_do_first: 575]:: nfz database exist,need to check the version!
+01-01 00:00:06.541   254   254 I DUSS&63[sys_flight_data_get_vers: 451]:: Get the version from mflight_data.
+01-01 00:00:06.541   254   254 I DUSS&63[sys_flight_data_get_vers: 461]:: ver.Protocal.MajorVer = 0
+01-01 00:00:06.541   254   254 I DUSS&63[sys_flight_data_get_vers: 462]:: ver.Protocal.MinorVer = 0
+01-01 00:00:06.541   254   254 I DUSS&63[sys_flight_data_get_vers: 463]:: ver.Loader = 1.0.1.11
+01-01 00:00:06.541   254   254 I DUSS&63[sys_flight_data_get_vers: 464]:: ver.Fw = 1.0.1.11
+01-01 00:00:06.541   254   254 I DUSS&63[sys_flight_data_do_first: 638]:: nfz database already exist, return directly!
+01-01 00:00:06.597   254   444 I DUSS&63[ handle_dji_device_event: 350]:: ttyACM0 modalias: usb:vFFF0p0008d0100dc02dsc00dp00ic02isc02ip00in00
+01-01 00:00:07.542   254   254 I DUSS&63[    sys_p1_up_check_conn:4172]:: check connection with camera failed: -1002
+01-01 00:00:08.542   254   254 I DUSS&63[    sys_p1_up_check_conn:4172]:: check connection with camera failed: -1002
+01-01 00:00:09.484   254   443 I DUSS&63[   sys_cam_switch_to_eth: 341]:: A9 USB switch to ETH mode, cur_mode=0!
+01-01 00:00:09.484   254   443 E DUSS&63[   sys_cam_switch_to_eth: 369]:: duss_event_send() error: -1001
+01-01 00:00:09.543   254   254 I DUSS&63[    sys_p1_up_check_conn:4172]:: check connection with camera failed: -1002
+01-01 00:00:09.597   254   444 I DUSS&63[ handle_dji_device_event: 357]:: Handle events for usb ACM /dev/ttyACM:vFFF0p0008 plug in.
+01-01 00:00:09.601   254   444 I DUSS&63[ handle_dji_device_event: 361]:: enable ttyACM channel result: 0
+01-01 00:00:09.601   254   444 I DUSS&63[ handle_dji_device_event: 404]:: Disable local channel to FC 0306 channel.
+01-01 00:00:09.603   254   444 I DUSS&63[ handle_dji_device_event: 468]:: add network interface: usb0
+01-01 00:00:09.614   254   444 I DUSS&63[ handle_dji_device_event: 473]:: Handle events for usb0 network plug in.
+01-01 00:00:09.614   254   444 I DUSS&63[ handle_dji_device_event: 478]:: ++++++Disable uart channel to camera
+01-01 00:00:10.543   254   254 I DUSS&63[    sys_p1_up_check_conn:4172]:: check connection with camera failed: -1002
+01-01 00:00:10.909   254   443 I DUSS&63[   sys_cam_switch_to_eth: 374]:: usb0 device ready
+01-01 00:00:10.909   254   443 I DUSS&63[   sys_cam_switch_to_eth: 380]:: success
+01-01 00:00:10.910   254   444 E DUSS&63[ sys_event_usb_rt_enable:1123]:: Find route item to 0x104 fail: -1001
+01-01 00:00:10.910   254   444 E DUSS&63[ sys_event_usb_rt_enable:1123]:: Find route item to 0x106 fail: -1001
+01-01 00:00:10.910   254   444 E DUSS&63[ sys_event_usb_rt_enable:1123]:: Find route item to 0x401 fail: -1001
+01-01 00:00:10.910   254   444 E DUSS&63[ sys_event_usb_rt_enable:1123]:: Find route item to 0x402 fail: -1001
+01-01 00:00:10.910   254   444 I DUSS&63[sys_event_camera_rt_enab:1170]:: enable the mobile rt (throught camera).
+01-01 00:00:10.910   254   444 E DUSS&63[ sys_event_usb_rt_enable:1123]:: Find route item to 0x200 fail: -1001
+01-01 00:00:10.910   254   444 E DUSS&63[sys_event_camera_rt_enab:1175]:: route table: turn on USB eth to 2:0 fail
+01-01 00:00:11.023   250   250 I DUSS&63[      wl_prot_tcp_create: 404]:: [sys]open_type=1, local_port=22352, remote_ip=0.0.0.0, remote_port=0, l_ctx=0xb703db70 
+01-01 00:00:11.023   250   250 I DUSS&63[      wl_prot_tcp_create: 452]:: [sys]create tcp listen task success, task=0xb703dbd0
+01-01 00:00:11.024   250   250 I DUSS&63[      wl_prot_tcp_create: 500]:: [sys]create tcp channel success, l_ctx=0xb703db70
+01-01 00:00:11.044   254   400 I DUSS&63[  sys_event_get_date_ack: 116]:: Got get_date_ack and the return code is 0xe0, peer_host=0x100
+01-01 00:00:11.057   254   444 E DUSS&63[find_and_kill_all_udhcpd: 457]:: pid 194's cmdline: busybox udhcpd
+01-01 00:00:11.057   254   444 E DUSS&63[find_and_kill_all_udhcpd: 460]:: execute busybox kill 194
+01-01 00:00:11.067   254   444 E DUSS&63[find_and_kill_all_udhcpd: 457]:: pid 195's cmdline: busybox tcpsvd
+01-01 00:00:11.073   254   444 E DUSS&63[find_and_kill_all_udhcpd: 457]:: pid 591's cmdline: busybox udhcpd
+01-01 00:00:11.073   254   444 E DUSS&63[find_and_kill_all_udhcpd: 460]:: execute busybox kill 591
+01-01 00:00:11.084   254   444 I DUSS&63[ handle_dji_device_event: 284]:: kill udhcpd service (busybox)
+01-01 00:00:11.095   254   444 I DUSS&63[ handle_dji_device_event: 274]:: start udhcpd service for rndis
+01-01 00:00:11.106   254   444 I DUSS&63[ handle_dji_device_event: 279]:: start udhcpd service for wifi
+01-01 00:00:11.543   254   254 I DUSS&63[    sys_p1_up_check_conn:4172]:: check connection with camera failed: -1002
+01-01 00:00:11.544   254   254 I DUSS&63[    sys_p1_up_check_conn:4175]:: check connection with camera success
+01-01 00:00:11.563   254   254 I DUSS&63[    sys_p1_up_check_conn:4199]:: check connection with flight control success
+01-01 00:00:11.573   254   254 W DUSS&63[        sys_version_scan: 136]:: Can not find the signed cfg file in /data/upgrade/backup/
+01-01 00:00:11.573   254   254 W DUSS&63[            sys_mainloop: 264]:: not updated before, use initial ver, major = 1, minor=0, build=0
+01-01 00:00:11.573   254   254 I DUSS&63[            sys_mainloop: 266]:: version scan done.
+
+connect usb to Mac
+01-01 00:01:05.678   254   444 I DUSS&63[ handle_dji_device_event: 176]:: android_usb CONNECTED
+01-01 00:01:05.683   254   444 I DUSS&63[ handle_dji_device_event: 176]:: android_usb CONFIGURED
+01-01 00:01:05.685   254   444 I DUSS&63[ handle_dji_device_event: 181]:: handle usb events for pc plugging in
+01-01 00:01:05.688   254   444 E DUSS&63[sys_event_pc_through_rc_:1205]:: switch pc wl channel to 0 success
+01-01 00:01:06.306   254   428 I DUSS&63[sys_p1_register_motor_er:4359]:: succ to register motor_err_act, result = 0, requester_id=0x72b13600, motor_action_id=200, surplus_id_num=40
+01-01 00:01:06.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 0, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 5
+01-01 00:01:06.484   254   443 I DUSS&63[   sys_cam_switch_to_ums: 279]:: A9 USB switch to UMS mode, cur_mode=5!
+01-01 00:01:06.595   254   444 I DUSS&63[ handle_dji_device_event: 468]:: remove network interface: usb0
+01-01 00:01:06.597   254   444 I DUSS&63[ handle_dji_device_event: 552]:: +++++Enable uart channel to camera
+01-01 00:01:07.494   254   443 I DUSS&63[   sys_cam_switch_to_ums: 317]:: usb0 device removed
+01-01 00:01:07.494   254   443 I DUSS&63[   sys_cam_switch_to_ums: 321]:: success
+01-01 00:01:08.898   254   444 I DUSS&63[ handle_dji_device_event: 305]:: add usb:v070Ap4026d0001dc00dsc00dp00ic08isc06ip50in00
+01-01 00:01:08.898   254   444 I DUSS&63[ handle_dji_device_event: 309]:: set cam_usb_mode to CAM_USB_MODE_UMS
+01-01 00:01:09.485   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 0, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 3
+01-01 00:01:12.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 0, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 3
+01-01 00:01:15.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 0, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 3
+01-01 00:01:18.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 0, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 3
+01-01 00:01:21.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 0, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 3
+01-01 00:01:24.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 0, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 3
+01-01 00:01:27.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 0, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 3
+01-01 00:01:30.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 0, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 3
+01-01 00:01:33.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 0, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 3
+01-01 00:01:36.484   254   443 I DUSS&63[          sys_usb_switch: 323]:: mode: 0, up_status 0, conn_pc 1, conn_app_timeout 0, cam_rt_mode 0, cam_mode 3
