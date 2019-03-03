@@ -1,4 +1,4 @@
-Depending on vast knowledge and material from "https://github.com/jkson5/jkson_fcc_mod" namely
+Based on vast knowledge and material from "https://github.com/jkson5/jkson_fcc_mod" namely
 
 - "logcat | grep" wait trick
 - How to use dji_mb_ctrl to set FCC mode
