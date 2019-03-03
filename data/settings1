@@ -1,8 +1,8 @@
 # (C) DJI & others
 # NOT FULLY TESTED! DO NOT USE! MOD YOUR OWN!
-# Generic: L2 vel increase, height limit increase, atti switch, start motors inverted
+# Generic: L2 vel increase, height limit increase, atti switch, start motors inverted, unknown vel mod
 # Normal/sport: upward and downward vel increase, max. tilt 65, upward acc decrease, downward acc increase
-# Tripod: Upward/downward velocity increase, max. tilt 45
+# Tripod: Upward/downward vel increase, max. tilt 45, upward/downward acc increase
 [
 	{
 		"index" : 0,
