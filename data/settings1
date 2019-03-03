@@ -1,7 +1,8 @@
 # (C) DJI & others
 # NOT FULLY TESTED! DO NOT USE! MOD YOUR OWN!
-# Generic: L2 vel increase, height limit increase, atti switch
-# Normal/sport: upward and downward vel increase, max. tilt 50, upward acc decrease, downward acc increase
+# Generic: L2 vel increase, height limit increase, atti switch, start motors inverted
+# Normal/sport: upward and downward vel increase, max. tilt 65, upward acc decrease, downward acc increase
+# Tripod: Upward/downward velocity increase, max. tilt 45
 [
 	{
 		"index" : 0,
@@ -6315,7 +6316,7 @@
 		"attribute" : 38,
 		"minValue" : 0,
 		"maxValue" : 5,
-		"defaultValue" : 0,
+		"defaultValue" : 2,
 		"name" : "g_config.control.vert_vel_down_adding"
 	},
 	{
@@ -7373,8 +7374,8 @@
 		"size" : 4,
 		"attribute" : 41,
 		"minValue" : 10.000000,
-		"maxValue" : 60.000000,
-		"defaultValue" : 50.000000,
+		"maxValue" : 80.000000,
+		"defaultValue" : 65.000000,
 		"name" : "g_config.mode_normal_cfg.tilt_atti_range"
 	},
 	{
@@ -7483,8 +7484,8 @@
 		"size" : 4,
 		"attribute" : 40,
 		"minValue" : 10.000000,
-		"maxValue" : 60.000000,
-		"defaultValue" : 50.000000,
+		"maxValue" : 80.000000,
+		"defaultValue" : 65.000000,
 		"name" : "g_config.mode_sport_cfg.tilt_atti_range"
 	},
 	{
@@ -7823,7 +7824,7 @@
 		"attribute" : 41,
 		"minValue" : 10.000000,
 		"maxValue" : 60.000000,
-		"defaultValue" : 25.000000,
+		"defaultValue" : 45.000000,
 		"name" : "g_config.mode_tripod_cfg.tilt_atti_range"
 	},
 	{
@@ -7853,7 +7854,7 @@
 		"attribute" : 37,
 		"minValue" : 0.500000,
 		"maxValue" : 3.000000,
-		"defaultValue" : 1.000000,
+		"defaultValue" : 2.000000,
 		"name" : "g_config.mode_tripod_cfg.vert_vel_up"
 	},
 	{
@@ -7863,7 +7864,7 @@
 		"attribute" : 39,
 		"minValue" : -3.000000,
 		"maxValue" : -0.500000,
-		"defaultValue" : -1.000000,
+		"defaultValue" : -2.000000,
 		"name" : "g_config.mode_tripod_cfg.vert_vel_down"
 	},
 	{
@@ -7873,7 +7874,7 @@
 		"attribute" : 37,
 		"minValue" : 1.000000,
 		"maxValue" : 10.000000,
-		"defaultValue" : 4.000000,
+		"defaultValue" : 5.000000,
 		"name" : "g_config.mode_tripod_cfg.vert_acc_up"
 	},
 	{
@@ -7883,7 +7884,7 @@
 		"attribute" : 39,
 		"minValue" : -10.000000,
 		"maxValue" : -1.000000,
-		"defaultValue" : -4.000000,
+		"defaultValue" : -5.000000,
 		"name" : "g_config.mode_tripod_cfg.vert_acc_down"
 	},
 	{
@@ -9929,7 +9930,7 @@
 		"attribute" : 46,
 		"minValue" : 0,
 		"maxValue" : 1,
-		"defaultValue" : 0,
+		"defaultValue" : 1,
 		"name" : "g_config.fdi_open.close_auto_stop_motor_check"
 	},
 	{
